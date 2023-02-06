@@ -14,17 +14,25 @@ export default function AboutSection() {
           <h4 className={styles.subHeader}>{aboutSectionTranslation.subHeader}</h4>
           <p className={styles.mainText}>{aboutSectionTranslation.mainText}</p>
         </div>
+
         <div className={styles.contactData}>
-          <div className={styles.phoneContainer}>
-            <p>{aboutSectionTranslation.learnMore}</p>
-            <a>+44 7858282317</a>
+          <div className={styles.contactDataContainer}>
+            <div className={styles.phoneIconContainer}></div>
+            <div className={styles.phoneContainer}>
+              <p className={styles.dataLabel}>{aboutSectionTranslation.learnMore}</p>
+              <a>+44 7858282317</a>
+            </div>
           </div>
-          <div className={styles.emailContainer}>
-            <p>{aboutSectionTranslation.emailAddress}</p>
-            <a>office@myclover.co.uk</a>
+          <div className={styles.contactDataContainer}>
+            <div className={styles.emailIconContainer}></div>
+            <div className={styles.emailContainer}>
+              <p className={styles.dataLabel}>{aboutSectionTranslation.emailAddress}</p>
+              <a>office@myclover.co.uk</a>
+            </div>
           </div>
         </div>
       </div>
+
       <div className={styles.iconsContainer}>
         <div>
           <p>{aboutSectionTranslation.iconInsurances}</p>
