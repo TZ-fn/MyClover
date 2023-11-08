@@ -1,5 +1,4 @@
 import mainLogo from "./assets/mainLogo.png";
-import "./App.css";
 
 function App() {
   return (
