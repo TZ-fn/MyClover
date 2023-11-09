@@ -1,0 +1,10 @@
+.navListItem {
+  padding: 0.5rem 1.5rem;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    color: var(--white);
+    background-color: var(--accent-color-green);
+  }
+}

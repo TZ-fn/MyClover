@@ -1,10 +1,9 @@
-import mainLogo from "./assets/mainLogo.png";
+import Header from "components/Header/Header";
 
 function App() {
   return (
     <>
-      <h1>Clover Family Cover</h1>
-      <img src={mainLogo} className="logo" />
+      <Header />
     </>
   );
 }
