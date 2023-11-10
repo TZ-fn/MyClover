@@ -5,7 +5,7 @@ function NavigationList() {
   return (
     <nav className={styles.navigation}>
       <ul className={styles.navList}>
-        <NavigationItem>Home</NavigationItem>
+        <NavigationItem active>Home</NavigationItem>
         <NavigationItem>About</NavigationItem>
         <NavigationItem>Offer</NavigationItem>
         <NavigationItem>Blog</NavigationItem>
@@ -19,8 +19,7 @@ function NavigationList() {
           />
           English
         </NavigationItem>
-
-        <NavigationItem>
+        <NavigationItem active>
           <img
             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAMAAABBPP0LAAAAPFBMVEX/8fH67Ozz5ubt4OD+/v77+/v39/fo2Nj5AAD+jo79bW36X1/4T0/5QUHhAAD3MzP0Kir2ICDzERHtAACO5h0ZAAAAQUlEQVR4AQXBsRHDMAwAMTzNwvuvm5MVIECIZIEQZ4EQ7AAIGBABegsR+Z7VxChx7hCjhIwYJcTydcgQ1gv8Lhd/58kJTU6WtnIAAAAASUVORK5CYII"
             alt="Flag of Poland"
