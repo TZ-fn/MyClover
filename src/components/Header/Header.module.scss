@@ -3,10 +3,10 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 2rem;
+  padding: 0 2rem;
   border-bottom: 1px solid var(--grey);
 }
 
 .mainLogo {
-  width: clamp(10rem, 25rem, 23vw);
+  width: clamp(10rem, 25rem, 20vw);
 }
