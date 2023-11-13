@@ -1,5 +1,6 @@
 .navListItem,
-.navListItemActive {
+.navListItemActive,
+.navListItemHighlighted {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -18,4 +19,17 @@
 .navListItemActive {
   color: var(--white);
   background-color: var(--accent-color-green);
+}
+
+.navListItemHighlighted {
+  padding: 0.7rem 1.7rem;
+  font-size: 0.9rem;
+  margin-left: 1.5rem;
+  color: var(--white);
+  text-transform: uppercase;
+  background-color: var(--dark-grey);
+
+  &:hover {
+    background-color: var(--accent-color-teal);
+  }
 }
