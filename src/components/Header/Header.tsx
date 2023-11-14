@@ -5,7 +5,9 @@ import NavigationList from "./NavigationList/NavigationList";
 function Header() {
   return (
     <header className={styles.header}>
-      <img src={mainLogo} className={styles.mainLogo} />
+      <a href="/">
+        <img src={mainLogo} className={styles.mainLogo} />
+      </a>
       <NavigationList />
     </header>
   );
