@@ -1,9 +1,11 @@
 import { useState } from "react";
 import NavigationItem from "./NavigationItem/NavigationItem";
 import styles from "./NavigationList.module.scss";
+import useWindowDimensions from "hooks/useWindowDimensions";
 
 function NavigationList() {
-  const [isMenuVisible, setIsMenuVisible] = useState(false);
+  const [isMenuVisible, setIsMenuVisible] = useState(true);
+  const windowDimensions = useWindowDimensions();
 
   function handleMenu() {
     return setIsMenuVisible((isMenuVisible) => !isMenuVisible);
@@ -11,9 +13,12 @@ function NavigationList() {
 
   return (
     <nav className={styles.navigation}>
-      <button onClick={handleMenu} className={styles.handleMenuBtn}>
-        Menu
-      </button>
+      {windowDimensions.width < 780 && (
+        <button onClick={handleMenu} className={styles.handleMenuBtn}>
+          Menu
+        </button>
+      )}
+
       {isMenuVisible && (
         <>
           <ul className={styles.navList}>
