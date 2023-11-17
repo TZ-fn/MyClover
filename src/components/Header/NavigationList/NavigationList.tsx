@@ -4,8 +4,8 @@ import styles from "./NavigationList.module.scss";
 import useWindowDimensions from "hooks/useWindowDimensions";
 
 function NavigationList() {
-  const [isMenuVisible, setIsMenuVisible] = useState(true);
-  const windowDimensions = useWindowDimensions();
+  const [isMenuVisible, setIsMenuVisible] = useState(false);
+  const windowWidth = useWindowDimensions().width;
 
   function handleMenu() {
     return setIsMenuVisible((isMenuVisible) => !isMenuVisible);
@@ -13,13 +13,13 @@ function NavigationList() {
 
   return (
     <nav className={styles.navigation}>
-      {windowDimensions.width < 780 && (
+      {windowWidth < 780 && (
         <button onClick={handleMenu} className={styles.handleMenuBtn}>
           Menu
         </button>
       )}
 
-      {isMenuVisible && (
+      {(isMenuVisible || windowWidth > 780) && (
         <>
           <ul className={styles.navList}>
             <NavigationItem isActive>Home</NavigationItem>
