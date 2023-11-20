@@ -16,6 +16,7 @@ function NavigationList() {
       {windowWidth < 780 && (
         <button onClick={handleMenu} className={styles.handleMenuBtn}>
           Menu
+          <div className={!isMenuVisible ? styles.hamburger : styles.hamburgerOpen}></div>
         </button>
       )}
 
