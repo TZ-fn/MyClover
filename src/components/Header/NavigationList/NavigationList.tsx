@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
+import { Transition } from "react-transition-group";
 import NavigationItem from "./NavigationItem/NavigationItem";
 import styles from "./NavigationList.module.scss";
 import useWindowDimensions from "hooks/useWindowDimensions";
@@ -10,6 +11,20 @@ function NavigationList() {
   function handleMenu() {
     return setIsMenuVisible((isMenuVisible) => !isMenuVisible);
   }
+
+  const duration = 300;
+
+  const defaultStyle = {
+    transition: `opacity ${duration}ms ease-in-out`,
+    opacity: 0,
+  };
+
+  const transitionStyles = {
+    entering: { opacity: 1 },
+    entered: { opacity: 1 },
+    exiting: { opacity: 0 },
+    exited: { opacity: 0 },
+  };
 
   return (
     <nav className={styles.navigation}>
