@@ -23,6 +23,11 @@
   }
 }
 
+.innerWrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
 .navList {
   display: flex;
   flex-direction: row;
@@ -42,7 +47,9 @@
   justify-content: space-between;
   gap: 10px;
   margin-left: auto;
-  padding: 0.5rem 1rem;
+  padding: 0.6rem 2rem;
+  z-index: 2;
+  cursor: pointer;
 }
 
 .hamburger,
