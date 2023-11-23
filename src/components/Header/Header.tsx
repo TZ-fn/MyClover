@@ -6,7 +6,7 @@ function Header() {
   return (
     <header className={styles.header}>
       <a href="/">
-        <img src={mainLogo} className={styles.mainLogo} />
+        <img src={mainLogo} className={styles.mainLogo} alt="My Clover Logo" />
       </a>
       <NavigationList />
     </header>
