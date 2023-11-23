@@ -24,6 +24,7 @@ function NavigationList() {
     entered: { transform: "translate(0)" },
     exiting: { transform: "translate(0, -350px)" },
     exited: { transform: "translate(0, -350px)" },
+    unmounted: { transform: "translate(0, -350px)" },
   };
 
   return (
