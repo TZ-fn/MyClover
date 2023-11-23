@@ -12,13 +12,13 @@
   text-wrap: nowrap;
 
   &:hover {
-    color: var(--white);
+    color: var(--black);
     background-color: var(--accent-color-green);
   }
 }
 
 .navListItemActive {
-  color: var(--white);
+  color: var(--black);
   background-color: var(--accent-color-green);
 }
 
