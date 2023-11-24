@@ -1,6 +1,6 @@
 import mainLogo from "assets/mainLogo.png";
-import styles from "./Header.module.scss";
 import NavigationList from "./NavigationList/NavigationList";
+import styles from "./Header.module.scss";
 
 function Header() {
   return (
