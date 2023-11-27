@@ -1,6 +1,5 @@
 .footer {
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
   width: 100%;
@@ -17,10 +16,30 @@
   justify-content: center;
 }
 
-.disclaimerHeader {
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.sectionHeader {
+  position: relative;
   font-size: 1.1rem;
   font-weight: 700;
   text-transform: uppercase;
+  padding-bottom: 1rem;
+
+  &::after {
+    content: "";
+    background-color: var(--dark-grey);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 6rem;
+  }
 }
 
 .disclaimerText {

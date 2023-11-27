@@ -6,9 +6,19 @@ function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={styles.innerWrapper}>
-        <div className={styles.links}></div>
+        <div className={styles.info}>
+          <div className={styles.links}>
+            <h3 className={styles.sectionHeader}>Clover Social Media</h3>
+          </div>
+          <div className={styles.links}>
+            <h3 className={styles.sectionHeader}>Informacje Kontaktowe</h3>
+          </div>
+          <div className={styles.links}>
+            <h3 className={styles.sectionHeader}>Więcej informacji</h3>
+          </div>
+        </div>
         <div className={styles.disclaimer}>
-          <h3 className={styles.disclaimerHeader}>Clover - Family Cover</h3>
+          <h3 className={styles.sectionHeader}>Clover - Family Cover</h3>
           <div className={styles.disclaimerText}>
             <p>
               Clover Family Cover Ltd (FCA 742293) is an Appointed Representative of Polish Brokers Ltd, which is
