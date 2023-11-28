@@ -3,11 +3,13 @@ import TranslationContext from "context/TranslationContext";
 import polishTranslation from "assets/translations/polishTranslation";
 import englishTranslation from "assets/translations/englishTranslation";
 
-const useTranslation = () => {
-  const contextData = useContext(TranslationContext);
+type Translation = typeof polishTranslation;
 
-  if (contextData === null) {
-    throw new Error("useCoinContext must be used within the CoinContextProvider.");
+const useTranslation = () => {
+  const currentLanguage = useContext(TranslationContext);
+
+  if (currentLanguage === null) {
+    throw new Error("useTranslationContext must be used within the TranslationContextProvider.");
   }
 
   const translations = {
@@ -15,9 +17,13 @@ const useTranslation = () => {
     English: englishTranslation,
   };
 
-  const translationContext = translations[contextData];
+  if (!translations[currentLanguage]) {
+    throw new Error("This language is currently unavailable.");
+  }
 
-  return translationContext;
+  const translationContext = translations[currentLanguage];
+
+  return translationContext as Translation;
 };
 
 export default useTranslation;
