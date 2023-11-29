@@ -11,16 +11,16 @@
 .innerWrapper {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  justify-content: flex-start;
   width: clamp(25rem, 80%, 80rem);
-  justify-content: center;
 }
 
 .info {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-  gap: 2rem;
+  gap: 6rem;
   margin-bottom: 2rem;
 }
 
@@ -42,6 +42,22 @@
   }
 }
 
+.sectionList {
+  list-style: none;
+}
+
+.sectionListItem {
+  display: flex;
+  align-items: center;
+  margin: 0.7rem 0;
+
+  a {
+    &:hover {
+      color: var(--accent-color-teal);
+    }
+  }
+}
+
 .disclaimerText {
   font-size: 0.9rem;
   p {
@@ -52,4 +68,5 @@
 .rights {
   font-size: 0.8rem;
   margin-top: 3rem;
+  align-self: center;
 }

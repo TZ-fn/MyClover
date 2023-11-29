@@ -1,6 +1,8 @@
+import useTranslation from "~/hooks/useTranslation";
 import styles from "./Footer.module.scss";
 
 function Footer() {
+  const [translation] = useTranslation();
   const currentYear = new Date().getFullYear();
 
   return (
@@ -11,10 +13,33 @@ function Footer() {
             <h3 className={styles.sectionHeader}>Clover Social Media</h3>
           </div>
           <div className={styles.links}>
-            <h3 className={styles.sectionHeader}>Informacje Kontaktowe</h3>
+            <h3 className={styles.sectionHeader}>{translation.layout.footer.contactInformation}</h3>
+            <ul className={styles.sectionList}>
+              <li className={styles.sectionListItem}>
+                <a href="tel:+44 7858282317">+44 7858282317</a>
+              </li>
+              <li className={styles.sectionListItem}>
+                <a href="mailto:office@myclover.co.uk">office@myclover.co.uk</a>
+              </li>
+              <li className={styles.sectionListItem}>{translation.layout.footer.country}</li>
+            </ul>
           </div>
           <div className={styles.links}>
-            <h3 className={styles.sectionHeader}>Więcej informacji</h3>
+            <h3 className={styles.sectionHeader}>{translation.layout.footer.moreInformation}</h3>
+            <ul className={styles.sectionList}>
+              <li className={styles.sectionListItem}>
+                <a href="/terms-conditions">{translation.layout.footer.termsConditions}</a>
+              </li>
+              <li className={styles.sectionListItem}>
+                <a href="/privacy-policy">{translation.layout.footer.privacyPolicy}</a>
+              </li>
+              <li className={styles.sectionListItem}>
+                <a href="/cookies">{translation.layout.footer.cookies}</a>
+              </li>
+              <li className={styles.sectionListItem}>
+                <a href="/contact">{translation.layout.footer.contact}</a>
+              </li>
+            </ul>
           </div>
         </div>
         <div className={styles.disclaimer}>
@@ -52,8 +77,8 @@ function Footer() {
           </div>
         </div>
         <div className={styles.rights}>
-          © Copyright 2023 {currentYear !== 2023 ? `- ${currentYear}` : ""} | Clover - Family Cover | All Rights
-          Reserved
+          © Copyright 2023 {currentYear !== 2023 ? `- ${currentYear}` : ""} | Clover - Family Cover |{" "}
+          {translation.layout.footer.bottomBar.rights}
         </div>
       </div>
     </footer>
