@@ -10,5 +10,10 @@ interface TranslationContextProviderProps {
 export default function TranslationContextProvider({ children }: TranslationContextProviderProps) {
   const [currentLanguage, setCurrentLanguage] = useState<Language>("Polish");
 
-  return <TranslationContext.Provider value={currentLanguage}>{children}</TranslationContext.Provider>;
+  const translationContext = {
+    currentLanguage,
+    setCurrentLanguage,
+  };
+
+  return <TranslationContext.Provider value={translationContext}>{children}</TranslationContext.Provider>;
 }

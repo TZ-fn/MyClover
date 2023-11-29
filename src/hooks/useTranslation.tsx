@@ -2,11 +2,12 @@ import { useContext } from "react";
 import TranslationContext from "context/TranslationContext";
 import polishTranslation from "assets/translations/polishTranslation";
 import englishTranslation from "assets/translations/englishTranslation";
+import Language from "types/Language";
 
 type Translation = typeof polishTranslation;
 
 const useTranslation = () => {
-  const currentLanguage = useContext(TranslationContext);
+  const { currentLanguage, setCurrentLanguage } = useContext(TranslationContext);
 
   if (currentLanguage === null) {
     throw new Error("useTranslationContext must be used within the TranslationContextProvider.");
@@ -23,7 +24,7 @@ const useTranslation = () => {
 
   const translationContext = translations[currentLanguage];
 
-  return translationContext as Translation;
+  return [translationContext, setCurrentLanguage] as [Translation, React.Dispatch<React.SetStateAction<Language>>];
 };
 
 export default useTranslation;
