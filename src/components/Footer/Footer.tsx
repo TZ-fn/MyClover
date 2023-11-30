@@ -1,4 +1,5 @@
 import useTranslation from "~/hooks/useTranslation";
+import { FaPhone, FaRegEnvelope, FaHouse } from "react-icons/fa6";
 import styles from "./Footer.module.scss";
 
 function Footer() {
@@ -16,12 +17,18 @@ function Footer() {
             <h3 className={styles.sectionHeader}>{translation.layout.footer.contactInformation}</h3>
             <ul className={styles.sectionList}>
               <li className={styles.sectionListItem}>
+                <FaPhone />
                 <a href="tel:+44 7858282317">+44 7858282317</a>
               </li>
               <li className={styles.sectionListItem}>
+                <FaRegEnvelope />
                 <a href="mailto:office@myclover.co.uk">office@myclover.co.uk</a>
               </li>
-              <li className={styles.sectionListItem}>{translation.layout.footer.country}</li>
+
+              <li className={styles.sectionListItem}>
+                <FaHouse />
+                {translation.layout.footer.country}
+              </li>
             </ul>
           </div>
           <div className={styles.links}>

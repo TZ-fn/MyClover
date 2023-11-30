@@ -14,6 +14,7 @@ const englishTranslation = {
     },
     footer: {
       contactInformation: "Contact information",
+      country: "United Kingdom",
       moreInformation: "More informations",
       termsConditions: "Terms and Conditions",
       privacyPolicy: "Privacy policy",
