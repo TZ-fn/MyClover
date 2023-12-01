@@ -1,5 +1,5 @@
 import useTranslation from "~/hooks/useTranslation";
-import { FaPhone, FaRegEnvelope, FaHouse } from "react-icons/fa6";
+import { FaSquareFacebook, FaSquareTwitter, FaSquareEnvelope, FaPhone, FaRegEnvelope, FaHouse } from "react-icons/fa6";
 import styles from "./Footer.module.scss";
 
 function Footer() {
@@ -12,6 +12,17 @@ function Footer() {
         <div className={styles.info}>
           <div className={styles.links}>
             <h3 className={styles.sectionHeader}>Clover Social Media</h3>
+            <ul className={styles.socialsList}>
+              <li className={styles.sectionListItem}>
+                <FaSquareFacebook />
+              </li>
+              <li className={styles.sectionListItem}>
+                <FaSquareTwitter />
+              </li>
+              <li className={styles.sectionListItem}>
+                <FaSquareEnvelope />
+              </li>
+            </ul>
           </div>
           <div className={styles.links}>
             <h3 className={styles.sectionHeader}>{translation.layout.footer.contactInformation}</h3>
