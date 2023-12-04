@@ -60,11 +60,16 @@
     width: 2.5rem;
   }
 
-  // path:nth-of-type(1) {
-  //   fill: blue;
-  // }
-  path:nth-of-type(2) {
-    fill: red;
+  li:nth-of-type(1) {
+    path {
+      fill: #4267b2;
+    }
+  }
+
+  li:nth-of-type(2) {
+    path {
+      fill: #1da1f2;
+    }
   }
 }
 
