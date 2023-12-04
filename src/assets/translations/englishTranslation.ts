@@ -13,6 +13,10 @@ const englishTranslation = {
       },
     },
     footer: {
+      cloverSocials: "Clover - Social Media",
+      socialsFacebookLink: "Visit us on Facebook.",
+      socialsTwitterLink: "",
+      socialsEmail: "Send us an e-mail.",
       contactInformation: "Contact information",
       country: "United Kingdom",
       moreInformation: "More informations",

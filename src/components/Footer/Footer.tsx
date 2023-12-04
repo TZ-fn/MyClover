@@ -11,16 +11,25 @@ function Footer() {
       <div className={styles.innerWrapper}>
         <div className={styles.info}>
           <div className={styles.links}>
-            <h3 className={styles.sectionHeader}>Clover Social Media</h3>
+            <h3 className={styles.sectionHeader}>{translation.layout.footer.cloverSocials}</h3>
             <ul className={styles.socialsList}>
               <li className={styles.sectionListItem}>
-                <FaSquareFacebook />
+                <a href="https://www.facebook.com/cloverfamilycover/">
+                  <FaSquareFacebook />
+                  <span className="visually-hidden">{translation.layout.footer.socialsFacebookLink}</span>
+                </a>
               </li>
               <li className={styles.sectionListItem}>
-                <FaSquareTwitter />
+                <a href="/">
+                  <FaSquareTwitter />
+                  <span className="visually-hidden">{translation.layout.footer.socialsTwitterLink}</span>
+                </a>
               </li>
               <li className={styles.sectionListItem}>
-                <FaSquareEnvelope />
+                <a href="mailto:office@myclover.co.uk">
+                  <FaSquareEnvelope />
+                  <span className="visually-hidden">{translation.layout.footer.socialsEmail}</span>
+                </a>
               </li>
             </ul>
           </div>
