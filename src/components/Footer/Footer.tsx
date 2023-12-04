@@ -11,6 +11,25 @@ function Footer() {
       <div className={styles.innerWrapper}>
         <div className={styles.info}>
           <div className={styles.links}>
+            <h3 className={styles.sectionHeader}>{translation.layout.footer.contactInformation}</h3>
+            <ul className={styles.sectionList}>
+              <li className={styles.sectionListItem}>
+                <FaPhone />
+                <a href="tel:+44 7858282317">+44 7858282317</a>
+              </li>
+              <li className={styles.sectionListItem}>
+                <FaRegEnvelope />
+                <a href="mailto:office@myclover.co.uk">office@myclover.co.uk</a>
+              </li>
+
+              <li className={styles.sectionListItem}>
+                <FaHouse />
+                {translation.layout.footer.country}
+              </li>
+            </ul>
+          </div>
+
+          <div className={styles.links}>
             <h3 className={styles.sectionHeader}>{translation.layout.footer.cloverSocials}</h3>
             <ul className={styles.socialsList}>
               <li className={styles.sectionListItem}>
@@ -32,25 +51,23 @@ function Footer() {
                 </a>
               </li>
             </ul>
+            <div
+              className="fb-page"
+              data-href="https://www.facebook.com/cloverfamilycover/"
+              data-tabs="timeline"
+              data-width=""
+              data-height=""
+              data-small-header="false"
+              data-adapt-container-width="true"
+              data-hide-cover="false"
+              data-show-facepile="false"
+            >
+              <blockquote cite="https://www.facebook.com/cloverfamilycover/" className="fb-xfbml-parse-ignore">
+                <a href="https://www.facebook.com/cloverfamilycover/">Clover - Family Cover</a>
+              </blockquote>
+            </div>
           </div>
-          <div className={styles.links}>
-            <h3 className={styles.sectionHeader}>{translation.layout.footer.contactInformation}</h3>
-            <ul className={styles.sectionList}>
-              <li className={styles.sectionListItem}>
-                <FaPhone />
-                <a href="tel:+44 7858282317">+44 7858282317</a>
-              </li>
-              <li className={styles.sectionListItem}>
-                <FaRegEnvelope />
-                <a href="mailto:office@myclover.co.uk">office@myclover.co.uk</a>
-              </li>
 
-              <li className={styles.sectionListItem}>
-                <FaHouse />
-                {translation.layout.footer.country}
-              </li>
-            </ul>
-          </div>
           <div className={styles.links}>
             <h3 className={styles.sectionHeader}>{translation.layout.footer.moreInformation}</h3>
             <ul className={styles.sectionList}>
