@@ -11,7 +11,7 @@ function Footer() {
       <div className={styles.innerWrapper}>
         <div className={styles.info}>
           <div className={styles.links}>
-            <h3 className={styles.sectionHeader}>{translation.layout.footer.contactInformation}</h3>
+            <h3 className={styles.sectionHeader}>{translation.footer.contactInformation}</h3>
             <ul className={styles.sectionList}>
               <li className={styles.sectionListItem}>
                 <FaPhone />
@@ -24,30 +24,30 @@ function Footer() {
 
               <li className={styles.sectionListItem}>
                 <FaHouse />
-                {translation.layout.footer.country}
+                {translation.footer.country}
               </li>
             </ul>
           </div>
 
           <div className={styles.links}>
-            <h3 className={styles.sectionHeader}>{translation.layout.footer.cloverSocials}</h3>
+            <h3 className={styles.sectionHeader}>{translation.footer.cloverSocials}</h3>
             <ul className={styles.socialsList}>
               <li className={styles.sectionListItem}>
                 <a href="https://www.facebook.com/cloverfamilycover/">
                   <FaSquareFacebook />
-                  <span className="visually-hidden">{translation.layout.footer.socialsFacebookLink}</span>
+                  <span className="visually-hidden">{translation.footer.socialsFacebookLink}</span>
                 </a>
               </li>
               <li className={styles.sectionListItem}>
                 <a href="/">
                   <FaSquareTwitter />
-                  <span className="visually-hidden">{translation.layout.footer.socialsTwitterLink}</span>
+                  <span className="visually-hidden">{translation.footer.socialsTwitterLink}</span>
                 </a>
               </li>
               <li className={styles.sectionListItem}>
                 <a href="mailto:office@myclover.co.uk">
                   <FaSquareEnvelope />
-                  <span className="visually-hidden">{translation.layout.footer.socialsEmail}</span>
+                  <span className="visually-hidden">{translation.footer.socialsEmail}</span>
                 </a>
               </li>
             </ul>
@@ -69,19 +69,19 @@ function Footer() {
           </div>
 
           <div className={styles.links}>
-            <h3 className={styles.sectionHeader}>{translation.layout.footer.moreInformation}</h3>
+            <h3 className={styles.sectionHeader}>{translation.footer.moreInformation}</h3>
             <ul className={styles.sectionList}>
               <li className={styles.sectionListItem}>
-                <a href="/terms-conditions">{translation.layout.footer.termsConditions}</a>
+                <a href="/terms-conditions">{translation.footer.termsConditions}</a>
               </li>
               <li className={styles.sectionListItem}>
-                <a href="/privacy-policy">{translation.layout.footer.privacyPolicy}</a>
+                <a href="/privacy-policy">{translation.footer.privacyPolicy}</a>
               </li>
               <li className={styles.sectionListItem}>
-                <a href="/cookies">{translation.layout.footer.cookies}</a>
+                <a href="/cookies">{translation.footer.cookies}</a>
               </li>
               <li className={styles.sectionListItem}>
-                <a href="/contact">{translation.layout.footer.contact}</a>
+                <a href="/contact">{translation.footer.contact}</a>
               </li>
             </ul>
           </div>
@@ -122,7 +122,7 @@ function Footer() {
         </div>
         <div className={styles.rights}>
           © Copyright 2023 {currentYear !== 2023 ? `- ${currentYear}` : ""} | Clover - Family Cover |{" "}
-          {translation.layout.footer.bottomBar.rights}
+          {translation.footer.bottomBar.rights}
         </div>
       </div>
     </footer>

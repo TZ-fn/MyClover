@@ -1,9 +1,9 @@
 import { useState, useRef } from "react";
 import { Transition } from "react-transition-group";
 import NavigationItem from "./NavigationItem/NavigationItem";
-import styles from "./NavigationList.module.scss";
 import useWindowDimensions from "hooks/useWindowDimensions";
 import useTranslation from "~/hooks/useTranslation";
+import styles from "./NavigationList.module.scss";
 
 function NavigationList() {
   const windowWidth = useWindowDimensions().width;
@@ -54,11 +54,11 @@ function NavigationList() {
                   ...transitionStyles[state],
                 }}
               >
-                <NavigationItem isActive>{translation.layout.header.navigation.home}</NavigationItem>
-                <NavigationItem>{translation.layout.header.navigation.about}</NavigationItem>
-                <NavigationItem>{translation.layout.header.navigation.offer}</NavigationItem>
-                <NavigationItem>{translation.layout.header.navigation.blog}</NavigationItem>
-                <NavigationItem isHighlighted>{translation.layout.header.navigation.contact}</NavigationItem>
+                <NavigationItem isActive>{translation.header.navigation.home}</NavigationItem>
+                <NavigationItem>{translation.header.navigation.about}</NavigationItem>
+                <NavigationItem>{translation.header.navigation.offer}</NavigationItem>
+                <NavigationItem>{translation.header.navigation.blog}</NavigationItem>
+                <NavigationItem isHighlighted>{translation.header.navigation.contact}</NavigationItem>
               </ul>
               <ul
                 className={styles.navList}
