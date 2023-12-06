@@ -6,6 +6,8 @@
   color: var(--black);
   background-color: var(--light-grey);
   padding: 1rem 1rem;
+  font-family: "Cabin", sans-serif;
+  font-weight: 600;
 }
 
 .innerWrapper {
@@ -35,6 +37,7 @@
   font-weight: 700;
   text-transform: uppercase;
   padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
 
   &::after {
     content: "";
