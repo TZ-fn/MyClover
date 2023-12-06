@@ -1,6 +1,32 @@
+.mainWrapper {
+  margin: auto;
+  padding: 0 6rem;
+  background: radial-gradient(hsl(0, 0%, 100%), hsl(0, 0%, 90%));
+}
+
 .heroOne,
 .heroTwo {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+}
+
+.heroTextOne,
+.heroTextTwo {
+  padding: 0.5rem 1rem;
+  margin-left: 6vw;
+  font-family: "AlegreyaSans", sans-serif;
+  font-size: 4.3vw;
+  border-bottom: 6px solid var(--accent-color-green);
+}
+
+.heroImageOne,
+.heroImageTwo {
+  max-width: 57%;
+}
+
+.heroImageOne {
+  position: relative;
+  top: -1px;
+  margin-right: -5rem;
 }
