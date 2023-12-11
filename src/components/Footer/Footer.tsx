@@ -8,6 +8,9 @@ function Footer() {
 
   return (
     <footer className={styles.footer}>
+      <div className={styles.footerBg}>
+        <div className={styles.footerBgDivider}></div>
+      </div>
       <div className={styles.innerWrapper}>
         <div className={styles.info}>
           <div className={styles.links}>
