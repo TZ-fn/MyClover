@@ -10,6 +10,7 @@ function Footer() {
     <footer className={styles.footer}>
       <div className={styles.footerBg}>
         <div className={styles.footerBgDivider}></div>
+        <p className={styles.footerBgText}>{translation.footer.bgImageText}</p>
       </div>
       <div className={styles.innerWrapper}>
         <div className={styles.info}>

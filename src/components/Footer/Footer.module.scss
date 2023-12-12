@@ -12,15 +12,27 @@
 
 .footerBg {
   width: 100%;
-  height: 40vh;
+  height: 45vh;
   background-image: url("../../assets/footerBg.jpg");
-  background-position: 0% 70%;
+  background-size: cover;
+  background-position: 50% 70%;
+  background-repeat: no-repeat;
 }
 
 .footerBgDivider {
   width: 100%;
   height: 2vh;
   background-color: var(--white);
+}
+
+.footerBgText {
+  width: max-content;
+  margin: 2rem auto;
+  text-align: center;
+  font-family: "AlegreyaSans", sans-serif;
+  font-size: 5rem;
+  color: var(--white);
+  backdrop-filter: blur(10px);
 }
 
 .innerWrapper {
