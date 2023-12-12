@@ -13,6 +13,7 @@ const polishTranslation = {
     },
   },
   footer: {
+    bgImageText: "Zaopiekujemy się Twoją przyszłością.",
     cloverSocials: "Clover - Media społecznościowe",
     socialsFacebookLink: "Odwiedź nas na Facebooku.",
     socialsTwitterLink: "",

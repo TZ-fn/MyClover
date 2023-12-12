@@ -12,6 +12,7 @@ const englishTranslation = {
     },
   },
   footer: {
+    bgImageText: "We cover your future.",
     cloverSocials: "Clover - Social Media",
     socialsFacebookLink: "Visit us on Facebook.",
     socialsTwitterLink: "",
@@ -28,7 +29,10 @@ const englishTranslation = {
     },
   },
   pages: {
-    home: {},
+    home: {
+      heroOneText: "We are next to You, whenever you need us.",
+      heroTwoText: "In life you should be prepared for everything.",
+    },
   },
 };
 
