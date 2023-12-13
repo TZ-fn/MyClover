@@ -23,12 +23,12 @@
 .heroTextOne {
   margin-left: 6vw;
   font-size: 4.3vw;
-  border-bottom: 6px solid var(--accent-color-green);
+  border-bottom: clamp(1px, 1vw, 6px) solid var(--accent-color-green);
 }
 
 .heroTextTwo {
   font-size: 4vw;
-  border-bottom: 6px solid var(--accent-color-blue);
+  border-bottom: clamp(1px, 1vw, 6px) solid var(--accent-color-blue);
 }
 
 .heroImageOne,
