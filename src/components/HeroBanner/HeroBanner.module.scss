@@ -1,7 +1,6 @@
 .mainWrapper {
   margin: auto;
   padding: 0 6rem;
-  min-height: 75vh;
   background: radial-gradient(hsl(0, 0%, 100%), hsl(0, 0%, 90%));
   border-bottom: 1px solid var(--grey);
 }
@@ -31,13 +30,10 @@
   border-bottom: clamp(1px, 1vw, 6px) solid var(--accent-color-blue);
 }
 
-.heroImageOne,
-.heroImageTwo {
-  max-width: 57%;
+.heroImageOne {
+  max-width: 51%;
 }
 
-.heroImageOne {
-  position: relative;
-  top: -1px;
-  margin-right: -5rem;
+.heroImageTwo {
+  max-width: 50.7%;
 }
