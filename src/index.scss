@@ -25,6 +25,7 @@ html,
 body {
   height: 100%;
   text-rendering: optimizeSpeed;
+  text-wrap: balance;
   background-color: var(--white);
   color: var(--black);
 }

@@ -1,5 +1,8 @@
 .mainWrapper {
+  position: relative;
   margin: auto;
+  height: 38vw;
+  width: 100%;
   padding: 0 6rem;
   background: radial-gradient(hsl(0, 0%, 100%), hsl(0, 0%, 90%));
   border-bottom: 1px solid var(--grey);
@@ -7,6 +10,8 @@
 
 .heroOne,
 .heroTwo {
+  position: absolute;
+  left: 0;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -17,6 +22,7 @@
   padding: 0.5rem 1rem;
   font-family: "AlegreyaSans", sans-serif;
   text-align: center;
+  flex-grow: 0;
 }
 
 .heroTextOne {
@@ -26,7 +32,9 @@
 }
 
 .heroTextTwo {
+  margin-left: 6vw;
   font-size: 4vw;
+  width: 40vw;
   border-bottom: clamp(1px, 1vw, 6px) solid var(--accent-color-blue);
 }
 

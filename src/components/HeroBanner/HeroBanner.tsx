@@ -16,16 +16,15 @@ function HeroBanner() {
     return () => clearInterval(heroInterval);
   }, [isFirstHeroActive]);
 
-  const duration = 300;
-
   const defaultStyle = {
-    transition: `all ${duration}ms ease-in-out`,
+    transition: `transform 600ms ease-in-out, opacity 300ms ease-in-out`,
     transform: "scale(1)",
+    opacity: "0",
   };
 
   const transitionStyles = {
-    entering: { transform: "scale(1)" },
-    entered: { transform: "scale(1)" },
+    entering: { transform: "scale(1)", opacity: "0" },
+    entered: { transform: "scale(1)", opacity: "1" },
     exiting: { transform: "scale(0)" },
     exited: { transform: "scale(0)" },
     unmounted: { transform: "scale(0)" },
