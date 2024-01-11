@@ -1,0 +1,22 @@
+.itemContainer {
+  list-style: none;
+  border: 1px solid var(--grey);
+  border-bottom: 3px solid var(--grey);
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+
+  &:hover {
+    transform: translateY(-1px);
+  }
+}
+
+.itemPhoto {
+}
+
+.itemDescription {
+  margin: 2rem 1rem;
+}
+
+.descriptionHeader {
+  margin-bottom: 1rem;
+}
