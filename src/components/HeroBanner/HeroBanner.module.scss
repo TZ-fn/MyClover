@@ -1,11 +1,12 @@
 .mainWrapper {
   position: relative;
   margin: auto;
-  height: 38vw;
+  height: 38.6vw;
   width: 100%;
   padding: 0 6rem;
   background: radial-gradient(hsl(0, 0%, 100%), hsl(0, 0%, 90%));
   border-bottom: 1px solid var(--grey);
+  overflow: hidden;
 }
 
 .heroOne,
