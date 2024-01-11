@@ -1,6 +1,6 @@
 import mainLogo from "assets/mainLogo.png";
 import NavigationList from "./NavigationList/NavigationList";
-import useTranslation from "~/hooks/useTranslation";
+import useTranslation from "hooks/useTranslation";
 import styles from "./Header.module.scss";
 
 function Header() {
