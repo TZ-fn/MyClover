@@ -14,5 +14,23 @@
 }
 
 .postsGalleryPagination {
+  display: flex;
+  gap: 1rem;
   margin: 2vw 8vw;
+
+  button {
+    padding: 1.2rem 1.7rem;
+    background-color: var(--white);
+    border: 1px solid var(--grey);
+    font-family: "Cabin", sans-serif;
+    cursor: pointer;
+
+    &.active {
+      background-color: var(--accent-color-green);
+    }
+
+    &:hover {
+      border: 1px solid var(--accent-color-green);
+    }
+  }
 }
