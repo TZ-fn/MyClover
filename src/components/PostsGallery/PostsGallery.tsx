@@ -1,9 +1,12 @@
+import { useState } from "react";
+import useTranslation from "hooks/useTranslation";
 import PostsGalleryItem from "./PostsGalleryItem/PostsGalleryItem";
 import styles from "./PostsGallery.module.scss";
-import { useState } from "react";
+import postMiniatures from "../../assets/postsMiniatures";
 
 export default function PostsGallery() {
   const [activePage, setActivePage] = useState(1);
+  const [translation] = useTranslation();
 
   function handleGalleryControls(e: React.MouseEvent<HTMLButtonElement, MouseEvent>) {
     return setActivePage(Number((e.target as HTMLButtonElement).id));
@@ -12,9 +15,20 @@ export default function PostsGallery() {
   return (
     <div className={styles.postsGalleryContainer}>
       <ul className={styles.postsGallery}>
-        <PostsGalleryItem />
-        <PostsGalleryItem />
-        <PostsGalleryItem />
+        {/* {translation.pages.posts.map((post) => {
+          return (
+            <PostsGalleryItem
+              miniature={postMiniatures[0]}
+              descriptionHeader={translation.pages.posts[0]?.descriptionHeader}
+              description={translation.pages.posts[0]?.description}
+            />
+          );
+        })} */}
+        <PostsGalleryItem
+          miniature={postMiniatures[0]}
+          descriptionHeader={translation.pages.posts[0]?.descriptionHeader}
+          description={translation.pages.posts[0]?.description}
+        />
       </ul>
       <div className={styles.postsGalleryPagination}>
         <button onClick={(e) => handleGalleryControls(e)} id="1" className={activePage === 1 ? styles.active : ""}>
