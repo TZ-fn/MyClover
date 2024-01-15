@@ -1,15 +1,18 @@
-import image from "assets/posts/vacations.jpg";
 import styles from "./PostsGalleryItem.module.scss";
 
-export default function PostsGalleryItem() {
+interface PostsGalleryItemProps {
+  miniature: string;
+  descriptionHeader: string;
+  description: string;
+}
+
+export default function PostsGalleryItem({ miniature, descriptionHeader, description }: PostsGalleryItemProps) {
   return (
     <li className={styles.itemContainer}>
-      <img className={styles.itemPhoto} src={image} alt="" />
+      <img className={styles.itemPhoto} src={miniature} alt="" />
       <div className={styles.itemDescription}>
-        <h3 className={styles.descriptionHeader}>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h3>
-        <p className={styles.description}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptatem aperiam.
-        </p>
+        <h3 className={styles.descriptionHeader}>{descriptionHeader}</h3>
+        <p className={styles.description}>{description}</p>
       </div>
     </li>
   );
