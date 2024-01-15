@@ -1,3 +1,5 @@
+import postsPolish from "./postsPolish";
+
 const polishTranslation = {
   name: "Polish",
 
@@ -35,6 +37,7 @@ const polishTranslation = {
       heroOneText: "Jesteśmy obok Ciebie tak długo jak tego potrzebujesz.",
       heroTwoText: "Bo w życiu trzeba być gotowym na wszystko.",
     },
+    posts: postsPolish,
   },
 };
 
