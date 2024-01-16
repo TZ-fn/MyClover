@@ -29,6 +29,16 @@ export default function PostsGallery() {
           descriptionHeader={translation.pages.posts[0]?.descriptionHeader}
           description={translation.pages.posts[0]?.description}
         />
+        <PostsGalleryItem
+          miniature={postMiniatures[1]}
+          descriptionHeader={translation.pages.posts[0]?.descriptionHeader}
+          description={translation.pages.posts[0]?.description}
+        />
+        <PostsGalleryItem
+          miniature={postMiniatures[2]}
+          descriptionHeader={translation.pages.posts[0]?.descriptionHeader}
+          description={translation.pages.posts[0]?.description}
+        />
       </ul>
       <div className={styles.postsGalleryPagination}>
         <button onClick={(e) => handleGalleryControls(e)} id="1" className={activePage === 1 ? styles.active : ""}>
