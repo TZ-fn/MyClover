@@ -9,6 +9,7 @@
 
 .postsGallery {
   display: flex;
+  flex-wrap: wrap;
   gap: 2vw;
   padding: 1rem 5vw;
 }
