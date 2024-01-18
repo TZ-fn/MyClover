@@ -4,19 +4,22 @@
   border-bottom: 3px solid var(--grey);
   cursor: pointer;
   transition: all 0.1s ease-in-out;
-  max-width: 33%;
-
+  width: 33%;
+  height: 26vw;
   &:hover {
     transform: translateY(-1px);
   }
 }
 
 .itemPhoto {
+  width: 100%;
+  max-height: 75%;
+  object-fit: cover;
+  border-bottom: 1px solid var(--grey);
 }
 
 .itemDescription {
-  margin: 2rem;
-  max-height: 30%;
+  padding: 2rem;
 }
 
 .descriptionHeader {
