@@ -15,55 +15,36 @@ export default function PostsGallery() {
   return (
     <div className={styles.postsGalleryContainer}>
       <ul className={styles.postsGallery}>
-        {/* {translation.pages.posts.map((post) => {
-          return (
-            <PostsGalleryItem
-              miniature={postMiniatures[0]}
-              descriptionHeader={translation.pages.posts[0]?.descriptionHeader}
-              description={translation.pages.posts[0]?.description}
-            />
-          );
-        })} */}
-        <PostsGalleryItem
-          miniature={postMiniatures[0]}
-          descriptionHeader={translation.pages.posts[0]?.descriptionHeader}
-          description={translation.pages.posts[0]?.description}
-        />
-        <PostsGalleryItem
-          miniature={postMiniatures[1]}
-          descriptionHeader={translation.pages.posts[0]?.descriptionHeader}
-          description={translation.pages.posts[0]?.description}
-        />
-        <PostsGalleryItem
-          miniature={postMiniatures[2]}
-          descriptionHeader={translation.pages.posts[0]?.descriptionHeader}
-          description={translation.pages.posts[0]?.description}
-        />
-        <PostsGalleryItem
-          miniature={postMiniatures[3]}
-          descriptionHeader={translation.pages.posts[0]?.descriptionHeader}
-          description={translation.pages.posts[0]?.description}
-        />
-        <PostsGalleryItem
-          miniature={postMiniatures[4]}
-          descriptionHeader={translation.pages.posts[0]?.descriptionHeader}
-          description={translation.pages.posts[0]?.description}
-        />
-        <PostsGalleryItem
-          miniature={postMiniatures[5]}
-          descriptionHeader={translation.pages.posts[0]?.descriptionHeader}
-          description={translation.pages.posts[0]?.description}
-        />
-        <PostsGalleryItem
-          miniature={postMiniatures[6]}
-          descriptionHeader={translation.pages.posts[0]?.descriptionHeader}
-          description={translation.pages.posts[0]?.description}
-        />
-        <PostsGalleryItem
-          miniature={postMiniatures[7]}
-          descriptionHeader={translation.pages.posts[0]?.descriptionHeader}
-          description={translation.pages.posts[0]?.description}
-        />
+        {translation.pages.posts.map((post, index) => {
+          if (activePage === 1 && index >= 0 && index < 3) {
+            return (
+              <PostsGalleryItem
+                key={index}
+                miniature={postMiniatures[index]}
+                descriptionHeader={translation.pages.posts[index]?.descriptionHeader}
+                description={translation.pages.posts[index]?.description}
+              />
+            );
+          } else if (activePage === 2 && index >= 3 && index < 6) {
+            return (
+              <PostsGalleryItem
+                key={index}
+                miniature={postMiniatures[index]}
+                descriptionHeader={translation.pages.posts[index]?.descriptionHeader}
+                description={translation.pages.posts[index]?.description}
+              />
+            );
+          } else if (activePage === 3 && index >= 6 && index < 7) {
+            return (
+              <PostsGalleryItem
+                key={index}
+                miniature={postMiniatures[index]}
+                descriptionHeader={translation.pages.posts[index]?.descriptionHeader}
+                description={translation.pages.posts[index]?.description}
+              />
+            );
+          }
+        })}
       </ul>
       <div className={styles.postsGalleryPagination}>
         <button onClick={(e) => handleGalleryControls(e)} id="1" className={activePage === 1 ? styles.active : ""}>
