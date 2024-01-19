@@ -1,3 +1,5 @@
+import postsEnglish from "./postsEnglish";
+
 const englishTranslation = {
   name: "English",
   header: {
@@ -33,7 +35,7 @@ const englishTranslation = {
       heroOneText: "We are next to You, whenever you need us.",
       heroTwoText: "In life you should be prepared for everything.",
     },
-    posts: [],
+    posts: postsEnglish,
   },
 };
 
