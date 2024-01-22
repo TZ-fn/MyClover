@@ -1,7 +1,7 @@
 import styles from "./PostsGalleryItem.module.scss";
 
 interface PostsGalleryItemProps {
-  miniature: string;
+  miniature: string | undefined;
   descriptionHeader: string;
   description: string;
 }

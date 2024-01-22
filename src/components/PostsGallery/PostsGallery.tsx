@@ -21,8 +21,8 @@ export default function PostsGallery() {
               <PostsGalleryItem
                 key={index}
                 miniature={postMiniatures[index]}
-                descriptionHeader={translation.pages.posts[index]?.descriptionHeader}
-                description={translation.pages.posts[index]?.description}
+                descriptionHeader={post.descriptionHeader}
+                description={post.description}
               />
             );
           } else if (activePage === 2 && index >= 3 && index < 6) {
@@ -30,8 +30,8 @@ export default function PostsGallery() {
               <PostsGalleryItem
                 key={index}
                 miniature={postMiniatures[index]}
-                descriptionHeader={translation.pages.posts[index]?.descriptionHeader}
-                description={translation.pages.posts[index]?.description}
+                descriptionHeader={post.descriptionHeader}
+                description={post.description}
               />
             );
           } else if (activePage === 3 && index >= 6 && index < 7) {
@@ -39,23 +39,29 @@ export default function PostsGallery() {
               <PostsGalleryItem
                 key={index}
                 miniature={postMiniatures[index]}
-                descriptionHeader={translation.pages.posts[index]?.descriptionHeader}
-                description={translation.pages.posts[index]?.description}
+                descriptionHeader={post.descriptionHeader}
+                description={post.description}
               />
             );
           }
         })}
       </ul>
       <div className={styles.postsGalleryPagination}>
-        <button onClick={(e) => handleGalleryControls(e)} id="1" className={activePage === 1 ? styles.active : ""}>
-          1
-        </button>
-        <button onClick={(e) => handleGalleryControls(e)} id="2" className={activePage === 2 ? styles.active : ""}>
-          2
-        </button>
-        <button onClick={(e) => handleGalleryControls(e)} id="3" className={activePage === 3 ? styles.active : ""}>
-          3
-        </button>
+        {translation.pages.posts.length > 3 && (
+          <button onClick={(e) => handleGalleryControls(e)} id="1" className={activePage === 1 ? styles.active : ""}>
+            1
+          </button>
+        )}
+        {translation.pages.posts.length > 3 && (
+          <button onClick={(e) => handleGalleryControls(e)} id="2" className={activePage === 2 ? styles.active : ""}>
+            2
+          </button>
+        )}
+        {translation.pages.posts.length > 6 && (
+          <button onClick={(e) => handleGalleryControls(e)} id="3" className={activePage === 3 ? styles.active : ""}>
+            3
+          </button>
+        )}
       </div>
     </div>
   );
