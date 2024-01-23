@@ -1,8 +1,9 @@
 import { useState } from "react";
+import { Transition } from "react-transition-group";
 import useTranslation from "hooks/useTranslation";
 import PostsGalleryItem from "./PostsGalleryItem/PostsGalleryItem";
-import styles from "./PostsGallery.module.scss";
 import postMiniatures from "../../assets/postsMiniatures";
+import styles from "./PostsGallery.module.scss";
 
 export default function PostsGallery() {
   const [galleryIndexes, setGalleryIndexes] = useState([0, 1, 2]);
@@ -13,18 +14,39 @@ export default function PostsGallery() {
     setActiveGalleryButton(Number((e.target as HTMLButtonElement).id));
   }
 
+  const defaultStyle = {
+    transition: `transform 1600ms ease-in-out, opacity 1300ms ease-in-out`,
+    transform: "scale(1)",
+    opacity: "0",
+  };
+
+  const transitionStyles = {
+    entering: { transform: "scale(1)", opacity: "0" },
+    entered: { transform: "scale(1)", opacity: "1" },
+    exiting: { transform: "scale(0)" },
+    exited: { transform: "scale(0)" },
+    unmounted: { transform: "scale(0)" },
+  };
+
   return (
     <div className={styles.postsGalleryContainer}>
       <ul className={styles.postsGallery}>
         {translation.pages.posts.map((post, index) => {
           if (galleryIndexes.includes(index)) {
             return (
-              <PostsGalleryItem
-                key={index}
-                miniature={postMiniatures[index]}
-                descriptionHeader={post.descriptionHeader}
-                description={post.description}
-              />
+              <Transition key={index} in={galleryIndexes.includes(index)} unmountOnExit timeout={1200}>
+                {(state) => (
+                  <PostsGalleryItem
+                    miniature={postMiniatures[index]}
+                    descriptionHeader={post.descriptionHeader}
+                    description={post.description}
+                    style={{
+                      ...defaultStyle,
+                      ...transitionStyles[state],
+                    }}
+                  />
+                )}
+              </Transition>
             );
           }
         })}
