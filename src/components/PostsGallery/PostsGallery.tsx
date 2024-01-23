@@ -10,9 +10,6 @@ export default function PostsGallery() {
   const [translation] = useTranslation();
 
   function handleGalleryControls(e: React.MouseEvent<HTMLButtonElement, MouseEvent>) {
-    const newGalleryIndexes = galleryIndexes.map((index) => index + 3);
-    console.log(newGalleryIndexes);
-    setGalleryIndexes(() => newGalleryIndexes);
     setActiveGalleryButton(Number((e.target as HTMLButtonElement).id));
   }
 
@@ -35,7 +32,10 @@ export default function PostsGallery() {
       <div className={styles.postsGalleryPagination}>
         {translation.pages.posts.length > 3 && (
           <button
-            onClick={(e) => handleGalleryControls(e)}
+            onClick={(e) => {
+              handleGalleryControls(e);
+              setGalleryIndexes(() => [0, 1, 2]);
+            }}
             id="1"
             className={activeGalleryButton === 1 ? styles.active : ""}
           >
@@ -44,7 +44,10 @@ export default function PostsGallery() {
         )}
         {translation.pages.posts.length > 3 && (
           <button
-            onClick={(e) => handleGalleryControls(e)}
+            onClick={(e) => {
+              handleGalleryControls(e);
+              setGalleryIndexes(() => [3, 4, 5]);
+            }}
             id="2"
             className={activeGalleryButton === 2 ? styles.active : ""}
           >
@@ -53,7 +56,10 @@ export default function PostsGallery() {
         )}
         {translation.pages.posts.length > 6 && (
           <button
-            onClick={(e) => handleGalleryControls(e)}
+            onClick={(e) => {
+              handleGalleryControls(e);
+              setGalleryIndexes(() => [6, 7, 8]);
+            }}
             id="3"
             className={activeGalleryButton === 3 ? styles.active : ""}
           >
