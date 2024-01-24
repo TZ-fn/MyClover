@@ -15,13 +15,13 @@ export default function PostsGallery() {
   }
 
   const defaultStyle = {
-    transition: `transform 1600ms ease-in-out, opacity 1300ms ease-in-out`,
-    transform: "scale(1)",
+    transition: `transform 600ms ease-in-out, opacity 1300ms ease-in-out`,
+    transform: "scale(0)",
     opacity: "0",
   };
 
   const transitionStyles = {
-    entering: { transform: "scale(1)", opacity: "0" },
+    entering: { transform: "scale(0)", opacity: "0" },
     entered: { transform: "scale(1)", opacity: "1" },
     exiting: { transform: "scale(0)" },
     exited: { transform: "scale(0)" },
@@ -34,7 +34,7 @@ export default function PostsGallery() {
         {translation.pages.posts.map((post, index) => {
           if (galleryIndexes.includes(index)) {
             return (
-              <Transition key={index} in={galleryIndexes.includes(index)} unmountOnExit timeout={1200}>
+              <Transition key={index} in={galleryIndexes.includes(index)} timeout={500}>
                 {(state) => (
                   <PostsGalleryItem
                     miniature={postMiniatures[index]}

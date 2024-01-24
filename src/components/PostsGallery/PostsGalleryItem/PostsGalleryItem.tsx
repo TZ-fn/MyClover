@@ -9,7 +9,7 @@ interface PostsGalleryItemProps {
 
 export default function PostsGalleryItem({ miniature, descriptionHeader, description, style }: PostsGalleryItemProps) {
   return (
-    <li style={style} className={styles.itemContainer}>
+    <li className={styles.itemContainer} style={style}>
       <img className={styles.itemPhoto} src={miniature} alt="" />
       <div className={styles.itemDescription}>
         <h3 className={styles.descriptionHeader}>{descriptionHeader}</h3>
