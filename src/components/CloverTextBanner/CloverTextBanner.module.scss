@@ -1,0 +1,41 @@
+.textBannerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../assets/clover.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 5rem 36%;
+  font-weight: 700;
+}
+
+.textBannerInnerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+.bannerHeader {
+  font-size: 3rem;
+  font-family: "Cabin", sans-serif;
+  font-weight: 600;
+}
+
+.bannerSeparator {
+  margin-left: -1rem;
+}
+
+.bannerText {
+  font-size: 2.1rem;
+  text-align: justify;
+  text-justify: auto;
+}
+
+.bannerTextSpecial {
+  font-family: "Cabin", sans-serif;
+  font-weight: 400;
+  margin-left: 0.5rem;
+}
