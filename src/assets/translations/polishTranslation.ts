@@ -40,7 +40,7 @@ const polishTranslation = {
         header: "Jesteśmy Clover",
         subHeader: "Przynosimy ludziom szczęście",
         mainText:
-          "Kochamy pomagac, to co robimy dla ludzi daje nam wielką satysfakcję. Nasza oferta to fachowe doradztwo, budowane wieloletnim doświadczeniem. Pomożemy wybrać Ci odpowiednią ofertę, odrobimy za Ciebie pracę domową, odpowiadając na wszystkie istotne pytania, podczas doboru odpowiedniej ochrony. Clover to spokój ducha, który oferujemy właśnie Tobie.",
+          "Kochamy pomagać, to co robimy dla ludzi daje nam wielką satysfakcję. Nasza oferta to fachowe doradztwo, budowane wieloletnim doświadczeniem. Pomożemy wybrać Ci odpowiednią ofertę, odrobimy za Ciebie pracę domową, odpowiadając na wszystkie istotne pytania, podczas doboru odpowiedniej ochrony. Clover to spokój ducha, który oferujemy właśnie Tobie.",
         learnMore: "Dowiedz się więcej:",
         emailAddress: "Adres email:",
         iconInsurances: "Ubezpieczenia",
