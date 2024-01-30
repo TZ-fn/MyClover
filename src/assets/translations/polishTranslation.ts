@@ -36,6 +36,21 @@ const polishTranslation = {
     home: {
       heroOneText: "Jesteśmy obok Ciebie tak długo jak tego potrzebujesz.",
       heroTwoText: "Bo w życiu trzeba być gotowym na wszystko.",
+      aboutSection: {
+        header: "Jesteśmy Clover",
+        subHeader: "Przynosimy ludziom szczęście",
+        mainText:
+          "Kochamy pomagac, to co robimy dla ludzi daje nam wielką satysfakcję. Nasza oferta to fachowe doradztwo, budowane wieloletnim doświadczeniem. Pomożemy wybrać Ci odpowiednią ofertę, odrobimy za Ciebie pracę domową, odpowiadając na wszystkie istotne pytania, podczas doboru odpowiedniej ochrony. Clover to spokój ducha, który oferujemy właśnie Tobie.",
+        learnMore: "Dowiedz się więcej:",
+        emailAddress: "Adres email:",
+        iconInsurances: "Ubezpieczenia",
+        iconMortgages: "Kredyty hipoteczne",
+        iconCareer: "Kariera",
+        seeMoreBtn: "Zobacz więcej",
+      },
+      aboutBanner:
+        "Clover to coś więcej niż firma ubezpieczeniowa. Uwielbiamy kontakt z ludźmi, a nasza firma pragnie dostarczać usługę ponadczasową. Oferujemy swój czas i doświadczenie, nie tylko w zakresie zawierania ubezpieczeń. Pomożemy Ci wyszukać dogodną ofertę kredytową na dom, jak też zabezpieczymy Twój wymarzony świat. Gorąco zachęcamy do zapoznania się z naszą szczegółową ofertą.",
+      aboutBannerTextSpecial: "Zapraszamy również do współpracy.",
     },
     posts: postsPolish,
   },

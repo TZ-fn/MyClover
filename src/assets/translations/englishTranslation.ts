@@ -34,6 +34,21 @@ const englishTranslation = {
     home: {
       heroOneText: "We are next to You, whenever you need us.",
       heroTwoText: "In life you should be prepared for everything.",
+      aboutSection: {
+        header: "We are Clover",
+        subHeader: "We bring people happiness",
+        mainText:
+          "Kochamy pomagac, to co robimy dla ludzi daje nam wielką satysfakcję. Nasza oferta to fachowe doradztwo, budowane wieloletnim doświadczeniem. Pomożemy wybrać Ci odpowiednią ofertę, odrobimy za Ciebie pracę domową, odpowiadając na wszystkie istotne pytania, podczas doboru odpowiedniej ochrony. Clover to spokój ducha, który oferujemy właśnie Tobie.",
+        learnMore: "Learn more:",
+        emailAddress: "Email address:",
+        iconInsurances: "Insurances",
+        iconMortgages: "Mortgages",
+        iconCareer: "Career",
+        seeMoreBtn: "See more",
+      },
+      aboutBanner:
+        "Clover is more than just an insurance company. We love contact with people, and our company wants to provide a timeless service. We offer our time and experience, not only in the field of insurance. We will help you find a convenient home loan offer and secure your dream world. We strongly encourage you to familiarize yourself with our detailed offer.",
+      aboutBannerTextSpecial: "We also invite you to cooperate with us.",
     },
     posts: postsEnglish,
   },
