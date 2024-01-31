@@ -10,16 +10,16 @@ export default function AboutSection() {
     <div className={styles.aboutSectionContainer}>
       <div className={styles.mainInfoContainer}>
         <div className={styles.mainInfo}>
-          <h3>{aboutSectionTranslation.header}</h3>
-          <h4>{aboutSectionTranslation.subHeader}</h4>
-          <p>{aboutSectionTranslation.mainText}</p>
+          <h3 className={styles.header}>{aboutSectionTranslation.header}</h3>
+          <h4 className={styles.subHeader}>{aboutSectionTranslation.subHeader}</h4>
+          <p className={styles.mainText}>{aboutSectionTranslation.mainText}</p>
         </div>
         <div className={styles.contactData}>
-          <div>
+          <div className={styles.phoneContainer}>
             <p>{aboutSectionTranslation.learnMore}</p>
             <a>+44 7858282317</a>
           </div>
-          <div>
+          <div className={styles.emailContainer}>
             <p>{aboutSectionTranslation.emailAddress}</p>
             <a>office@myclover.co.uk</a>
           </div>
