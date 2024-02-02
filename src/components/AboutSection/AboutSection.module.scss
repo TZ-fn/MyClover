@@ -4,8 +4,8 @@
   align-items: center;
   justify-content: center;
   gap: 2rem;
-  max-width: 80rem;
-  margin: auto;
+  max-width: 75rem;
+  margin: 5rem auto;
 }
 
 .mainInfoContainer,
@@ -27,7 +27,7 @@
 }
 
 .mainInfoContainer {
-  gap: 2rem;
+  gap: 8rem;
 }
 
 .mainInfo {
@@ -50,6 +50,14 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+  font-family: "Cabin", sans-serif;
+}
+
+.phoneContainer,
+.emailContainer {
+  min-height: 4rem;
+  padding: 2rem 4rem;
+  width: 100%;
 }
 
 .iconsContainer {
