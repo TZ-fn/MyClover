@@ -95,8 +95,13 @@
   height: 55%;
   width: 60%;
   border-radius: 50%;
-  background-color: var(--dark-grey);
+  background-color: var(--black);
   padding: 10px;
+  transition: all 0.1s ease-in-out;
+
+  &:hover {
+    background-color: transparent;
+  }
 }
 
 .dataLabel {
