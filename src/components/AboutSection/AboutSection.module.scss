@@ -68,12 +68,35 @@
   width: 20%;
 }
 
+.phoneIconContainer,
+.emailIconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .phoneIconContainer {
   background-color: var(--accent-color-green);
+
+  svg path {
+    fill: var(--white);
+  }
 }
 
 .emailIconContainer {
   background-color: var(--dark-grey);
+
+  svg path {
+    fill: var(--accent-color-green);
+  }
+}
+
+.iconInnerContainer {
+  height: 55%;
+  width: 60%;
+  border-radius: 50%;
+  background-color: var(--dark-grey);
+  padding: 10px;
 }
 
 .dataLabel {
