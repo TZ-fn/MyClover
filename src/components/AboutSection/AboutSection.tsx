@@ -1,4 +1,7 @@
 import useTranslation from "~/hooks/useTranslation";
+import IconChecked from "assets/Icons/iconChecked.svg";
+import IconGrowth from "assets/Icons/iconGrowth.svg";
+import IconMortgage from "assets/Icons/iconMortgage.svg";
 import styles from "./AboutSection.module.scss";
 
 export default function AboutSection() {
@@ -50,13 +53,22 @@ export default function AboutSection() {
 
       <div className={styles.iconsContainer}>
         <div>
-          <p>{aboutSectionTranslation.iconInsurances}</p>
+          <div className={styles.iconContainer}>
+            <img src={IconChecked} alt="" />
+          </div>
+          <p className={styles.iconLabel}>{aboutSectionTranslation.iconInsurances}</p>
         </div>
         <div>
-          <p>{aboutSectionTranslation.iconMortgages}</p>
+          <div className={styles.iconContainer}>
+            <img src={IconMortgage} alt="" />
+          </div>
+          <p className={styles.iconLabel}>{aboutSectionTranslation.iconMortgages}</p>
         </div>
         <div>
-          <p>{aboutSectionTranslation.iconCareer}</p>
+          <div className={styles.iconContainer}>
+            <img src={IconGrowth} alt="" />
+          </div>
+          <p className={styles.iconLabel}>{aboutSectionTranslation.iconCareer}</p>
         </div>
       </div>
       <button className={styles.actionButton}>{aboutSectionTranslation.seeMoreBtn}</button>
