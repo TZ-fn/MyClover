@@ -29,7 +29,7 @@ export default function AboutSection() {
             </div>
             <div className={styles.phoneContainer}>
               <p className={styles.dataLabel}>{aboutSectionTranslation.learnMore}</p>
-              <a>+44 7858282317</a>
+              <a href="tel://447858282317">+44 7858282317</a>
             </div>
           </div>
           <div className={styles.contactDataContainer}>
@@ -45,7 +45,7 @@ export default function AboutSection() {
             </div>
             <div className={styles.emailContainer}>
               <p className={styles.dataLabel}>{aboutSectionTranslation.emailAddress}</p>
-              <a>office@myclover.co.uk</a>
+              <a href="mailto:office@myclover.co.uk">office@myclover.co.uk</a>
             </div>
           </div>
         </div>
