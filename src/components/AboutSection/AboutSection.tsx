@@ -54,19 +54,22 @@ export default function AboutSection() {
       <div className={styles.iconsContainer}>
         <div>
           <div className={styles.iconContainer}>
-            <img src={IconChecked} alt="" />
+            <img className={styles.icon} src={IconChecked} alt="" />
+            <img className={styles.iconHovered} src={IconChecked} alt="" />
           </div>
           <p className={styles.iconLabel}>{aboutSectionTranslation.iconInsurances}</p>
         </div>
         <div>
           <div className={styles.iconContainer}>
-            <img src={IconMortgage} alt="" />
+            <img className={styles.icon} src={IconMortgage} alt="" />
+            <img className={styles.iconHovered} src={IconMortgage} alt="" />
           </div>
           <p className={styles.iconLabel}>{aboutSectionTranslation.iconMortgages}</p>
         </div>
         <div>
           <div className={styles.iconContainer}>
-            <img src={IconGrowth} alt="" />
+            <img className={styles.icon} src={IconGrowth} alt="" />
+            <img className={styles.iconHovered} src={IconGrowth} alt="" />
           </div>
           <p className={styles.iconLabel}>{aboutSectionTranslation.iconCareer}</p>
         </div>

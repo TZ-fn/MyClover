@@ -138,17 +138,43 @@
 }
 
 .iconContainer {
+  position: relative;
   height: 8rem;
   width: 8rem;
 
-  img {
-    height: 100%;
-    width: 100%;
+  &:hover {
+    .icon {
+      opacity: 0;
+      transform: translateX(50%) rotate(90deg);
+    }
+
+    .iconHovered {
+      opacity: 1;
+      transform: translateX(0) rotate(0);
+    }
+
+    & + p {
+      color: var(--accent-color-green);
+    }
   }
+}
+
+.icon,
+.iconHovered {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  transition: all 0.2s ease-in-out;
+}
+
+.iconHovered {
+  transform: translateX(-100%) rotate(-90deg);
+  opacity: 0;
 }
 
 .iconLabel {
   font-size: 1.5rem;
+  transition: all 0.2s ease-in-out;
 }
 
 .actionButton {
