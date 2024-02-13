@@ -6,6 +6,7 @@
   gap: 4rem;
   max-width: 85rem;
   margin: 5rem auto;
+  padding: 1rem 2rem;
 }
 
 .mainInfoContainer,
@@ -24,10 +25,18 @@
 .mainInfo,
 .contactData {
   width: 50%;
+
+  @media (max-width: 1200px) {
+    width: 100%;
+  }
 }
 
 .mainInfoContainer {
   gap: 8rem;
+
+  @media (max-width: 1200px) {
+    flex-direction: column;
+  }
 }
 
 .mainInfo {
@@ -127,6 +136,7 @@
   margin-top: 2rem;
   width: 100%;
   justify-content: space-around;
+  gap: 2vw;
 
   div {
     display: flex;
@@ -134,6 +144,11 @@
     gap: 1rem;
     align-items: center;
     justify-content: center;
+  }
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+    gap: 4rem;
   }
 }
 
