@@ -6,7 +6,7 @@
   gap: 4rem;
   max-width: 85rem;
   margin: 5rem auto;
-  padding: 1rem 2rem;
+  padding: 1rem 3vw;
 }
 
 .mainInfoContainer,
@@ -16,10 +16,12 @@
 
 .header {
   font-size: 4.4rem;
+  font-size: clamp(2.5rem, 6vw, 4.4rem);
 }
 
 .subHeader {
   font-size: 2.2rem;
+  font-size: clamp(1.8rem, 2vw, 2.3rem);
 }
 
 .mainInfo,
@@ -48,10 +50,12 @@
 }
 
 .mainText {
-  font-size: 1.3rem;
+  font-size: clamp(1.1rem, 2vw, 1.4rem);
   line-height: 2rem;
-  text-align: justify;
-  text-justify: auto;
+
+  @media (min-width: 1200px) {
+    text-align: justify;
+  }
 }
 
 .contactData {
@@ -60,12 +64,13 @@
   align-items: flex-start;
   justify-content: center;
   font-family: "Cabin", sans-serif;
-  font-size: 2.3rem;
+  font-size: clamp(1.5rem, 4vw, 2.3rem);
   color: var(--white);
 }
 
 .contactDataContainer {
   width: 100%;
+  height: 7.5rem;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -73,15 +78,11 @@
 
 .phoneIconContainer,
 .emailIconContainer {
-  height: 100%;
-  width: 20%;
-}
-
-.phoneIconContainer,
-.emailIconContainer {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100%;
+  width: 20%;
 }
 
 .phoneIconContainer {
@@ -101,8 +102,10 @@
 }
 
 .iconInnerContainer {
-  height: 55%;
-  width: 60%;
+  min-height: 3.5rem;
+  height: 3.5vw;
+  min-width: 3.5rem;
+  width: 3.5vw;
   border-radius: 50%;
   background-color: var(--black);
   padding: 15px;
@@ -114,14 +117,16 @@
 }
 
 .dataLabel {
-  font-size: 1.1rem;
+  font-size: clamp(1rem, 2vw, 1.1rem);
 }
 
 .phoneContainer,
 .emailContainer {
   min-height: 4rem;
-  padding: 2rem 1rem;
+  padding: 2rem 0.5rem 2rem 1rem;
+  height: 100%;
   width: 75%;
+  max-width: 25rem;
 }
 
 .phoneContainer {
