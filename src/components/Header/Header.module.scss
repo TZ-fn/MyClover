@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: space-between;
   position: sticky;
+  gap: 1rem;
   top: 0;
   z-index: 1;
   padding: 0 2rem;
@@ -23,5 +24,13 @@
 
 .mainLogo {
   cursor: pointer;
-  width: clamp(15rem, 20vw, 20rem);
+  width: clamp(17rem, 20vw, 20rem);
+
+  @media (min-width: 1100px) {
+    margin: 0.5rem 0;
+  }
+
+  @media (max-width: 800px) {
+    margin: 0.5rem 0;
+  }
 }
