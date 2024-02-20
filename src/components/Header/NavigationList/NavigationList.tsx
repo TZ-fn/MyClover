@@ -8,7 +8,7 @@ import Language from "~/types/Language";
 
 function NavigationList() {
   const windowWidth = useWindowDimensions().width;
-  const menuVisibilityBreakpoint = 780;
+  const menuVisibilityBreakpoint = 800;
   const [isMenuVisible, setIsMenuVisible] = useState(windowWidth > menuVisibilityBreakpoint);
   const [translation, setCurrentLanguage] = useTranslation();
 
@@ -44,7 +44,7 @@ function NavigationList() {
         </button>
       )}
       <div className={styles.innerWrapper}>
-        <Transition unmountOnExit in={isMenuVisible || windowWidth > 800} timeout={200}>
+        <Transition unmountOnExit in={isMenuVisible || windowWidth > menuVisibilityBreakpoint} timeout={200}>
           {(state) => (
             <>
               <ul
