@@ -44,7 +44,7 @@ function NavigationList() {
         </button>
       )}
       <div className={styles.innerWrapper}>
-        <Transition unmountOnExit in={isMenuVisible || windowWidth > 780} timeout={200}>
+        <Transition unmountOnExit in={isMenuVisible || windowWidth > 800} timeout={200}>
           {(state) => (
             <>
               <ul
