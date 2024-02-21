@@ -1,11 +1,11 @@
 #root {
   // colors
-  --white: #fafafa;
-  --black: #181818;
-  --light-grey: #e2e2e2;
-  --grey: #cfcfcf;
-  --dark-grey: #494949;
-  --accent-color-green: #b0cb1f;
-  --accent-color-blue: #0092cb;
-  --accent-color-teal: #3ec492;
+  --white: hsl(0, 0%, 98%);
+  --black: hsl(0, 0%, 9%);
+  --light-grey: hsl(0, 0%, 89%);
+  --grey: hsl(0, 0%, 81%);
+  --dark-grey: hsl(0, 0%, 29%);
+  --accent-color-green: hsl(69, 74%, 46%);
+  --accent-color-blue: hsl(197, 100%, 40%);
+  --accent-color-teal: hsl(158, 53%, 51%);
 }
