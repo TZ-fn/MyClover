@@ -15,7 +15,6 @@ const polishTranslation = {
     },
   },
   footer: {
-    bgImageText: "Zaopiekujemy się Twoją przyszłością.",
     cloverSocials: "Clover - Media społecznościowe",
     socialsFacebookLink: "Odwiedź nas na Facebooku.",
     socialsTwitterLink: "",
@@ -51,6 +50,7 @@ const polishTranslation = {
       aboutBanner:
         "Clover to coś więcej niż firma ubezpieczeniowa. Uwielbiamy kontakt z ludźmi, a nasza firma pragnie dostarczać usługę ponadczasową. Oferujemy swój czas i doświadczenie, nie tylko w zakresie zawierania ubezpieczeń. Pomożemy Ci wyszukać dogodną ofertę kredytową na dom, jak też zabezpieczymy Twój wymarzony świat. Gorąco zachęcamy do zapoznania się z naszą szczegółową ofertą.",
       aboutBannerTextSpecial: "Zapraszamy również do współpracy.",
+      bgImageText: "Zaopiekujemy się Twoją przyszłością.",
     },
     posts: postsPolish,
   },

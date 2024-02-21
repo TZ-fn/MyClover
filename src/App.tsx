@@ -4,6 +4,7 @@ import AboutSection from "./components/AboutSection/AboutSection";
 import CloverTextBanner from "./components/CloverTextBanner/CloverTextBanner";
 import PostsGallery from "./components/PostsGallery/PostsGallery";
 import Footer from "./components/Footer/Footer";
+import ImageBanner from "./components/BottomImage/ImageBanner";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <AboutSection />
       <CloverTextBanner />
       <PostsGallery />
+      <ImageBanner />
       <Footer />
     </>
   );

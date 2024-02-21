@@ -14,7 +14,6 @@ const englishTranslation = {
     },
   },
   footer: {
-    bgImageText: "We cover your future.",
     cloverSocials: "Clover - Social Media",
     socialsFacebookLink: "Visit us on Facebook.",
     socialsTwitterLink: "",
@@ -49,6 +48,7 @@ const englishTranslation = {
       aboutBanner:
         "Clover is more than just an insurance company. We love contact with people, and our company wants to provide a timeless service. We offer our time and experience, not only in the field of insurance. We will help you find a convenient home loan offer and secure your dream world. We strongly encourage you to familiarize yourself with our detailed offer.",
       aboutBannerTextSpecial: "We also invite you to cooperate with us.",
+      bgImageText: "We cover your future.",
     },
     posts: postsEnglish,
   },
