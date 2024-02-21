@@ -1,14 +1,17 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.tsx";
+import { BrowserRouter } from "react-router-dom";
+import TranslationContextProvider from "./providers/TranslationContextProvider.tsx";
 import "styles/variables.scss";
 import "./index.scss";
-import TranslationContextProvider from "./providers/TranslationContextProvider.tsx";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <TranslationContextProvider>
-      <App />
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
     </TranslationContextProvider>
   </React.StrictMode>
 );

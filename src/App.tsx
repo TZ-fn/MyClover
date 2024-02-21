@@ -1,22 +1,14 @@
-import Header from "components/Header/Header";
-import HeroBanner from "./components/HeroBanner/HeroBanner";
-import AboutSection from "./components/AboutSection/AboutSection";
-import CloverTextBanner from "./components/CloverTextBanner/CloverTextBanner";
-import PostsGallery from "./components/PostsGallery/PostsGallery";
-import Footer from "./components/Footer/Footer";
-import ImageBanner from "./components/BottomImage/ImageBanner";
+import { Route, Routes } from "react-router-dom";
+import Layout from "./components/Layout/Layout";
+import Home from "./pages/Home/Home";
 
 function App() {
   return (
-    <>
-      <Header />
-      <HeroBanner />
-      <AboutSection />
-      <CloverTextBanner />
-      <PostsGallery />
-      <ImageBanner />
-      <Footer />
-    </>
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+      </Route>
+    </Routes>
   );
 }
 
