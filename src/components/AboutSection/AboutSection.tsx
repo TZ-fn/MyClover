@@ -1,4 +1,4 @@
-import useTranslation from "~/hooks/useTranslation";
+import useTranslation from "hooks/useTranslation";
 import IconChecked from "assets/Icons/iconChecked.svg";
 import IconGrowth from "assets/Icons/iconGrowth.svg";
 import IconMortgage from "assets/Icons/iconMortgage.svg";

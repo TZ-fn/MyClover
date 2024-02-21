@@ -1,4 +1,4 @@
-import useTranslation from "~/hooks/useTranslation";
+import useTranslation from "hooks/useTranslation";
 import { FaSquareFacebook, FaSquareTwitter, FaSquareEnvelope, FaPhone, FaRegEnvelope, FaHouse } from "react-icons/fa6";
 import styles from "./Footer.module.scss";
 

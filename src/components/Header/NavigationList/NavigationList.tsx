@@ -2,9 +2,9 @@ import { useState } from "react";
 import { Transition } from "react-transition-group";
 import NavigationItem from "./NavigationItem/NavigationItem";
 import useWindowDimensions from "hooks/useWindowDimensions";
-import useTranslation from "~/hooks/useTranslation";
+import useTranslation from "hooks/useTranslation";
 import styles from "./NavigationList.module.scss";
-import Language from "~/types/Language";
+import Language from "types/Language";
 
 function NavigationList() {
   const windowWidth = useWindowDimensions().width;

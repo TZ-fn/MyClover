@@ -1,4 +1,4 @@
-import useTranslation from "~/hooks/useTranslation";
+import useTranslation from "hooks/useTranslation";
 import cloverSeparator from "../../assets/clover-separator.png";
 import styles from "./CloverTextBanner.module.scss";
 
