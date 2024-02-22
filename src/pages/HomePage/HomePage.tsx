@@ -4,7 +4,7 @@ import CloverTextBanner from "components/CloverTextBanner/CloverTextBanner";
 import PostsGallery from "components/PostsGallery/PostsGallery";
 import ImageBanner from "components/BottomImage/ImageBanner";
 
-function Home() {
+function HomePage() {
   return (
     <>
       <HeroBanner />
@@ -16,4 +16,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default HomePage;
