@@ -51,6 +51,10 @@ const englishTranslation = {
       bgImageText: "We cover your future.",
     },
     posts: postsEnglish,
+    noMatch: {
+      noMatchHeader: "404 - Wrong address",
+      noMatchText: "We are sorry, but this page doesn't exist. 😔",
+    },
   },
 };
 

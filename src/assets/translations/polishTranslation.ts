@@ -53,6 +53,10 @@ const polishTranslation = {
       bgImageText: "Zaopiekujemy się Twoją przyszłością.",
     },
     posts: postsPolish,
+    noMatch: {
+      noMatchHeader: "404 - Zły adres",
+      noMatchText: "Przykro nam, ale podana strona nie istnieje. 😔",
+    },
   },
 };
 
