@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import mainLogo from "assets/mainLogo.png";
 import NavigationList from "./NavigationList/NavigationList";
 import useTranslation from "hooks/useTranslation";
@@ -8,10 +9,10 @@ function Header() {
 
   return (
     <header className={styles.header}>
-      <a href="/">
+      <Link to="/">
         <span className="visually-hidden">{translation.header.mainLogoLink}</span>
         <img src={mainLogo} className={styles.mainLogo} alt={translation.header.mainLogoAlt} />
-      </a>
+      </Link>
       <NavigationList />
     </header>
   );

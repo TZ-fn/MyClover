@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import useTranslation from "hooks/useTranslation";
 import IconChecked from "assets/Icons/iconChecked.svg";
 import IconGrowth from "assets/Icons/iconGrowth.svg";
@@ -29,7 +30,7 @@ export default function AboutSection() {
             </div>
             <div className={styles.phoneContainer}>
               <p className={styles.dataLabel}>{aboutSectionTranslation.learnMore}</p>
-              <a href="tel://447858282317">+44 7858282317</a>
+              <Link to="tel://447858282317">+44 7858282317</Link>
             </div>
           </div>
           <div className={styles.contactDataContainer}>
@@ -45,7 +46,7 @@ export default function AboutSection() {
             </div>
             <div className={styles.emailContainer}>
               <p className={styles.dataLabel}>{aboutSectionTranslation.emailAddress}</p>
-              <a href="mailto:office@myclover.co.uk">office@myclover.co.uk</a>
+              <Link to="mailto:office@myclover.co.uk">office@myclover.co.uk</Link>
             </div>
           </div>
         </div>

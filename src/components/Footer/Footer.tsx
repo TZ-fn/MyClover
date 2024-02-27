@@ -1,5 +1,6 @@
-import useTranslation from "hooks/useTranslation";
 import { FaSquareFacebook, FaSquareTwitter, FaSquareEnvelope, FaPhone, FaRegEnvelope, FaHouse } from "react-icons/fa6";
+import { Link } from "react-router-dom";
+import useTranslation from "hooks/useTranslation";
 import styles from "./Footer.module.scss";
 
 function Footer() {
@@ -15,11 +16,11 @@ function Footer() {
             <ul className={styles.sectionList}>
               <li className={styles.sectionListItem}>
                 <FaPhone />
-                <a href="tel:+44 7858282317">+44 7858282317</a>
+                <Link to="tel:+44 7858282317">+44 7858282317</Link>
               </li>
               <li className={styles.sectionListItem}>
                 <FaRegEnvelope />
-                <a href="mailto:office@myclover.co.uk">office@myclover.co.uk</a>
+                <Link to="mailto:office@myclover.co.uk">office@myclover.co.uk</Link>
               </li>
 
               <li className={styles.sectionListItem}>
@@ -33,22 +34,22 @@ function Footer() {
             <h3 className={styles.sectionHeader}>{translation.footer.cloverSocials}</h3>
             <ul className={styles.socialsList}>
               <li className={styles.sectionListItem}>
-                <a href="https://www.facebook.com/cloverfamilycover/">
+                <Link to="https://www.facebook.com/cloverfamilycover/">
                   <FaSquareFacebook />
                   <span className="visually-hidden">{translation.footer.socialsFacebookLink}</span>
-                </a>
+                </Link>
               </li>
               <li className={styles.sectionListItem}>
-                <a href="/">
+                <Link>
                   <FaSquareTwitter />
                   <span className="visually-hidden">{translation.footer.socialsTwitterLink}</span>
-                </a>
+                </Link>
               </li>
               <li className={styles.sectionListItem}>
-                <a href="mailto:office@myclover.co.uk">
+                <Link to="mailto:office@myclover.co.uk">
                   <FaSquareEnvelope />
                   <span className="visually-hidden">{translation.footer.socialsEmail}</span>
-                </a>
+                </Link>
               </li>
             </ul>
             <div
@@ -63,7 +64,7 @@ function Footer() {
               data-show-facepile="false"
             >
               <blockquote cite="https://www.facebook.com/cloverfamilycover/" className="fb-xfbml-parse-ignore">
-                <a href="https://www.facebook.com/cloverfamilycover/">Clover - Family Cover</a>
+                <Link to="https://www.facebook.com/cloverfamilycover/">Clover - Family Cover</Link>
               </blockquote>
             </div>
           </div>
@@ -72,16 +73,16 @@ function Footer() {
             <h3 className={styles.sectionHeader}>{translation.footer.moreInformation}</h3>
             <ul className={styles.sectionList}>
               <li className={styles.sectionListItem}>
-                <a href="/terms-conditions">{translation.footer.termsConditions}</a>
+                <Link to="/terms-conditions">{translation.footer.termsConditions}</Link>
               </li>
               <li className={styles.sectionListItem}>
-                <a href="/privacy-policy">{translation.footer.privacyPolicy}</a>
+                <Link to="/privacy-policy">{translation.footer.privacyPolicy}</Link>
               </li>
               <li className={styles.sectionListItem}>
-                <a href="/cookies">{translation.footer.cookies}</a>
+                <Link to="/cookies">{translation.footer.cookies}</Link>
               </li>
               <li className={styles.sectionListItem}>
-                <a href="/contact">{translation.footer.contact}</a>
+                <Link to="/contact">{translation.footer.contact}</Link>
               </li>
             </ul>
           </div>
@@ -105,15 +106,15 @@ function Footer() {
               The Financial Ombudsman Service (FOS) is an agency for arbitrating on unresolved complaints between
               regulated firms and their clients. Full details of the FOS can be found on its website at
               www.financial-ombudsman.org.uk <br />
-              As a mortgage is secured against your home, your home may be repossessed if you do not keep up repayments
-              on your mortgage or any other debt secured on it.
+              As Link mortgage is secured against your home, your home may be repossessed if you do not keep up
+              repayments on your mortgage or any other debt secured on it.
             </p>
             <p>
-              If you wish to register a complaint, please write to our Compliance Officer - Polish Brokers Ltd, 32B
+              If you wish to register Link complaint, please write to our Compliance Officer - Polish Brokers Ltd, 32B
               Aztec Centre, Aztec West, Bristol BS32 4TD or contact by phone on 0145 420 3300.
             </p>
             <p>
-              A summary of our internal complaints handling procedures for the reasonable and prompt handling of
+              Link summary of our internal complaints handling procedures for the reasonable and prompt handling of
               complaints is available on request and if you cannot settle your complaint with us, you may be entitled to
               refer it to the Financial Ombudsman Service at www.financial-ombudsman.org.uk or by contacting them on
               0800 023 4 567.
