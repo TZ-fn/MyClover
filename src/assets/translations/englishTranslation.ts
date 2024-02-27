@@ -54,6 +54,7 @@ const englishTranslation = {
     noMatch: {
       noMatchHeader: "404 - Wrong address",
       noMatchText: "We are sorry, but this page doesn't exist. 😔",
+      returnToHome: "Return to the home page.",
     },
   },
 };

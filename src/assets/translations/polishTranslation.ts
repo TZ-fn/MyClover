@@ -56,6 +56,7 @@ const polishTranslation = {
     noMatch: {
       noMatchHeader: "404 - Zły adres",
       noMatchText: "Przykro nam, ale podana strona nie istnieje. 😔",
+      returnToHome: "Wróć na stronę główną.",
     },
   },
 };
