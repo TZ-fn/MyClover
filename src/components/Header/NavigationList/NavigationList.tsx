@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Transition } from "react-transition-group";
+import { Link } from "react-router-dom";
 import NavigationItem from "./NavigationItem/NavigationItem";
 import useWindowDimensions from "hooks/useWindowDimensions";
 import useTranslation from "hooks/useTranslation";
@@ -54,11 +55,21 @@ function NavigationList() {
                   ...transitionStyles[state],
                 }}
               >
-                <NavigationItem isActive>{translation.header.navigation.home}</NavigationItem>
-                <NavigationItem>{translation.header.navigation.about}</NavigationItem>
-                <NavigationItem>{translation.header.navigation.offer}</NavigationItem>
-                <NavigationItem>{translation.header.navigation.blog}</NavigationItem>
-                <NavigationItem isHighlighted>{translation.header.navigation.contact}</NavigationItem>
+                <Link to="/">
+                  <NavigationItem isActive>{translation.header.navigation.home}</NavigationItem>
+                </Link>
+                <Link to="/about">
+                  <NavigationItem>{translation.header.navigation.about}</NavigationItem>
+                </Link>
+                <Link to="/offer">
+                  <NavigationItem>{translation.header.navigation.offer}</NavigationItem>
+                </Link>
+                <Link to="/blog">
+                  <NavigationItem>{translation.header.navigation.blog}</NavigationItem>
+                </Link>
+                <Link to="/contact">
+                  <NavigationItem isHighlighted>{translation.header.navigation.contact}</NavigationItem>
+                </Link>
               </ul>
               <ul
                 className={styles.navList}
