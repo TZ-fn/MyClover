@@ -34,7 +34,7 @@ function Footer() {
             <h3 className={styles.sectionHeader}>{translation.footer.cloverSocials}</h3>
             <ul className={styles.socialsList}>
               <li className={styles.sectionListItem}>
-                <Link target="_blank" to="https://www.facebook.com/cloverfamilycover/">
+                <Link target="_blank" rel="noopener noreferrer" to="https://www.facebook.com/cloverfamilycover/">
                   <FaSquareFacebook />
                   <span className="visually-hidden">{translation.footer.socialsFacebookLink}</span>
                 </Link>
@@ -64,7 +64,7 @@ function Footer() {
               data-show-facepile="false"
             >
               <blockquote cite="https://www.facebook.com/cloverfamilycover/" className="fb-xfbml-parse-ignore">
-                <Link target="_blank" to="https://www.facebook.com/cloverfamilycover/">
+                <Link target="_blank" rel="noopener noreferrer" to="https://www.facebook.com/cloverfamilycover/">
                   Clover - Family Cover
                 </Link>
               </blockquote>
