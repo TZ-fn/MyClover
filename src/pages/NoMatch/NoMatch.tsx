@@ -1,9 +1,17 @@
-import { Link } from "react-router-dom";
+import { useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 import useTranslation from "hooks/useTranslation";
 import styles from "./NoMatch.module.scss";
 
 function NoMatch() {
   const translation = useTranslation()[0].pages.noMatch;
+
+  const { pathname } = useLocation();
+
+  // Automatically scrolls to top whenever pathname changes
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
 
   return (
     <div className={styles.noMatchContainer}>
