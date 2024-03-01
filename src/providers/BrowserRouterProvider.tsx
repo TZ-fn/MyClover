@@ -5,6 +5,9 @@ import AboutPage from "pages/AboutPage/AboutPage";
 import OfferPage from "pages/OfferPage/OfferPage";
 import BlogPage from "pages/BlogPage/BlogPage";
 import ContactPage from "pages/ContactPage/ContactPage";
+import TermsConditionsPage from "pages/TermsConditionsPage/TermsConditionsPage";
+import PrivacyPolicyPage from "pages/PrivacyPolicyPage/PrivacyPolicyPage";
+import CookiesPage from "pages/CookiesPage/CookiesPage";
 import NoMatch from "pages/NoMatch/NoMatch";
 
 const router = createBrowserRouter([
@@ -30,6 +33,18 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element: <ContactPage />,
+      },
+      {
+        path: "/terms-conditions",
+        element: <TermsConditionsPage />,
+      },
+      {
+        path: "/privacy-policy",
+        element: <PrivacyPolicyPage />,
+      },
+      {
+        path: "/cookies",
+        element: <CookiesPage />,
       },
       {
         path: "*",
