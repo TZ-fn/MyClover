@@ -5,7 +5,7 @@
   cursor: pointer;
   transition: all 0.1s ease-in-out;
   max-width: 45rem;
-  min-height: 26vw;
+  height: 26vw;
   flex-grow: 1;
   flex-basis: 0;
 
@@ -15,6 +15,7 @@
 
   @media (max-width: 1000px) {
     flex-basis: auto;
+    height: auto;
   }
 }
 
