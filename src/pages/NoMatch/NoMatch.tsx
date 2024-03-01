@@ -6,9 +6,8 @@ import styles from "./NoMatch.module.scss";
 function NoMatch() {
   const translation = useTranslation()[0].pages.noMatch;
 
-  const { pathname } = useLocation();
-
   // Automatically scrolls to top whenever pathname changes
+  const { pathname } = useLocation();
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname]);
