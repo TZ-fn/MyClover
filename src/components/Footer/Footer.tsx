@@ -40,7 +40,7 @@ function Footer() {
                 </Link>
               </li>
               <li className={styles.sectionListItem}>
-                <Link>
+                <Link to="">
                   <FaSquareTwitter />
                   <span className="visually-hidden">{translation.footer.socialsTwitterLink}</span>
                 </Link>
