@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Transition } from "react-transition-group";
-import heroImageOne from "assets/heroImageOne.png";
-import heroImageTwo from "assets/heroImageTwo.png";
+import heroImageOne from "assets/heroImageOne.webp";
+import heroImageTwo from "assets/heroImageTwo.webp";
 import useTranslation from "hooks/useTranslation";
 import styles from "./HeroBanner.module.scss";
 

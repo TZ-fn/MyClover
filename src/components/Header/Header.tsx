@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import mainLogo from "assets/mainLogo.png";
+import mainLogo from "assets/mainLogo.webp";
 import NavigationList from "./NavigationList/NavigationList";
 import useTranslation from "hooks/useTranslation";
 import styles from "./Header.module.scss";

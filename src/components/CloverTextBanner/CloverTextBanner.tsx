@@ -1,5 +1,5 @@
 import useTranslation from "hooks/useTranslation";
-import cloverSeparator from "../../assets/clover-separator.png";
+import cloverSeparator from "../../assets/clover-separator.webp";
 import styles from "./CloverTextBanner.module.scss";
 
 export default function CloverTextBanner() {
