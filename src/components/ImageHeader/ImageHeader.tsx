@@ -1,16 +1,18 @@
+import ImageDivider from "components/ImageDivider/ImageDivider";
 import styles from "./ImageHeader.module.scss";
 
 interface ImageHeaderProps {
-  textHeader: string;
   pageName: string;
+  backgroundImage: string;
 }
 
-function ImageHeader({ textHeader, pageName }: ImageHeaderProps) {
+function ImageHeader({ pageName, backgroundImage }: ImageHeaderProps) {
   return (
     <div className={styles.imageHeaderContainer}>
-      <h2>{textHeader}</h2>
+      <img src={backgroundImage} alt="" />
+      <h2>My Clover</h2>
       <h3>{pageName}</h3>
-      <div className={styles.bannerDivider}></div>
+      <ImageDivider isUpwards={false} />
     </div>
   );
 }
