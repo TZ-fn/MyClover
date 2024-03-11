@@ -2,7 +2,6 @@ import postsPolish from "./postsPolish";
 
 const polishTranslation = {
   name: "Polish",
-
   header: {
     mainLogoLink: "Przejdź do strony głównej.",
     mainLogoAlt: "Logo My Clover",
@@ -32,6 +31,11 @@ const polishTranslation = {
   },
 
   pages: {
+    noMatch: {
+      noMatchHeader: "404 - Zły adres",
+      noMatchText: "Przykro nam, ale podana strona nie istnieje. 😔",
+      returnToHome: "Wróć na stronę główną.",
+    },
     home: {
       heroOneText: "Jesteśmy obok Ciebie tak długo jak tego potrzebujesz.",
       heroTwoText: "Bo w życiu trzeba być gotowym na wszystko.",
@@ -53,10 +57,42 @@ const polishTranslation = {
       bgImageText: "Zaopiekujemy się Twoją przyszłością.",
     },
     posts: postsPolish,
-    noMatch: {
-      noMatchHeader: "404 - Zły adres",
-      noMatchText: "Przykro nam, ale podana strona nie istnieje. 😔",
-      returnToHome: "Wróć na stronę główną.",
+    aboutUs: {
+      sectionOne: {
+        header: "Clover to firma inna niż wszystkie",
+        text: "Uczymy innych jak nie bać się żyć. Od wielu lat działamy na rynku brokerów ubezpieczeniowych, dlatego doskonale wiemy, jak rozpoznać wszystkie potrzeby naszych klientów. Dobierając najlepszą ofertę w super cenie oraz zapewniając wsparcie, mamy pewność, że opiekujemy się naszymi klientami na najwyższym poziomie.",
+      },
+      sectionTwo: {
+        header: "Nasze największe usługi",
+        offer1: "Kredyty hipoteczne",
+        offer2: "Ubezpieczenia od groźnych chorób",
+        offer3: "Ubezpieczenia turystyczne",
+        offer4: "Ubezpieczenia domów",
+        offer5: "Ubezpieczenia od utraty dochodów",
+        offer6: "Ubezpieczenia dla firm",
+      },
+      questionsSection: {
+        header: "Często zadawane pytania",
+        subHeader: "Być może znajdziesz tu odpowiedź na pytanie które Cię nurtuje.",
+        questions: [
+          { question: "", answer: "" },
+          { question: "", answer: "" },
+          { question: "", answer: "" },
+          { question: "", answer: "" },
+          { question: "", answer: "" },
+          { question: "", answer: "" },
+          { question: "", answer: "" },
+          { question: "", answer: "" },
+          { question: "", answer: "" },
+        ],
+        moreQuestions: "Masz pytania ? Napisz do nas !",
+        constact: "Kontakt",
+      },
+      cooperation: {
+        header: "Z kim współpracujemy ?",
+        subHeader: "MyClover do współpracy wybiera jedynie rzetelne i pewne firmy.",
+        constact: "Skontaktuj się z nami",
+      },
     },
   },
 };
