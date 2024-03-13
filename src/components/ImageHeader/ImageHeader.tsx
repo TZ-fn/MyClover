@@ -1,4 +1,3 @@
-import ImageDivider from "components/ImageDivider/ImageDivider";
 import styles from "./ImageHeader.module.scss";
 
 interface ImageHeaderProps {
@@ -9,10 +8,9 @@ interface ImageHeaderProps {
 function ImageHeader({ pageName, backgroundImage }: ImageHeaderProps) {
   return (
     <div className={styles.imageHeaderContainer}>
-      <img src={backgroundImage} alt="" />
+      <img className={styles.imageHeaderBackground} src={backgroundImage} alt="" />
       <h2>My Clover</h2>
       <h3>{pageName}</h3>
-      <ImageDivider isUpwards={false} />
     </div>
   );
 }

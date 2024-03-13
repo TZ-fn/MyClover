@@ -1,0 +1,14 @@
+.imageHeaderContainer {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: clamp(15rem, 38vw, 45rem);
+}
+
+.imageHeaderBackground {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
