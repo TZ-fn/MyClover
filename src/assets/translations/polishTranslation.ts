@@ -49,7 +49,7 @@ const polishTranslation = {
         iconInsurances: "Ubezpieczenia",
         iconMortgages: "Kredyty hipoteczne",
         iconCareer: "Kariera",
-        seeMoreBtn: "Zobacz więcej",
+        seeMore: "Zobacz więcej",
       },
       aboutBanner:
         "Clover to coś więcej niż firma ubezpieczeniowa. Uwielbiamy kontakt z ludźmi, a nasza firma pragnie dostarczać usługę ponadczasową. Oferujemy swój czas i doświadczenie, nie tylko w zakresie zawierania ubezpieczeń. Pomożemy Ci wyszukać dogodną ofertę kredytową na dom, jak też zabezpieczymy Twój wymarzony świat. Gorąco zachęcamy do zapoznania się z naszą szczegółową ofertą.",

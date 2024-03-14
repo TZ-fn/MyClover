@@ -75,8 +75,8 @@ export default function AboutSection() {
           <p className={styles.iconLabel}>{aboutSectionTranslation.iconCareer}</p>
         </div>
       </div>
-      <Link to="/offer">
-        <button className={styles.actionButton}>{aboutSectionTranslation.seeMoreBtn}</button>
+      <Link className={styles.seeMore} to="/offer">
+        {aboutSectionTranslation.seeMore}
       </Link>
     </div>
   );

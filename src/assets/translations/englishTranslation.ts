@@ -43,7 +43,7 @@ const englishTranslation = {
         iconInsurances: "Insurances",
         iconMortgages: "Mortgages",
         iconCareer: "Career",
-        seeMoreBtn: "See more",
+        seeMore: "See more",
       },
       aboutBanner:
         "Clover is more than just an insurance company. We love contact with people, and our company wants to provide a timeless service. We offer our time and experience, not only in the field of insurance. We will help you find a convenient home loan offer and secure your dream world. We strongly encourage you to familiarize yourself with our detailed offer.",
