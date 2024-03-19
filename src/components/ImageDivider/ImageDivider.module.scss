@@ -1,7 +1,9 @@
 .imageDividerContainer {
+  position: relative;
   width: 100%;
   height: 5vw;
   background-color: transparent;
+  z-index: 1;
 }
 
 .imageDivider {
@@ -33,6 +35,8 @@
 }
 
 .upwards {
+  bottom: -5vw;
+
   &::before {
     border-radius: 0 0 4vw 0;
 
@@ -51,8 +55,7 @@
 }
 
 .downwards {
-  position: absolute;
-  margin-top: auto;
+  top: -5vw;
 
   &::before {
     border-radius: 0 4vw 0 0;

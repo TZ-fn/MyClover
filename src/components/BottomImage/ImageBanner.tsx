@@ -6,9 +6,11 @@ export default function ImageBanner() {
   const [translation] = useTranslation();
 
   return (
-    <div className={styles.imageBannerContainer}>
+    <>
       <ImageDivider isUpwards />
-      <p className={styles.imageBannerText}>{translation.pages.home.bgImageText}</p>
-    </div>
+      <div className={styles.imageBannerContainer}>
+        <p className={styles.imageBannerText}>{translation.pages.home.bgImageText}</p>
+      </div>
+    </>
   );
 }
