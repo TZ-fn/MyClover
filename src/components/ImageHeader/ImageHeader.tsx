@@ -7,8 +7,7 @@ interface ImageHeaderProps {
 
 function ImageHeader({ pageName, backgroundImage }: ImageHeaderProps) {
   return (
-    <div className={styles.imageHeaderContainer}>
-      <img className={styles.imageHeaderBackground} src={backgroundImage} alt="" />
+    <div style={{ backgroundImage: `url(${backgroundImage})` }} className={styles.imageHeaderContainer}>
       <h2>My Clover</h2>
       <h3>{pageName}</h3>
     </div>
