@@ -1,14 +1,26 @@
 .imageHeaderContainer {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   height: clamp(15rem, 38vw, 45rem);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  border-bottom: 1px solid var(--grey);
 }
 
-.imageHeaderBackground {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
+.pageHeader {
+  font-size: clamp(2rem, 4vw, 6rem);
+  letter-spacing: 0.4rem;
+  font-family: "AlegreyaSans", sans-serif;
+}
+
+.dotDivider {
+  font-size: clamp(3rem, 4vw, 6rem);
+  line-height: clamp(2rem, 4vw, 4rem);
+}
+
+.pageName {
+  font-size: clamp(1.1rem, 3vw, 3rem);
 }
