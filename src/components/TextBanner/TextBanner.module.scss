@@ -4,9 +4,15 @@
   align-items: center;
   justify-content: center;
   gap: 2vw;
-  padding: 5rem 31vw;
+  padding: 5rem 25vw;
+  font-family: "AlegreyaSans", sans-serif;
+}
+
+.bannerHeader {
+  font-size: 4rem;
 }
 
 .bannerText {
-  text-justify: justify;
+  font-size: 2rem;
+  text-align: justify;
 }
