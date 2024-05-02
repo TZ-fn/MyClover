@@ -1,0 +1,13 @@
+.servicesContainer {
+  display: flex;
+  align-items: center;
+  justify-self: start;
+  flex-direction: column;
+}
+
+.servicesList {
+  display: flex;
+  align-items: center;
+  justify-self: start;
+  list-style: none;
+}
