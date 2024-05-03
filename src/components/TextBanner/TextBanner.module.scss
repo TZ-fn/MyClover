@@ -4,8 +4,9 @@
   align-items: center;
   justify-content: center;
   gap: 1vw;
-  margin-left: clamp(2rem, 33vw, 25%);
-  margin-right: clamp(2rem, 33vw, 25%);
+  padding: 1rem 4vw;
+  max-width: 80rem;
+  margin: auto;
   font-family: "AlegreyaSans", sans-serif;
 }
 
@@ -14,7 +15,7 @@
 }
 
 .bannerText {
-  font-size: clamp(1.1rem, 2vw, 2rem);
+  font-size: clamp(1.3rem, 2vw, 2rem);
   text-align: justify;
   margin-bottom: 4rem;
   line-height: clamp(1.7rem, 3vw, 3rem);
