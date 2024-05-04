@@ -59,11 +59,11 @@ const polishTranslation = {
     posts: postsPolish,
     aboutUs: {
       sectionOne: {
-        header: "Clover to firma inna niż wszystkie",
+        header: "Clover to firma inna niż wszystkie.",
         text: "Uczymy innych jak nie bać się żyć. Od wielu lat działamy na rynku brokerów ubezpieczeniowych, dlatego doskonale wiemy, jak rozpoznać wszystkie potrzeby naszych klientów. Dobierając najlepszą ofertę w super cenie oraz zapewniając wsparcie, mamy pewność, że opiekujemy się naszymi klientami na najwyższym poziomie.",
       },
       sectionTwo: {
-        header: "Nasze największe usługi",
+        header: "Nasze największe usługi:",
         offer1: "Kredyty hipoteczne",
         offer2: "Ubezpieczenia od groźnych chorób",
         offer3: "Ubezpieczenia turystyczne",
@@ -85,13 +85,13 @@ const polishTranslation = {
           { question: "", answer: "" },
           { question: "", answer: "" },
         ],
-        moreQuestions: "Masz pytania ? Napisz do nas !",
-        constact: "Kontakt",
+        moreQuestions: "Masz pytania? Napisz do nas!",
+        contact: "Kontakt",
       },
       cooperation: {
-        header: "Z kim współpracujemy ?",
+        header: "Z kim współpracujemy?",
         subHeader: "MyClover do współpracy wybiera jedynie rzetelne i pewne firmy.",
-        constact: "Skontaktuj się z nami",
+        contact: "Skontaktuj się z nami",
       },
     },
   },
