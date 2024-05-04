@@ -8,9 +8,9 @@ export default function OffersList() {
   const offers = translation.pages.aboutUs.sectionTwo;
 
   return (
-    <div className={styles.servicesContainer}>
+    <div className={styles.offersContainer}>
       <h3>{translation.pages.aboutUs.sectionTwo.header}</h3>
-      <ul className={styles.servicesList}>
+      <ul className={styles.offersList}>
         <Offer title={offers.offer1} />
         <Offer title={offers.offer2} />
         <Offer title={offers.offer3} />

@@ -1,13 +1,14 @@
-.servicesContainer {
+.offersContainer {
   display: flex;
   align-items: center;
   justify-self: start;
   flex-direction: column;
 }
 
-.servicesList {
+.offersList {
   display: flex;
   align-items: center;
   justify-self: start;
   list-style: none;
+  gap: 2vw;
 }
