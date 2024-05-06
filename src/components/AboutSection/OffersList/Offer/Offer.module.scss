@@ -5,4 +5,14 @@
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
+  gap: 1rem;
+}
+
+.offerIcon {
+  width: 100%;
+}
+
+.offerTitle {
+  font-family: "Cabin", sans-serif;
+  text-align: center;
 }
