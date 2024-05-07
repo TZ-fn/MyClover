@@ -15,7 +15,7 @@ export default function OffersList() {
 
   return (
     <div className={styles.offersContainer}>
-      <h3>{translation.pages.aboutUs.sectionTwo.header}</h3>
+      <h3 className={styles.offersListHeader}>{translation.pages.aboutUs.sectionTwo.header}</h3>
       <ul className={styles.offersList}>
         <Offer img={offer1} title={offers.offer1} />
         <Offer img={offer2} title={offers.offer2} />

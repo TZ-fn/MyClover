@@ -3,12 +3,26 @@
   align-items: center;
   justify-content: start;
   flex-direction: column;
+  height: max-content;
+  gap: 3rem;
+  font-family: "AlegreyaSans", sans-serif;
+  margin: 3rem;
 }
 
 .offersList {
   display: flex;
   align-items: center;
-  justify-self: start;
+  justify-content: start;
   list-style: none;
-  gap: 2vw;
+  gap: 4vw;
+
+  @media (max-width: 900px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.offersListHeader {
+  font-size: clamp(2rem, 3.5vw, 3.5rem);
 }
