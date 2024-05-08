@@ -1,8 +1,9 @@
-import ImageHeader from "components/ImageHeader/ImageHeader";
 import useTranslation from "hooks/useTranslation";
+import ImageHeader from "components/ImageHeader/ImageHeader";
 import ImageDivider from "components/ImageDivider/ImageDivider";
 import TextBanner from "components/TextBanner/TextBanner";
 import OffersList from "components/AboutSection/OffersList/OffersList";
+import FAQ from "components/FAQ/FAQ";
 
 function AboutPage() {
   const [translation] = useTranslation();
@@ -16,6 +17,7 @@ function AboutPage() {
         mainText={translation.pages.aboutUs.sectionOne.text}
       />
       <OffersList />
+      <FAQ />
     </>
   );
 }
