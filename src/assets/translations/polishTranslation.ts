@@ -75,15 +75,51 @@ const polishTranslation = {
         header: "Często zadawane pytania",
         subHeader: "Być może znajdziesz tu odpowiedź na pytanie które Cię nurtuje.",
         questions: [
-          { question: "", answer: "" },
-          { question: "", answer: "" },
-          { question: "", answer: "" },
-          { question: "", answer: "" },
-          { question: "", answer: "" },
-          { question: "", answer: "" },
-          { question: "", answer: "" },
-          { question: "", answer: "" },
-          { question: "", answer: "" },
+          {
+            question: "Jaki rejon obsługuje firma Clover?",
+            answer:
+              "Nasze usługi świadczymy na terenie całego UK. Nawet jeżeli dzieli nas spora odległość - dojedziemy do Ciebie.",
+          },
+          {
+            question: "W jakich językach można się z wami skontaktować?",
+            answer:
+              "Na chwilę obecną nasza firma porozumiewa się w języku Polskim, Angielskim oraz Hiszpańskim. Pracujemy nad możliwością wdrożenia innych języków.",
+          },
+          {
+            question: "Czy pomagacie w momencie powstania szkody?",
+            answer:
+              "Tak firma Clover troszczy się o klientów przez cały okres trwania umowy. Niesiemy pomoc w każdej sytuacji.",
+          },
+          {
+            question: "Ubezpieczenie od utraty dochodów - jak to działa?",
+            answer:
+              "Najkrócej i najprościej - Income Protection (IP) czyli ubezpieczenie od utraty dochodów pozwala nam nadal godnie żyć i opłacać swoje rachunki bez stresu i paniki nawet wtedy, gdy nie możemy pracować z przyczyn zdrowotnych.",
+          },
+          {
+            question: "Jak mogę wyliczyć składkę ubezpieczenia?",
+            answer:
+              "Nie posiadamy kalkulatora ubezpieczeń, gdyż na składkę wpływa bardzo wiele czynników. Skontaktuj się z nami, a my przedstawimy Ci najlepszą możliwą opcję.",
+          },
+          {
+            question: "Czy mogę zrezygnować z ubezpieczenia?",
+            answer:
+              "Oczywiście, każdy ma do tego prawo. Nie jest to jednak korzystne. Jeżeli masz obiekcje dotyczące swojego ubezpieczenia - daj nam znać, wspólnie znajdziemy najlepsze rozwiązanie.",
+          },
+          {
+            question: "Jak długo trwa spotkanie?",
+            answer:
+              "Szanujemy Twój czas, dlatego staramy się aby spotkanie przebiegało szybko, a przedstawione na nim warianty były jasne i klarowne.",
+          },
+          {
+            question: "Z kim skontaktować się jeżeli powstała szkoda?",
+            answer:
+              "Skontaktuj się z nami, a my zajmiemy się resztą. Pomagamy naszym klientom na każdym etapie postępowania w przypadku likwidacji szkody.",
+          },
+          {
+            question: "Czy moje dane są bezpieczne?",
+            answer:
+              "Oczywiście, firma Clover dokłada wszelkich starań stosując nowoczesne systemy zabezpieczeń, aby żadne dane nie wyciekły. Przeglądając naszą stronę, prosimy o upewnienie się, iż w pasku adresu widoczna jest kłódeczka bezpieczeństwa a adres jest poprawny.",
+          },
         ],
         moreQuestions: "Masz pytania? Napisz do nas!",
         contact: "Kontakt",

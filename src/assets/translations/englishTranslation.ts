@@ -74,15 +74,51 @@ const englishTranslation = {
         header: "Frequently asked questions",
         subHeader: "Perhaps here you will find the answer to the question that bothers you.",
         questions: [
-          { question: "", answer: "" },
-          { question: "", answer: "" },
-          { question: "", answer: "" },
-          { question: "", answer: "" },
-          { question: "", answer: "" },
-          { question: "", answer: "" },
-          { question: "", answer: "" },
-          { question: "", answer: "" },
-          { question: "", answer: "" },
+          {
+            question: "What area does Clover serve?",
+            answer:
+              "We provide our services throughout the UK. Even if we are separated by a considerable distance, we will reach you.",
+          },
+          {
+            question: "In what languages can I contact you?",
+            answer:
+              "Currently, our company communicates in Polish, English and Spanish. We are working on the possibility of implementing other languages.",
+          },
+          {
+            question: "Do you help when damage occurs?",
+            answer:
+              "This is how Clover takes care of its customers throughout the entire duration of the contract. We provide help in every situation.",
+          },
+          {
+            question: "Loss of income insurance - how does it work?",
+            answer:
+              "Most shortly and simply - Income Protection (IP) allows one to continue to live with dignity and pay one's bills without stress and panic, even when one cannot work for health reasons.",
+          },
+          {
+            question: "How can I calculate my insurance premium?",
+            answer:
+              "We do not have an insurance calculator because the premium is influenced by many factors. Contact us and we will present you with the best possible option.",
+          },
+          {
+            question: "Can I cancel my insurance?",
+            answer:
+              "Of course, everyone has the right to do so. However, this is not beneficial. If you have any objections regarding your insurance, let us know and together we will find the best solution.",
+          },
+          {
+            question: "How long does the meeting last?",
+            answer:
+              "We respect your time, so we try to ensure that the meeting runs quickly and the options presented are clear and transparent.",
+          },
+          {
+            question: "Who to contact if damage has occurred?",
+            answer:
+              "Contact us and we will take care of the rest. We help our clients at every stage of the claims settlement procedure.",
+          },
+          {
+            question: "Is my data safe?",
+            answer:
+              "Of course, Clover makes every effort to use modern security systems to ensure that no data leaks. When browsing our website, please make sure that the security padlock is visible in the address bar and that the address is correct.",
+          },
         ],
         moreQuestions: "Do you have any questions? Write to us!",
         contact: "Contact",
