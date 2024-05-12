@@ -1,8 +1,8 @@
 .questionContainer {
+  align-self: flex-start;
   background-color: hsla(0, 0%, 100%, 0.3);
   padding: 1rem 2rem;
   max-width: calc(50% - 1rem);
-  align-self: flex-start;
   max-height: 3.5rem;
   overflow: hidden;
   cursor: pointer;
@@ -17,11 +17,23 @@
   }
 }
 
+.questionInnerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+
+.questionIcon {
+  margin-top: -1rem;
+}
+
 .question {
   font-family: "AlegreyaSans", sans-serif;
   font-size: clamp(1.1rem, 2vw, 1.4rem);
   margin-bottom: 1rem;
 }
+
 .answer {
   font-family: "Cabin", sans-serif;
   font-weight: 600;
