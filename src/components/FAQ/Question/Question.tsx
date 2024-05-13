@@ -11,7 +11,6 @@ export default function Question({ FAQitem }: { FAQitem: { question: string; ans
       className={isOpen ? styles.questionContainerOpen : styles.questionContainer}
     >
       <div className={styles.questionInnerContainer}>
-        <img className={styles.questionIcon} src={isOpen ? iconMinus : iconPlus} alt="" />
         <p className={styles.question}>{FAQitem.question}</p>
       </div>
       <p className={styles.answer}>{FAQitem.answer}</p>
