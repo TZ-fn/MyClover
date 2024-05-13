@@ -2,6 +2,7 @@
 .questionContainerOpen {
   position: relative;
   align-self: stretch;
+  flex-grow: 1;
   background-color: hsla(0, 0%, 100%, 0.3);
   padding: 1rem 2rem 1rem 3.5rem;
   max-width: calc(50% - 1rem);
