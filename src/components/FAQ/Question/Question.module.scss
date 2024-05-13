@@ -1,20 +1,24 @@
-.questionContainer {
-  align-self: flex-start;
+.questionContainer,
+.questionContainerOpen {
+  align-self: stretch;
   background-color: hsla(0, 0%, 100%, 0.3);
   padding: 1rem 2rem;
   max-width: calc(50% - 1rem);
-  max-height: 3.5rem;
   overflow: hidden;
   cursor: pointer;
-  transition: all 0.4s ease-in-out;
+  transition: all 0.2s ease-in-out;
 
   &:last-child {
     margin-right: auto;
   }
+}
 
-  &:hover {
-    max-height: 15rem;
-  }
+.questionContainer {
+  max-height: 3.5rem;
+}
+
+.questionContainerOpen {
+  max-height: 15rem;
 }
 
 .questionInnerContainer {
@@ -38,4 +42,5 @@
   font-family: "Cabin", sans-serif;
   font-weight: 600;
   font-size: clamp(0.9rem, 2vw, 1.1rem);
+  margin-left: 3.5rem;
 }

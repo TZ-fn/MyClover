@@ -14,7 +14,7 @@ export default function FAQ() {
       <p className={styles.subHeader}>{FAQTranslation.subHeader}</p>
       <div className={styles.questions}>
         {FAQTranslation.questions.map((_question, i) => {
-          return <Question key={i} FAQitem={FAQTranslation.questions[i]!} />;
+          return <Question isOpen={false} key={i} FAQitem={FAQTranslation.questions[i]!} />;
         })}
       </div>
     </div>
