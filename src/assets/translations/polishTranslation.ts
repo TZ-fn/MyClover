@@ -106,6 +106,11 @@ const polishTranslation = {
               "Oczywiście, każdy ma do tego prawo. Nie jest to jednak korzystne. Jeżeli masz obiekcje dotyczące swojego ubezpieczenia - daj nam znać, wspólnie znajdziemy najlepsze rozwiązanie.",
           },
           {
+            question: "Can you provide better mortgage rates than my bank?",
+            answer:
+              "We have access to over 80 banks on our panel, from all the well-known high street banks, to small building societies. Hence, we can find the most suitable for you, taking into account your personal circumstances.",
+          },
+          {
             question: "Jak długo trwa spotkanie?",
             answer:
               "Szanujemy Twój czas, dlatego staramy się aby spotkanie przebiegało szybko, a przedstawione na nim warianty były jasne i klarowne.",

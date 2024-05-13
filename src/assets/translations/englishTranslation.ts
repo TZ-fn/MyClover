@@ -58,36 +58,35 @@ const englishTranslation = {
     posts: postsEnglish,
     aboutUs: {
       sectionOne: {
-        header: "Clover is a company unlike any other.",
-        text: "We teach people how to not be afraid to live. We have been operating on the insurance brokerage market for many years, so we know perfectly well how to recognize all the needs of our clients. By selecting the best offer at a great price and providing support, we are sure that we take care of our clients at the highest level.",
+        header: "Clover is not just a typical broker.",
+        text: "We teach others how to not be afraid to live your life to its full potential. We have been working in the finance industry for many years, hence we are experts in identifying our customers' needs. By providing support and selecting the most suitable offer at a competitive price, we provide our customers with the highest quality service.",
       },
       sectionTwo: {
-        header: "Our most popular offers:",
+        header: "Our most popular products are:",
         offer1: "Mortgages",
-        offer2: "Insurance against critical diseases",
+        offer2: "Critical illness insurance",
         offer3: "Travel insurance",
         offer4: "Home insurance",
-        offer5: "Insurance against loss of income",
-        offer6: "Insurance for companies",
+        offer5: "Income protection",
+        offer6: "Business insurance",
       },
       questionsSection: {
         header: "Frequently asked questions",
-        subHeader: "Perhaps here you will find the answer to the question that bothers you.",
+        subHeader: "Maybe you will find the answer to the question that bothers you here.",
         questions: [
           {
-            question: "What area does Clover serve?",
+            question: "Where does Clover provide services?",
             answer:
-              "We provide our services throughout the UK. Even if we are separated by a considerable distance, we will reach you.",
+              "We provide services throughout the UK. If it is too far for us to travel, we can do everything over the phone.",
           },
           {
             question: "In what languages can I contact you?",
             answer:
-              "Currently, our company communicates in Polish, English and Spanish. We are working on the possibility of implementing other languages.",
+              "Currently, our company communicates in Polish, English and Spanish. We are working on incorporating other languages.",
           },
           {
-            question: "Do you help when damage occurs?",
-            answer:
-              "This is how Clover takes care of its customers throughout the entire duration of the contract. We provide help in every situation.",
+            question: "Do you provide support in the event of a claim?",
+            answer: "We are working on incorporating other languages.",
           },
           {
             question: "Loss of income insurance - how does it work?",
@@ -97,12 +96,17 @@ const englishTranslation = {
           {
             question: "How can I calculate my insurance premium?",
             answer:
-              "We do not have an insurance calculator because the premium is influenced by many factors. Contact us and we will present you with the best possible option.",
+              "We do not provide a quotation system, simply because the premium takes into account many different factors. Get in touch, so we can find the most suitable deal for you.",
           },
           {
             question: "Can I cancel my insurance?",
             answer:
-              "Of course, everyone has the right to do so. However, this is not beneficial. If you have any objections regarding your insurance, let us know and together we will find the best solution.",
+              "Although it may not be the best option, everyone has the right to do so. If you have any concerns in regards to your insurance, please get in touch, so we can find the most suitable solution.",
+          },
+          {
+            question: "Can you provide better mortgage rates than my bank?",
+            answer:
+              "We have access to over 80 banks on our panel, from all the well-known high street banks, to small building societies. Hence, we can find the most suitable for you, taking into account your personal circumstances.",
           },
           {
             question: "How long does the meeting last?",
@@ -110,23 +114,23 @@ const englishTranslation = {
               "We respect your time, so we try to ensure that the meeting runs quickly and the options presented are clear and transparent.",
           },
           {
-            question: "Who to contact if damage has occurred?",
+            question: "Who do I contact in the event of a claim?",
             answer:
-              "Contact us and we will take care of the rest. We help our clients at every stage of the claims settlement procedure.",
+              "Get in touch and we will take care of the rest. We support our clients in each stage of the claim process.",
           },
           {
             question: "Is my data safe?",
             answer:
-              "Of course, Clover makes every effort to use modern security systems to ensure that no data leaks. When browsing our website, please make sure that the security padlock is visible in the address bar and that the address is correct.",
+              "Of course, we use modern security systems to prevent any data theft. When browsing our site, please make sure that the security padlock is visible in the address bar and that the address is correct.",
           },
         ],
-        moreQuestions: "Do you have any questions? Write to us!",
+        moreQuestions: "Have a question? Write to us!",
         contact: "Contact",
       },
       cooperation: {
         header: "Who do we cooperate with?",
-        subHeader: "MyClover chooses only solid and reliable companies to cooperate with.",
-        contact: "Contact us",
+        subHeader: "MyClover only chooses reliable companies.",
+        contact: "Get in touch",
       },
     },
   },
