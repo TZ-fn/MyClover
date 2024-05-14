@@ -16,7 +16,13 @@ function NavigationItem({
     <li
       onClick={onClick}
       className={
-        isActive ? styles.navListItemActive : isHighlighted ? styles.navListItemHighlighted : styles.navListItem
+        isActive && isHighlighted
+          ? styles.navListItemHighlightedActive
+          : isHighlighted
+          ? styles.navListItemHighlighted
+          : isActive
+          ? styles.navListItemActive
+          : styles.navListItem
       }
     >
       {children}

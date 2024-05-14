@@ -17,12 +17,8 @@
   }
 }
 
-.navListItemActive {
-  color: var(--black);
-  background-color: var(--accent-color-green);
-}
-
-.navListItemHighlighted {
+.navListItemHighlighted,
+.navListItemHighlightedActive {
   padding: 0.7rem 1.7rem;
   font-size: 0.9rem;
   margin-left: 1.5rem;
@@ -37,4 +33,10 @@
   @media (max-width: 800px) {
     margin-left: 0;
   }
+}
+
+.navListItemActive,
+.navListItemHighlightedActive {
+  color: var(--black);
+  background-color: var(--accent-color-green);
 }
