@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useLocation } from "react-router-dom";
 import { Transition } from "react-transition-group";
 import { Link } from "react-router-dom";
 import NavigationItem from "./NavigationItem/NavigationItem";
@@ -9,6 +10,7 @@ import Language from "types/Language";
 
 function NavigationList() {
   const windowWidth = useWindowDimensions().width;
+  const location = useLocation().pathname;
   const menuVisibilityBreakpoint = 800;
   const [isMenuVisible, setIsMenuVisible] = useState(windowWidth > menuVisibilityBreakpoint);
   const [translation, setCurrentLanguage] = useTranslation();
@@ -56,19 +58,29 @@ function NavigationList() {
                 }}
               >
                 <Link to="/">
-                  <NavigationItem isActive>{translation.header.navigation.home}</NavigationItem>
+                  <NavigationItem isActive={location === "/" ? true : false}>
+                    {translation.header.navigation.home}
+                  </NavigationItem>
                 </Link>
                 <Link to="/about">
-                  <NavigationItem>{translation.header.navigation.about}</NavigationItem>
+                  <NavigationItem isActive={location === "/about" ? true : false}>
+                    {translation.header.navigation.about}
+                  </NavigationItem>
                 </Link>
                 <Link to="/offer">
-                  <NavigationItem>{translation.header.navigation.offer}</NavigationItem>
+                  <NavigationItem isActive={location === "/offer" ? true : false}>
+                    {translation.header.navigation.offer}
+                  </NavigationItem>
                 </Link>
                 <Link to="/blog">
-                  <NavigationItem>{translation.header.navigation.blog}</NavigationItem>
+                  <NavigationItem isActive={location === "/blog" ? true : false}>
+                    {translation.header.navigation.blog}
+                  </NavigationItem>
                 </Link>
                 <Link to="/contact">
-                  <NavigationItem isHighlighted>{translation.header.navigation.contact}</NavigationItem>
+                  <NavigationItem isHighlighted isActive={location === "/contact" ? true : false}>
+                    {translation.header.navigation.contact}
+                  </NavigationItem>
                 </Link>
               </ul>
               <ul
