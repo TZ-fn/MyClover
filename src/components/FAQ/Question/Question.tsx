@@ -1,5 +1,5 @@
 import { useState } from "react";
-import wasSpaceOrEnterPressed from "utils/wasSpaceOrEnterPressed";
+import wasEnterPressed from "utils/wasEnterPressed";
 import styles from "./Question.module.scss";
 
 export default function Question({ FAQitem }: { FAQitem: { question: string; answer: string } }) {
@@ -8,7 +8,7 @@ export default function Question({ FAQitem }: { FAQitem: { question: string; ans
     <div
       onClick={() => setIsOpen((isOpen) => !isOpen)}
       onKeyDown={(e) => {
-        if (wasSpaceOrEnterPressed(e)) {
+        if (wasEnterPressed(e)) {
           setIsOpen((isOpen) => !isOpen);
         }
       }}
