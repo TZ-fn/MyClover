@@ -8,15 +8,15 @@ export default function FAQ() {
   const FAQTranslation = translation.pages.aboutUs.questionsSection;
 
   return (
-    <div className={styles.FAQContainer}>
+    <section className={styles.FAQContainer}>
       <h3 className={styles.header}>{FAQTranslation.header}</h3>
       <img src={cloverSeparator} className={styles.bannerSeparator} alt="" />
       <p className={styles.subHeader}>{FAQTranslation.subHeader}</p>
-      <div className={styles.questions}>
+      <div className={styles.questions} role="tablist" aria-live="polite" data-behavior="accordion">
         {FAQTranslation.questions.map((_question, i) => {
-          return <Question isOpen={false} key={i} FAQitem={FAQTranslation.questions[i]!} />;
+          return <Question key={i} FAQitem={FAQTranslation.questions[i]!} />;
         })}
       </div>
-    </div>
+    </section>
   );
 }

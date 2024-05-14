@@ -14,7 +14,7 @@ export default function OffersList() {
   const offers = translation.pages.aboutUs.sectionTwo;
 
   return (
-    <div className={styles.offersContainer}>
+    <section className={styles.offersContainer}>
       <h3 className={styles.offersListHeader}>{translation.pages.aboutUs.sectionTwo.header}</h3>
       <ul className={styles.offersList}>
         <Offer img={offer1} title={offers.offer1} />
@@ -24,6 +24,6 @@ export default function OffersList() {
         <Offer img={offer5} title={offers.offer5} />
         <Offer img={offer6} title={offers.offer6} />
       </ul>
-    </div>
+    </section>
   );
 }
