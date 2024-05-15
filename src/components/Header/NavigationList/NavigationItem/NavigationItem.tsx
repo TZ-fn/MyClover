@@ -1,5 +1,4 @@
-import { ReactNode } from "react";
-import wasSpaceOrEnterPressed from "utils/wasSpaceOrEnterPressed";
+import { ReactNode, KeyboardEvent } from "react";
 import styles from "./NavigationItem.module.scss";
 
 function NavigationItem({
@@ -7,21 +6,20 @@ function NavigationItem({
   isActive,
   isHighlighted,
   onClick,
+  onKeyDown,
 }: {
   children: ReactNode;
   isActive?: boolean;
   isHighlighted?: boolean;
   onClick?: () => void;
+  onKeyDown?: (e: KeyboardEvent<Element>) => void | null;
 }) {
   return (
     <li
-      tabIndex={0}
       onClick={onClick}
-      onKeyDown={(e) => {
-        if (wasSpaceOrEnterPressed(e) && onClick) {
-          onClick();
-        }
-      }}
+      tabIndex={onKeyDown ? 0 : -1}
+      onKeyDown={onKeyDown}
+      role={onKeyDown ? "button" : "listitem"}
       className={
         isActive && isHighlighted
           ? styles.navListItemHighlightedActive
