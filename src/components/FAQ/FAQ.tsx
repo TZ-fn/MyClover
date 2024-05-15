@@ -12,7 +12,7 @@ export default function FAQ() {
       <h3 className={styles.header}>{FAQTranslation.header}</h3>
       <img src={cloverSeparator} className={styles.bannerSeparator} alt="" />
       <p className={styles.subHeader}>{FAQTranslation.subHeader}</p>
-      <div className={styles.questions} role="tablist" aria-live="polite" data-behavior="accordion">
+      <div className={styles.questions} role="tablist" aria-live="polite">
         {FAQTranslation.questions.map((_question, i) => {
           return <Question key={i} FAQitem={FAQTranslation.questions[i]!} />;
         })}
