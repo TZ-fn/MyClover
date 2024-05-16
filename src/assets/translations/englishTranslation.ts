@@ -106,7 +106,7 @@ const englishTranslation = {
           {
             question: "Can you provide better mortgage rates than my bank?",
             answer:
-              "We have access to over 80 banks on our panel, from all the well-known high street banks, to small building societies. Hence, we can find the most suitable for you, taking into account your personal circumstances.",
+              "We have access to over 80 banks on our panel, from all the well-known high street banks to small building societies. Hence, we can find the most suitable for you, taking into account your personal circumstances.",
           },
           {
             question: "How long does the meeting last?",

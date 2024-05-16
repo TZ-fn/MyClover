@@ -106,9 +106,9 @@ const polishTranslation = {
               "Oczywiście, każdy ma do tego prawo. Nie jest to jednak korzystne. Jeżeli masz obiekcje dotyczące swojego ubezpieczenia - daj nam znać, wspólnie znajdziemy najlepsze rozwiązanie.",
           },
           {
-            question: "Can you provide better mortgage rates than my bank?",
+            question: "Czy możecie zapewnić lepsze oprocentowanie kredytów hipotecznych niż mój bank?",
             answer:
-              "We have access to over 80 banks on our panel, from all the well-known high street banks, to small building societies. Hence, we can find the most suitable for you, taking into account your personal circumstances.",
+              "W naszym panelu mamy dostęp do ponad 80 banków, od wszystkich znanych banków głównych po małe towarzystwa budowlane. Dlatego możemy znaleźć najbardziej odpowiedni kredyt dla Ciebie, biorąc pod uwagę Twoją sytuację osobistą.",
           },
           {
             question: "Jak długo trwa spotkanie?",
