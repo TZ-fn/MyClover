@@ -4,9 +4,9 @@
   justify-content: start;
   flex-direction: column;
   height: max-content;
+  margin: 3rem 2rem 5rem 2rem;
   gap: 3rem;
   font-family: "AlegreyaSans", sans-serif;
-  margin: 3rem;
 }
 
 .offersList {
@@ -14,7 +14,7 @@
   align-items: center;
   justify-content: start;
   list-style: none;
-  gap: 4vw;
+  gap: 3rem;
 
   @media (max-width: 900px) {
     flex-direction: column;
