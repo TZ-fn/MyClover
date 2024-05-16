@@ -34,6 +34,12 @@
   }
 }
 
+.disclaimer {
+  @media (max-width: 700px) {
+    margin-left: 5vw;
+  }
+}
+
 .sectionHeader {
   position: relative;
   font-size: 1.1rem;
@@ -111,4 +117,5 @@
   margin-top: 3rem;
   margin-bottom: 1rem;
   align-self: center;
+  text-align: center;
 }
