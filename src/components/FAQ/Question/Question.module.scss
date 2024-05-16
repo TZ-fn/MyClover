@@ -41,6 +41,18 @@
   @media (max-width: 650px) {
     max-height: 4rem;
   }
+
+  &:nth-child(7) {
+    @media (max-width: 1750px) {
+      max-height: 5.5rem;
+    }
+    @media (max-width: 1105px) {
+      max-height: 3.5rem;
+    }
+    @media (max-width: 735px) {
+      max-height: 5.5rem;
+    }
+  }
 }
 
 .questionContainerOpen {
@@ -76,6 +88,7 @@
   align-items: center;
   justify-content: flex-start;
   gap: 2rem;
+  margin-bottom: 2rem;
 
   &::before,
   &::after {
@@ -102,7 +115,6 @@
 .question {
   font-family: "AlegreyaSans", sans-serif;
   font-size: clamp(1.1rem, 2vw, 1.4rem);
-  margin-bottom: 1rem;
 
   @media (max-width: 650px) {
     margin-bottom: 1.7rem;
