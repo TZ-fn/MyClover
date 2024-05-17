@@ -40,3 +40,17 @@
     flex-direction: column;
   }
 }
+
+.moreQuestions {
+  position: relative;
+  bottom: -35px;
+  width: calc(100% + 4rem);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10vw;
+  background-color: var(--accent-color-blue);
+  font-size: clamp(1.3rem, 2vw, 1.6rem);
+  padding: 3.5rem 2rem;
+}

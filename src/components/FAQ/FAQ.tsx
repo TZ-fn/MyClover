@@ -2,6 +2,8 @@ import useTranslation from "hooks/useTranslation";
 import cloverSeparator from "../../assets/clover-separator.webp";
 import Question from "./Question/Question";
 import styles from "./FAQ.module.scss";
+import { Link } from "react-router-dom";
+import NavigationItem from "components/Header/NavigationList/NavigationItem/NavigationItem";
 
 export default function FAQ() {
   const [translation] = useTranslation();
@@ -16,6 +18,12 @@ export default function FAQ() {
         {FAQTranslation.questions.map((_question, i) => {
           return <Question key={i} FAQitem={FAQTranslation.questions[i]!} />;
         })}
+      </div>
+      <div className={styles.moreQuestions}>
+        <p>{FAQTranslation.moreQuestions}</p>
+        <Link to="/contact">
+          <p>{FAQTranslation.contact}</p>
+        </Link>
       </div>
     </section>
   );
