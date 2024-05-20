@@ -1,9 +1,9 @@
 import useTranslation from "hooks/useTranslation";
 import ImageHeader from "components/ImageHeader/ImageHeader";
-import ImageDivider from "components/ImageDivider/ImageDivider";
 import TextBanner from "components/TextBanner/TextBanner";
 import OffersList from "components/AboutSection/OffersList/OffersList";
 import FAQ from "components/FAQ/FAQ";
+import ImageDivider from "components/ImageDivider/ImageDivider";
 
 function AboutPage() {
   const [translation] = useTranslation();
@@ -18,6 +18,7 @@ function AboutPage() {
       />
       <OffersList />
       <FAQ />
+      <ImageDivider isUpwards />
     </>
   );
 }
