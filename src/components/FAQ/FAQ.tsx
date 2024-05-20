@@ -1,8 +1,8 @@
+import { Link } from "react-router-dom";
 import useTranslation from "hooks/useTranslation";
 import cloverSeparator from "../../assets/clover-separator.webp";
 import Question from "./Question/Question";
 import styles from "./FAQ.module.scss";
-import { Link } from "react-router-dom";
 
 export default function FAQ() {
   const [translation] = useTranslation();

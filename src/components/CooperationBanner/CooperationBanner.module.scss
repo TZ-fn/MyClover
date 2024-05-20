@@ -1,0 +1,19 @@
+.cooperationBannerContainer {
+  height: 30vw;
+  min-height: 20rem;
+  background-image: url("../../assets/cooperation.webp");
+  background-size: cover;
+  background-position: 50% 30%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 5%;
+}
+
+.bannerSeparator {
+  margin-left: -1rem;
+  transform: scale(0.7);
+}

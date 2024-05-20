@@ -4,6 +4,7 @@ import TextBanner from "components/TextBanner/TextBanner";
 import OffersList from "components/AboutSection/OffersList/OffersList";
 import FAQ from "components/FAQ/FAQ";
 import ImageDivider from "components/ImageDivider/ImageDivider";
+import CooperationBanner from "components/CooperationBanner/CooperationBanner";
 
 function AboutPage() {
   const [translation] = useTranslation();
@@ -19,6 +20,7 @@ function AboutPage() {
       <OffersList />
       <FAQ />
       <ImageDivider isUpwards />
+      <CooperationBanner />
     </>
   );
 }
