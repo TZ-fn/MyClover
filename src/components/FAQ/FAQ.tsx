@@ -3,7 +3,6 @@ import cloverSeparator from "../../assets/clover-separator.webp";
 import Question from "./Question/Question";
 import styles from "./FAQ.module.scss";
 import { Link } from "react-router-dom";
-import NavigationItem from "components/Header/NavigationList/NavigationItem/NavigationItem";
 
 export default function FAQ() {
   const [translation] = useTranslation();
@@ -20,9 +19,9 @@ export default function FAQ() {
         })}
       </div>
       <div className={styles.moreQuestions}>
-        <p>{FAQTranslation.moreQuestions}</p>
+        <p className={styles.moreQuestionsText}>{FAQTranslation.moreQuestions}</p>
         <Link to="/contact">
-          <p>{FAQTranslation.contact}</p>
+          <p className={styles.contact}>{FAQTranslation.contact}</p>
         </Link>
       </div>
     </section>
