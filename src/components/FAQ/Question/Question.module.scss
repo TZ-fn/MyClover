@@ -106,6 +106,10 @@
   &::after {
     transform: translate(0);
   }
+
+  @media (max-width: 650px) {
+    margin-bottom: 0;
+  }
 }
 
 .questionIcon {
