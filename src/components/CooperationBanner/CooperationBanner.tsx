@@ -10,11 +10,11 @@ export default function CooperationBanner() {
   return (
     <>
       <div className={styles.cooperationBannerContainer}>
-        <h3 className={styles.cooperationBannerText}>{cooperationBannerTranslation.header}</h3>
+        <h3 className={styles.cooperationBannerHeader}>{cooperationBannerTranslation.header}</h3>
         <img src={cloverSeparator} className={styles.bannerSeparator} alt="" />
-        <p>{cooperationBannerTranslation.subHeader}</p>
+        <p className={styles.cooperationSubHeader}>{cooperationBannerTranslation.subHeader}</p>
         <Link to="/contact">
-          <p>{cooperationBannerTranslation.contact}</p>
+          <p className={styles.contact}>{cooperationBannerTranslation.contact}</p>
         </Link>
       </div>
     </>

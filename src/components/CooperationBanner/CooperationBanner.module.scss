@@ -1,6 +1,7 @@
 .cooperationBannerContainer {
-  height: 30vw;
-  min-height: 20rem;
+  height: 27vw;
+  min-height: 25rem;
+  padding: 6% 1rem 2rem;
   background-image: url("../../assets/cooperation.webp");
   background-size: cover;
   background-position: 50% 30%;
@@ -10,10 +11,38 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  gap: 5%;
+  gap: 7%;
+}
+
+.cooperationBannerHeader {
+  font-family: "AlegreyaSans", sans-serif;
+  font-size: clamp(2.3rem, 5vw, 4rem);
 }
 
 .bannerSeparator {
   margin-left: -1rem;
+  margin-top: -1rem;
+  margin-bottom: -1rem;
   transform: scale(0.7);
+}
+
+.cooperationSubHeader {
+  font-family: "AlegreyaSans", sans-serif;
+  font-size: clamp(1.3rem, 2vw, 1.7rem);
+}
+
+.contact {
+  margin-top: 2rem;
+  padding: 0.7rem 1.7rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: var(--black);
+  text-transform: uppercase;
+  background-color: var(--white);
+  font-family: "Cabin", sans-serif;
+
+  &:hover {
+    background-color: var(--accent-color-teal);
+  }
 }
