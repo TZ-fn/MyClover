@@ -135,6 +135,36 @@ const polishTranslation = {
         contact: "Skontaktuj się z nami",
       },
     },
+    offer: {
+      mainInfo: {
+        mainHeader: "Clover - Family Cover",
+        subHeader1: "Ubezpieczenia",
+        text1:
+          "Zapewniamy kompleksowe doradztwo ubezpieczeniowe dla naszych klientów. Nasze wieloletnie doświadczenie i stale rosnąca motywacja do pracy oznaczają, że nie tylko chronimy rodziny, ale także wybieramy najlepsze produkty z szerokiej gamy firm ubezpieczeniowych. Współpracujemy z najlepszym wyborem dostawców, aby zaspokoić Twoje potrzeby w przypadku śmierci, wypadków lub niezdolności do pracy. Nasza kompleksowa usługa obejmuje ubezpieczenie budynku i mienia, ochronę dochodów, ochronę przed poważnymi chorobami i wiele innych. Zapewniamy również ochronę biznesu, na przykład odpowiedzialność publiczną, odszkodowanie zawodowe, odpowiednie ubezpieczenie na życie itp.",
+        subHeader2: "Kredyty hipoteczne",
+        text2:
+          "Czy chcesz wejść na drabinę nieruchomości i nie wiesz od czego zacząć? A może szukasz kredytu hipotecznego na swój dom rodzinny, aby sfinansować remont domu? Bez względu na to, gdzie jesteś w podróży do domu, możemy pomóc! Mamy dostęp do ponad 80 banków, co oznacza, że świadczymy usługi na całym rynku. To przekłada się na wybór najbardziej konkurencyjnej oferty dla Ciebie. Od opracowania przystępnej ceny, aby zobaczyć, ile możesz pożyczyć, po złożenie wniosku o kredyt hipoteczny w Twoim imieniu - jesteśmy tutaj na każdym etapie.",
+        listItem1: "Zabezpieczamy przyszłość",
+        listItem2: "Dobieramy najlepszy kredyt",
+        listItem3: "Oferujemy wsparcie przez cały okres ubezpieczenia",
+        contact: "Umów się z nami",
+      },
+      offersList: {
+        mainHeader: "Nasze usługi",
+        offer1: {
+          header: "",
+          info: "",
+        },
+        offer2: {
+          header: "",
+          info: "",
+        },
+        offer3: {
+          header: "",
+          info: "",
+        },
+      },
+    },
   },
 };
 
