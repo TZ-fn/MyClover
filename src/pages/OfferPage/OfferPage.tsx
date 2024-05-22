@@ -1,5 +1,17 @@
+import ImageDivider from "components/ImageDivider/ImageDivider";
+import ImageHeader from "components/ImageHeader/ImageHeader";
+import OfferInfo from "components/OfferInfo/OfferInfo";
+import useTranslation from "hooks/useTranslation";
+
 function OfferPage() {
-  return <>Offer Page</>;
+  const [translation] = useTranslation();
+  return (
+    <>
+      <ImageHeader pageName={translation.header.navigation.offer} backgroundImage="src/assets/offer.webp" />
+      <ImageDivider isUpwards={false} />
+      <OfferInfo />
+    </>
+  );
 }
 
 export default OfferPage;
