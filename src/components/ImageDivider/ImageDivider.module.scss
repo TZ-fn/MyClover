@@ -4,6 +4,7 @@
   height: 5vw;
   background-color: transparent;
   z-index: 1;
+  pointer-events: none;
 
   &.downwards {
     margin-bottom: -5vw;
