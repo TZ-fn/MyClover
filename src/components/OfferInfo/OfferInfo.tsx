@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { FaBriefcaseMedical, FaMoneyBillAlt, FaUnlockAlt } from "react-icons/fa";
 import useTranslation from "hooks/useTranslation";
 import offerHero from "assets/offerHero.webp";
 import styles from "./OfferInfo.module.scss";
@@ -16,9 +17,18 @@ export default function OfferInfo() {
         <h4 className={styles.subHeader2}>{offerTranslation.mainInfo.subHeader2}</h4>
         <p className={styles.text2}>{offerTranslation.mainInfo.text2}</p>
         <ul className={styles.infoList}>
-          <li>{offerTranslation.mainInfo.listItem1}</li>
-          <li>{offerTranslation.mainInfo.listItem2}</li>
-          <li>{offerTranslation.mainInfo.listItem3}</li>
+          <li>
+            <FaUnlockAlt />
+            {offerTranslation.mainInfo.listItem1}
+          </li>
+          <li>
+            <FaMoneyBillAlt />
+            {offerTranslation.mainInfo.listItem2}
+          </li>
+          <li>
+            <FaBriefcaseMedical />
+            {offerTranslation.mainInfo.listItem3}
+          </li>
         </ul>
         <Link to={"/contact"}>
           <p className={styles.contact}>{offerTranslation.mainInfo.contact}</p>

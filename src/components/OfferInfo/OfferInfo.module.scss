@@ -20,11 +20,6 @@
   padding-left: 2rem;
 }
 
-.infoList {
-  list-style: none;
-  font-family: "Cabin", sans-serif;
-}
-
 .mainHeader,
 .subHeader1,
 .subHeader2 {
@@ -43,6 +38,8 @@
 .text1,
 .text2 {
   font-family: "Cabin", sans-serif;
+  line-height: 32px;
+  font-size: clamp(1rem, 2vw, 1.1rem);
 }
 
 .contact {
@@ -56,6 +53,28 @@
 
   &:hover {
     background-color: var(--dark-grey);
+  }
+}
+
+.infoList {
+  list-style: none;
+  font-family: "Cabin", sans-serif;
+  line-height: 48px;
+  font-size: clamp(1rem, 2vw, 1.1rem);
+
+  li {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    svg {
+      width: 1.8rem;
+      height: 1.8rem;
+    }
+
+    path {
+      fill: var(--accent-color-green);
+    }
   }
 }
 
