@@ -2,10 +2,24 @@ import { useState } from "react";
 import { Transition } from "react-transition-group";
 import useTranslation from "hooks/useTranslation";
 import PostsGalleryItem from "./PostsGalleryItem/PostsGalleryItem";
-import postMiniatures from "../../assets/postsMiniatures";
 import styles from "./PostsGallery.module.scss";
 
-export default function PostsGallery() {
+interface post {
+  descriptionHeader: string;
+  description: string;
+}
+
+interface postData {
+  miniature: string;
+  link: string;
+}
+
+interface PostsGalleryProps {
+  postsTranslation: post[];
+  postsData: postData[];
+}
+
+export default function PostsGallery({ postsTranslation, postsData }: PostsGalleryProps) {
   const [galleryIndexes, setGalleryIndexes] = useState([0, 1, 2]);
   const [activeGalleryButton, setActiveGalleryButton] = useState(1);
   const [translation] = useTranslation();
@@ -31,15 +45,16 @@ export default function PostsGallery() {
   return (
     <div className={styles.postsGalleryContainer}>
       <ul className={styles.postsGallery}>
-        {translation.pages.posts.map((post, index) => {
+        {postsTranslation.map((post, index) => {
           if (galleryIndexes.includes(index)) {
             return (
               <Transition key={index} in={galleryIndexes.includes(index)} timeout={500}>
                 {(state) => (
                   <PostsGalleryItem
-                    miniature={postMiniatures[index]}
+                    miniature={postsData[index]?.miniature}
                     descriptionHeader={post.descriptionHeader}
                     description={post.description}
+                    link={postsData[index]!.link}
                     style={{
                       ...defaultStyle,
                       ...transitionStyles[state],
@@ -52,7 +67,7 @@ export default function PostsGallery() {
         })}
       </ul>
       <div className={styles.postsGalleryPagination}>
-        {translation.pages.posts.length > 3 && (
+        {postsTranslation.length > 3 && (
           <button
             onClick={(e) => {
               handleGalleryControls(e);
@@ -64,7 +79,7 @@ export default function PostsGallery() {
             1
           </button>
         )}
-        {translation.pages.posts.length > 3 && (
+        {postsTranslation.length > 3 && (
           <button
             onClick={(e) => {
               handleGalleryControls(e);
@@ -76,7 +91,7 @@ export default function PostsGallery() {
             2
           </button>
         )}
-        {translation.pages.posts.length > 6 && (
+        {postsTranslation.length > 6 && (
           <button
             onClick={(e) => {
               handleGalleryControls(e);
