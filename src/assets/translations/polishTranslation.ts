@@ -152,16 +152,16 @@ const polishTranslation = {
       offersList: {
         mainHeader: "Nasze usługi",
         offer1: {
-          header: "",
-          info: "",
+          header: "Utrata dochodu",
+          info: "Utrata pracy to nie koniec świata, pod warunkiem że posiadasz dobrze dobrane ubezpieczenie na taką okoliczność. Zyskaj aż 70% swojej pensji, podczas niezdolności do pracy. Niezależnie czy pracujesz dla kogoś, czy prowadzisz własną działalność.",
         },
         offer2: {
-          header: "",
-          info: "",
+          header: "Kredyty",
+          info: "Wybierając kredyt, warto zapoznać się z całą ofertą, jaka jest dostępna w UK. Dlatego z nami możesz tylko zyskać. Wieloletnie doświadczenie oraz ciągła znajomość rynku bankowego pozwala nam w krótkim czasie dobrać najlepszą ofertę, oraz wynegocjować najniższe oprocentowanie kredytu.",
         },
         offer3: {
-          header: "",
-          info: "",
+          header: "Kariera",
+          info: "Oferujemy atrakcyjny program dla partnerów. Współpraca z naszą firmą to możliwość szybkiego rozwoju oraz atrakcyjne wynagrodzenie. ",
         },
       },
     },

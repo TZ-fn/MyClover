@@ -133,6 +133,36 @@ const englishTranslation = {
         contact: "Get in touch",
       },
     },
+    offer: {
+      mainInfo: {
+        mainHeader: "Clover - Family Cover",
+        subHeader1: "Protection",
+        text1:
+          "We provide a comprehensive insurance advice to our clients. Our many years of experience and ever growing motivation to work, mean that we not only protect families, but also choose the best products from a wide range of insurance companies. We work with the best selection of providers, to cover your needs in the event of death, accidents or inability to work. Our complex service includes building and contents insurance, income protection, critical illness cover and more. We also provide business protection, for example public liability, professional indemnity, relevant life cover, etc.",
+        subHeader2: "Mortgages",
+        text2:
+          "Would you like to get on the property ladder and don’t know where to start? Or you are looking to re mortgage your family home to fund home improvements? No matter where you are on your house-owning journey, we can help! We have access to over 80 banks, which means we provide whole-of-market service. This translates to choosing the most competitive offer for you. From working out your affordability to see how much you can borrow, to submitting a mortgage application on your behalf, we are here every step of the way.",
+        listItem1: "We cover your future",
+        listItem2: "We choose the most competitive mortgage offer",
+        listItem3: "We offer support throughout your mortgage/protection term",
+        contact: "Get in touch",
+      },
+      offersList: {
+        mainHeader: "Nasze usługi",
+        offer1: {
+          header: "Income protection",
+          info: "Inability to work is not the end of the world, if you have appropriate protection. Get up to 70% of your salary, when unable to work due to health reasons. You can apply if you are employed or self-employed.",
+        },
+        offer2: {
+          header: "Mortgages",
+          info: "Getting a mortgage is one of the most important decisions in your life. Therefore, you want to make sure it is the right one. Up to date industry knowledge and access to whole-of-market products, enable us to find the best offer for you.",
+        },
+        offer3: {
+          header: "Careers",
+          info: "We offer fast-track career development for interested individuals, as well as competitive pay. We also have an unique partner programme.",
+        },
+      },
+    },
   },
 };
 
