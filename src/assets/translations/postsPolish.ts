@@ -4,9 +4,9 @@ const postsPolish = [
     description: "Sezon urlopowy w pełni, dlatego chcemy Wam przypomnieć o jednym.",
   },
   {
-    descriptionHeader: "Trust – wszystko co musisz wiedzieć",
+    descriptionHeader: "Trust - wszystko co musisz wiedzieć",
     description:
-      "Trust to tak zwany dokument powierniczy. Potocznie, aby zrozumieć jego istotę mówimy, że to taki „testament” do polisy na życie.",
+      'Trust to tak zwany dokument powierniczy. Potocznie, aby zrozumieć jego istotę mówimy, że to taki „testament" do polisy na życie.',
   },
   {
     descriptionHeader: "Life Cover, czyli ubezpieczenie na życie",

@@ -2,7 +2,7 @@ const postsEnglish = [
   {
     descriptionHeader: "What to remember before going on holiday?",
     description:
-      "The holiday season is approaching fast, which is why we want to remind you about one of the most overlooked aspects in preparation for your trip – Travel Insurance.",
+      "The holiday season is approaching fast, which is why we want to remind you about one of the most overlooked aspects in preparation for your trip - Travel Insurance.",
   },
   {
     descriptionHeader: "What do you need to know about Life Cover?",
