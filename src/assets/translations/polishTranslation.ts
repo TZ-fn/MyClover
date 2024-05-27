@@ -170,7 +170,32 @@ const polishTranslation = {
         ],
       },
     },
-    contact: {},
+    contact: {
+      contactForm: {
+        header: "Umów się na spotkanie",
+        text1:
+          "Na spotkaniu dobierzemy dopasowaną do Ciebie opcję ubezpieczenia lub znajdziemy najlepszą ofertę kredytu. Gwarantujemy fachowe doradztwo oraz wsparcie na każdym etapie.",
+        form1Placeholder: "Imię",
+        form2Placeholder: "Adres email",
+        form3Options: {
+          insurance: "Ubezpieczenie",
+          mortgage: "Kredyt hipoteczny",
+        },
+        form4Placeholder: "Jak możemy Ci pomóc?",
+        formDisclaimer1:
+          "Zanim przekażesz nam jakiekolwiek dane osobowe za pośrednictwem strony kontaktowej w tej witrynie, zapoznaj się z naszym dokumentem dotyczącym polityki prywatności klienta dostępnym",
+        formDisclaimer2: "tutaj",
+        formDisclaimer3:
+          "Niniejsza informacja określa, w jaki sposób będziemy przetwarzać Twoje dane osobowe zgodnie z Ogólnym rozporządzeniem o ochronie danych. Po przeczytaniu informacji o ochronie prywatności klienta proszę zaznaczyć, aby potwierdzić, że ją przeczytałeś i że wyrażasz zgodę na przetwarzanie przez Clover Family Cover Ltd Twoich danych osobowych w celu skontaktowania się z Tobą.",
+        formDisclaimer4:
+          "Nie będziemy wykorzystywać danych, które nam podasz na stronie kontaktowej, do celów marketingowych.",
+        send: "Wyślij",
+      },
+      contactData: {
+        header: "Dane kontaktowe",
+        email: "Adres email",
+      },
+    },
   },
 };
 

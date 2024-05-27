@@ -168,6 +168,31 @@ const englishTranslation = {
         ],
       },
     },
+    contact: {
+      contactForm: {
+        header: "Get in touch",
+        text1:
+          "We can schedule a meeting or call to take care of your mortgage and/or protection needs. Full evaluation of your needs and competent advice guaranteed.",
+        form1Placeholder: "Name",
+        form2Placeholder: "Email",
+        form3Options: {
+          insurance: "Insurance",
+          mortgage: "Mortgage",
+        },
+        form4Placeholder: "How can we help you?",
+        formDisclaimer1:
+          "Before you supply any personal details to us via the contact us page on this website please read our customer privacy notice document.",
+        formDisclaimer2: "here",
+        formDisclaimer3:
+          "This notice sets out how we will process your personal data in line with the General Data Protection Regulations. Once you have read the customer privacy notice, please tick to confirm that you have read it and that you agree to Clover Family Cover Ltd processing your personal information for the purpose of contacting you.",
+        formDisclaimer4: "We will not use the details you provide us in the contact page to market to you.",
+        send: "Send",
+      },
+      contactData: {
+        header: "Contact information",
+        email: "Email address",
+      },
+    },
   },
 };
 
