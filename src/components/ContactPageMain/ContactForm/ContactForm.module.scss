@@ -1,6 +1,7 @@
 .mainContainer {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   flex-direction: column;
+  width: calc(50% - 2.5vw);
 }
