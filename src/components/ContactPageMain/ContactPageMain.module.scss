@@ -2,10 +2,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 5vw;
+  gap: 4vw;
   margin: auto;
-  max-width: 80rem;
-  padding: 0 2rem 2rem 4rem;
+  max-width: 75rem;
+  padding: 0 0 3rem 0;
 }
 
 .contactDataContainer {
@@ -13,16 +13,17 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: calc(50% - 2.5vw);
+  width: calc(50% - 2vw);
 }
 
 .contactItemContainer {
   width: 100%;
-  height: 7.5rem;
+  height: 9rem;
   display: flex;
   align-items: flex-start;
   justify-content: center;
   font-size: clamp(1.5rem, 4vw, 2.2rem);
+  font-family: "Cabin", sans-serif;
 
   &:hover {
     .iconInnerContainer {
@@ -31,13 +32,35 @@
   }
 }
 
+.phoneContainer,
+.emailContainer {
+  min-height: 6rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 75%;
+  max-width: 25rem;
+}
+
+.phoneContainer {
+  background-color: var(--accent-color-teal);
+}
+
+.emailContainer {
+  color: var(--white);
+  background-color: var(--dark-grey);
+}
+
 .phoneIconContainer,
 .emailIconContainer {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100%;
-  width: 20%;
+  width: 25%;
+  padding-left: 1rem;
 }
 
 .phoneIconContainer {
@@ -64,27 +87,9 @@
   border-radius: 50%;
   background-color: var(--black);
   padding: 15px;
-  transition: all 0.1s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .dataLabel {
   font-size: clamp(1rem, 2vw, 1.2rem);
-}
-
-.phoneContainer,
-.emailContainer {
-  min-height: 4rem;
-  padding: 1.5rem 0.5rem 2rem 1rem;
-  height: 100%;
-  width: 75%;
-  max-width: 25rem;
-}
-
-.phoneContainer {
-  background-color: var(--accent-color-teal);
-}
-
-.emailContainer {
-  color: var(--white);
-  background-color: var(--dark-grey);
 }

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import useTranslation from "hooks/useTranslation";
 import styles from "./ContactForm.module.scss";
 
@@ -7,8 +8,8 @@ export default function ContactForm() {
 
   return (
     <form className={styles.mainContainer}>
-      <h3>{contactPageTranslation.contactForm.header}</h3>
-      <p>{contactPageTranslation.contactForm.text1}</p>
+      <h3 className={styles.formHeader}>{contactPageTranslation.contactForm.header}</h3>
+      <p className={styles.formText}>{contactPageTranslation.contactForm.text1}</p>
       <input type="text" placeholder={contactPageTranslation.contactForm.form1Placeholder} />
       <input type="text" placeholder={contactPageTranslation.contactForm.form2Placeholder} />
       <select>
@@ -20,12 +21,16 @@ export default function ContactForm() {
         </option>
       </select>
       <input type="text" placeholder={contactPageTranslation.contactForm.form4Placeholder} />
-      <input type="checkbox" />
-      <p>{contactPageTranslation.contactForm.formDisclaimer1}</p>
-      <span>{contactPageTranslation.contactForm.formDisclaimer2}</span>
-      <p>{contactPageTranslation.contactForm.formDisclaimer3}</p>
-      <p>{contactPageTranslation.contactForm.formDisclaimer4}</p>
-      <button>{contactPageTranslation.contactForm.send}</button>
+      <input type="checkbox" style={{ display: "inline" }} />
+      <p className={styles.formDisclaimer}>
+        {contactPageTranslation.contactForm.formDisclaimer1}
+        <Link to="/privacy-policy">
+          <span className={styles.formLink}>{contactPageTranslation.contactForm.formDisclaimer2}</span>
+        </Link>
+      </p>
+      <p className={styles.formDisclaimer}>{contactPageTranslation.contactForm.formDisclaimer3}</p>
+      <p className={styles.formDisclaimerBold}>{contactPageTranslation.contactForm.formDisclaimer4}</p>
+      <button className={styles.sendButton}>{contactPageTranslation.contactForm.send}</button>
     </form>
   );
 }
