@@ -5,8 +5,7 @@
   flex-direction: column;
   width: calc(50% - 2vw);
   font-family: "Cabin", sans-serif;
-  text-align: justify;
-  text-align-last: justify;
+  text-wrap: pretty;
 }
 
 .formHeader {
@@ -17,6 +16,26 @@
 .formText {
   font-size: clamp(1rem, 2vw, 1.2rem);
   line-height: 1.8rem;
+}
+
+.emailInput,
+.passwordInput,
+.textArea {
+  width: 100%;
+  padding: 1rem 1rem;
+  text-align: start;
+  text-align-last: start;
+  border: 1px solid var(--grey);
+}
+
+.textArea {
+  resize: none;
+  margin-bottom: 2rem;
+}
+
+.disclaimerCheckbox {
+  margin-right: 0.5rem;
+  transform: translate(0, 1px);
 }
 
 .formDisclaimer,
