@@ -20,16 +20,7 @@ export default function ContactForm() {
         className={styles.passwordInput}
         placeholder={contactPageTranslation.contactForm.form2Placeholder}
       />
-      <select className={styles.selectInput}>
-        <option className={styles.selectOption} value={contactPageTranslation.contactForm.form3Options.insurance}>
-          {contactPageTranslation.contactForm.form3Options.insurance}
-        </option>
-        <option className={styles.selectOption} value={contactPageTranslation.contactForm.form3Options.mortgage}>
-          {contactPageTranslation.contactForm.form3Options.mortgage}
-        </option>
-      </select>
       <textarea className={styles.textArea} placeholder={contactPageTranslation.contactForm.form4Placeholder} />
-
       <p className={styles.formDisclaimer}>
         <input type="checkbox" className={styles.disclaimerCheckbox} />
         {contactPageTranslation.contactForm.formDisclaimer1}
