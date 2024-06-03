@@ -11,6 +11,7 @@ export default function ContactPageMain() {
     <main className={styles.mainContainer}>
       <ContactForm />
       <div className={styles.contactDataContainer}>
+        <h3 className={styles.contactDataHeader}>{contactPageTranslation.contactData.header}</h3>
         <div className={styles.contactItemContainer}>
           <div className={styles.phoneIconContainer}>
             <div className={styles.iconInnerContainer}>

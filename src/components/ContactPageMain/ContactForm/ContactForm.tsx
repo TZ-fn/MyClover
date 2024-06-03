@@ -20,11 +20,11 @@ export default function ContactForm() {
         className={styles.passwordInput}
         placeholder={contactPageTranslation.contactForm.form2Placeholder}
       />
-      <select>
-        <option value={contactPageTranslation.contactForm.form3Options.insurance}>
+      <select className={styles.selectInput}>
+        <option className={styles.selectOption} value={contactPageTranslation.contactForm.form3Options.insurance}>
           {contactPageTranslation.contactForm.form3Options.insurance}
         </option>
-        <option value={contactPageTranslation.contactForm.form3Options.mortgage}>
+        <option className={styles.selectOption} value={contactPageTranslation.contactForm.form3Options.mortgage}>
           {contactPageTranslation.contactForm.form3Options.mortgage}
         </option>
       </select>
