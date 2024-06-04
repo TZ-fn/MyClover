@@ -16,7 +16,7 @@ export default function ContactForm() {
         placeholder={contactPageTranslation.contactForm.form1Placeholder}
       />
       <input
-        type="text"
+        type="email"
         className={styles.passwordInput}
         placeholder={contactPageTranslation.contactForm.form2Placeholder}
       />
