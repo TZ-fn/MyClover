@@ -193,6 +193,10 @@ const englishTranslation = {
         email: "Email address",
       },
     },
+    privacyPolicy: {
+      mainHeader: "Privacy Policy",
+      subHeader: "Clover Family Cover Privacy notice",
+    },
   },
 };
 
