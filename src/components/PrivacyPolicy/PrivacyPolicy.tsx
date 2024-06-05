@@ -6,9 +6,9 @@ export default function PrivacyPolicy() {
   const privacyPolicyTranslation = translation.pages.privacyPolicy;
 
   return (
-    <div className={styles.privacyPolicyContainer}>
+    <main className={styles.privacyPolicyContainer}>
       <h3 className={styles.mainHeader}>{privacyPolicyTranslation.mainHeader}</h3>
       <h4 className={styles.subHeader}>{privacyPolicyTranslation.subHeader}</h4>
-    </div>
+    </main>
   );
 }
