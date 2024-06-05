@@ -196,6 +196,10 @@ const polishTranslation = {
         email: "Adres email",
       },
     },
+    privacyPolicy: {
+      mainHeader: "Polityka Prywatności",
+      subHeader: "Polityka prywatności Clover Family Cover",
+    },
   },
 };
 

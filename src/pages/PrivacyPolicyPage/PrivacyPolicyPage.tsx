@@ -1,5 +1,11 @@
+import PrivacyPolicy from "components/PrivacyPolicy/PrivacyPolicy";
+
 function PrivacyPolicyPage() {
-  return <>Privacy Policy Page</>;
+  return (
+    <>
+      <PrivacyPolicy />
+    </>
+  );
 }
 
 export default PrivacyPolicyPage;
