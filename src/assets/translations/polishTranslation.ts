@@ -199,6 +199,76 @@ const polishTranslation = {
     privacyPolicy: {
       mainHeader: "Polityka Prywatności",
       subHeader: "Polityka prywatności Clover Family Cover",
+      items: [
+        {
+          header: "Your Personal and Sensitive Personal Data – what is it?",
+          text: "Personal Data relates to a living individual who can be identified from that data; Sensitive Personal Data covers specific information such as health details, origins and opinions. Identification can be by the information alone or in conjunction with any other information in the Data Controller’s possession or likely to come into such possession. The processing of Personal Data is governed by the General Data Protection Regulation 2016/679 (the “GDPR”).",
+        },
+        {
+          header: "Who are we?",
+          text: "Clover Family Cover Ltd is an Appointed Representative of Polish Brokers Ltd who is the Data Controller (“we”, “us”). This means they decide how your Personal Data is processed and for what purposes.",
+        },
+        {
+          header: "How do we process your Personal Data?",
+          text: "We comply with our obligations under the GDPR by keeping Personal and Sensitive Data up to date; Sensitive Personal Data covers specific information such as health details, origins and opinions by storing and destroying it securely; by not collecting or retaining excessive amounts of data; by protecting Personal Data from loss, misuse, unauthorised access and disclosure and by ensuring that appropriate technical measures are in place to protect your data.",
+        },
+        {
+          listDescription: "We use your Personal and Sensitive Data for the following purposes:",
+          listElements: [
+            "To provide our advice and implementation service in respect of financial products, such as mortgages and life assurance.",
+            "To keep in contact with our clients about products and services which we believe may be of value to them.",
+            "To inform people of our business and its activities.",
+          ],
+        },
+        { header: "What is the legal basis for processing your Personal Data?", text: "" },
+        {
+          listDescription: "Article 6 Processing",
+          listElements: [
+            "Consent of the Data Subject; where we are marketing to the public.",
+            "Processing is necessary for the performance of a contract with the Data Subject or to take steps to enter into a contract; where we have been engaged to provide financial services.",
+          ],
+        },
+        {
+          listDescription: "Article 9 Processing",
+          listElements: [
+            "Explicit consent of the Data Subject; where we wish to tell people about events, news, services.",
+            "Processing is necessary for the establishment, exercise or defence of legal claims or where courts are acting in their judicial capacity.",
+          ],
+        },
+        {
+          header: "Sharing your Personal Data",
+          text: `Your Personal and Sensitive Data will be treated as strictly confidential and will be shared only with Polish Brokers’ Networks and providers of financial service products, third-party data storage providers and legal or regulatory authorities, if obliged to do so.
+          We keep your Personal and Sensitive Data for no longer than reasonably necessary and we only retain your data for servicing the financial services provided where agreed and in case of any legal claims and for regulatory purposes.`,
+        },
+        { header: "Your rights and your Personal Data", text: "" },
+        {
+          listDescription:
+            "Unless subject to an exemption under the GDPR, you have the following rights with respect to your Personal Data:",
+          listElements: [
+            "The right to request a copy of your Personal and Sensitive Data which we hold about you.",
+            "The right to request that we correct any Personal or Sensitive Data, if it is found to be inaccurate or out of date.",
+            "The right to request your Personal and Sensitive Data to be erased where it is no longer necessary for us to retain such data.",
+            "The right to withdraw your consent to the processing at any time.",
+            "The right to request that the Data Controller provide the Data Subject with his/her Personal Data and where possible, to transmit that data directly to another Data Controller.",
+            " The right, where there is a dispute in relation to the accuracy or processing of your Personal Data, to request a restriction is placed on further processing.",
+            "The right to object to the processing of Personal Data.",
+            "The right to lodge a complaint with the Information Commissioners Office.",
+          ],
+        },
+        {
+          header: "Further processing",
+          text: "If we wish to use your Personal and Sensitive Data for a new purpose, not covered by this Data Protection Notice, then we will provide you with a new notice explaining this new use prior to commencing the processing and setting out the relevant purposes and processing conditions. Where and whenever necessary, we will seek your prior consent to the new processing.",
+        },
+        {
+          header: "Cybercrime Warning",
+          text: "Please be aware that there is a significant risk posed by cyber fraud, specifically affecting emails enclosing bank account details. If you receive an email from Clover Family Cover requesting or providing bank details, please contact your Adviser immediately for clarification. All payment requests should be verbally validated.",
+        },
+        {
+          header: "Contact Details",
+          text: `Clover Family Cover Ltd, 56 Cardinal Place, Southampton, SO16 4HN. Tel: 07522345476 e-mail: office@myclover.co.uk
+          You can contact the Information Commissioners Office on 0303 123 1113 or via email https://ico.org.uk/global/contact-us/email/ or at the Information Commissioner’s Office, Wycliffe House, Water Lane, Wilmslow, Cheshire, SK9 5AF.`,
+        },
+      ],
     },
   },
 };
