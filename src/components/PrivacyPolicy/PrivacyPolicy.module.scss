@@ -1,0 +1,26 @@
+.privacyPolicyContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+  margin: auto;
+  max-width: 80rem;
+  text-wrap: pretty;
+  line-height: 32px;
+  font-size: 1.1rem;
+}
+
+.mainHeader {
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  align-self: center;
+  font-family: "AlegreyaSans", sans-serif;
+}
+
+.subHeader {
+  font-size: clamp(1.5rem, 2.2vw, 2rem);
+  margin-top: clamp(1.5rem, 3vw, 4rem);
+  margin-bottom: clamp(1.5rem, 3vw, 5rem);
+  align-self: center;
+  font-family: "AlegreyaSans", sans-serif;
+}

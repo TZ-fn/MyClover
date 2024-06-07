@@ -1,0 +1,17 @@
+.listDescription {
+  font-family: "Cabin", sans-serif;
+}
+
+.listContainer {
+  margin-left: 3rem;
+  margin-bottom: 2rem;
+  font-family: "Cabin", sans-serif;
+  list-style-type: "✓  ";
+
+  li {
+    margin: 1rem 0;
+  }
+  li::marker {
+    color: var(--accent-color-green);
+  }
+}

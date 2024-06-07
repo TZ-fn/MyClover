@@ -1,4 +1,4 @@
-import styles from "PrivacyPolicyList.module.scss";
+import styles from "./PrivacyPolicyList.module.scss";
 
 interface PrivacyPolicyListProps {
   listDescription: string;

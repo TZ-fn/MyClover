@@ -1,0 +1,18 @@
+.itemContainer {
+  margin-bottom: 2rem;
+
+  &:not(:has(p)) {
+    margin-bottom: 0;
+  }
+}
+
+.itemHeader {
+  font-size: clamp(1.2rem, 4vw, 1.7rem);
+  margin: 1rem 0;
+  font-family: "AlegreyaSans", sans-serif;
+  color: var(--accent-color-green);
+}
+
+.itemText {
+  font-family: "Cabin", sans-serif;
+}
