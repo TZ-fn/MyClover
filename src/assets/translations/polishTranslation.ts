@@ -158,7 +158,7 @@ const polishTranslation = {
               "Utrata pracy to nie koniec świata, pod warunkiem że posiadasz dobrze dobrane ubezpieczenie na taką okoliczność. Zyskaj aż 70% swojej pensji, podczas niezdolności do pracy. Niezależnie czy pracujesz dla kogoś, czy prowadzisz własną działalność.",
           },
           {
-            descriptionHeader: "Kredyty",
+            descriptionHeader: "Kredyty hipoteczne",
             description:
               "Wybierając kredyt, warto zapoznać się z całą ofertą, jaka jest dostępna w UK. Dlatego z nami możesz tylko zyskać. Wieloletnie doświadczenie oraz ciągła znajomość rynku bankowego pozwala nam w krótkim czasie dobrać najlepszą ofertę, oraz wynegocjować najniższe oprocentowanie kredytu.",
           },
@@ -269,6 +269,9 @@ const polishTranslation = {
           You can contact the Information Commissioners Office on 0303 123 1113 or via email https://ico.org.uk/global/contact-us/email/ or at the Information Commissioner’s Office, Wycliffe House, Water Lane, Wilmslow, Cheshire, SK9 5AF.`,
         },
       ],
+    },
+    mortgages: {
+      mainHeader: "Kredyty hipoteczne",
     },
   },
 };
