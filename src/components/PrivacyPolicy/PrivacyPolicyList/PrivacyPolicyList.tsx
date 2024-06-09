@@ -10,8 +10,12 @@ function PrivacyPolicyList({ listDescription, listElements }: PrivacyPolicyListP
     <>
       <p className={styles.listDescription}>{listDescription}</p>
       <ul className={styles.listContainer}>
-        {listElements.map((element) => {
-          return <li className={styles.listItem}>{element}</li>;
+        {listElements.map((element, i) => {
+          return (
+            <li key={i} className={styles.listItem}>
+              {element}
+            </li>
+          );
         })}
       </ul>
     </>

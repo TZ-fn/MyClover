@@ -13,10 +13,16 @@ export default function PrivacyPolicy() {
       <h4 className={styles.subHeader}>{privacyPolicyTranslation.subHeader}</h4>
       {privacyPolicyTranslation.items.map((item) => {
         if (item.header) {
-          return <PrivacyPolicyItem header={item.header} text={item.text} />;
+          return <PrivacyPolicyItem key={item.header} header={item.header} text={item.text} />;
         }
         if (item.listDescription) {
-          return <PrivacyPolicyList listDescription={item.listDescription} listElements={item.listElements} />;
+          return (
+            <PrivacyPolicyList
+              key={item.listDescription}
+              listDescription={item.listDescription}
+              listElements={item.listElements}
+            />
+          );
         }
       })}
     </main>
