@@ -6,6 +6,12 @@
   width: calc(50% - 2vw);
   font-family: "Cabin", sans-serif;
   text-wrap: pretty;
+
+  @media (max-width: 1150px) {
+    width: 100%;
+    max-width: 33rem;
+    align-self: center;
+  }
 }
 
 .formHeader {

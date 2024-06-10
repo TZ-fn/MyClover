@@ -6,6 +6,10 @@
   margin: auto;
   max-width: 80rem;
   padding: 2rem;
+
+  @media (max-width: 1150px) {
+    flex-direction: column;
+  }
 }
 
 .contactDataContainer {
@@ -15,6 +19,12 @@
   flex-direction: column;
   width: calc(50% - 2vw);
   align-self: flex-start;
+
+  @media (max-width: 1150px) {
+    width: 100%;
+    max-width: 33rem;
+    align-self: center;
+  }
 }
 
 .contactDataHeader {
@@ -30,7 +40,8 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  font-size: clamp(1.5rem, 4vw, 2.2rem);
+  font-size: clamp(1.3rem, 6vw, 2.2rem);
+  max-width: 33rem;
   font-family: "Cabin", sans-serif;
 
   &:hover {
@@ -49,7 +60,6 @@
   flex-direction: column;
   height: 100%;
   width: 75%;
-  max-width: 25rem;
 }
 
 .phoneContainer {
@@ -69,6 +79,7 @@
   height: 100%;
   width: 25%;
   padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .phoneIconContainer {
