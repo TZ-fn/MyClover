@@ -267,6 +267,31 @@ const englishTranslation = {
         },
       ],
     },
+    mortgages: {
+      mainHeader: "Mortgages",
+      text1:
+        "Getting a mortgage is one of the most important decisions in your life. Therefore, you want to make sure it is the right one. Up to date industry knowledge and access to whole-of-market products, enable us to find the most suitable offer for you.",
+      text2:
+        "By choosing Clover as your Mortgage Broker, you will be guided throughout the whole process, no matter if you are a First Time Buyer or an experienced investor. We offer advice, support and guidance every step of the way. ",
+      text3:
+        "We can help by working out your affordability, sourcing the top mortgage deal from up to 80 lenders, filling out a Help to Buy application, recommending solicitors and provide all types of relevant insurance. Clover will make sure that you are prepared for applying for a mortgage and will submit an application on your behalf, as well as be the main point of contact between you and the bank.",
+      contactPhone: "Get in touch",
+      contactEmail: "Email contact",
+      benefitsList: [
+        {
+          header: "Professional advice",
+          text: "From general information and preparation to completion of your house purchase.",
+        },
+        {
+          header: "Wide range of providers",
+          text: "Whole-of-market offers available, including access to over 80 banks and 40 insurance companies.",
+        },
+        {
+          header: "100% satisfaction",
+          text: "Many years of experience in the field of finance allows us to act quickly and effectively.",
+        },
+      ],
+    },
   },
 };
 

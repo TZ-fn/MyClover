@@ -272,6 +272,28 @@ const polishTranslation = {
     },
     mortgages: {
       mainHeader: "Kredyty hipoteczne",
+      text1:
+        "Uzyskanie kredytu hipotecznego jest jedną z najważniejszych decyzji w twoim życiu, dlatego chcesz się upewnić, że jest odpowiednia.",
+      text2:
+        "Wybierając kredyt, warto zapoznać się z całą ofertą, jaka jest dostępna w UK. Dlatego z nami możesz tylko zyskać. Wieloletnie doświadczenie oraz ciągła znajomość rynku bankowego pozwala nam w krótkim czasie dobrać najlepszą ofertę, oraz wynegocjować najniższe oprocentowanie kredytu.",
+      text3:
+        "Wybierając Clover jako swojego brokera kredytów hipotecznych, będziesz prowadzony przez cały proces, bez względu na to, czy kupujesz swój pierwszy dom, czy jesteś doświadczonym inwestorem. Oferujemy doradztwo, wsparcie i wskazówki na każdym etapie całego procesu. Możemy pomóc, obliczając twoją zdolność kredytową, wybierając najlepszą ofertę kredytu hipotecznego od ponad 80 kredytodawców, składając aplikację bezpośrednio do banku, rekomendując radców prawnych i zapewniając wszystkie rodzaje odpowiednich ubezpieczeń. Firma Clover upewni się, że jesteś przygotowany do aplikacji o kredyt hipoteczny oraz złoży wniosek w Twoim imieniu, a także będzie głównym punktem kontaktowym między tobą, a bankiem.",
+      contactPhone: "Dowiedz się więcej",
+      contactEmail: "Email kontaktowy",
+      benefitsList: [
+        {
+          header: "Profesjonalne doradztwo",
+          text: "Począwszy od ogólnych informacji i przygotowania, aż po odbiór kluczy.",
+        },
+        {
+          header: "Negocjowanie warunków",
+          text: "Szeroki wybór banków i firm ubezpieczeniowych dostęp do całego rynku, w tym do ponad 80 banków i 40 firm ubezpieczeniowych.",
+        },
+        {
+          header: "100% Satysfakcji",
+          text: "Wieloletnie doświadczenie w dziedzinie finansów pozwala nam działać szybko i skutecznie.",
+        },
+      ],
     },
   },
 };
