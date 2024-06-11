@@ -48,7 +48,7 @@ const router = createBrowserRouter([
         element: <CookiesPage />,
       },
       {
-        path: "/mortgages",
+        path: "/offer/mortgages",
         element: <MortgagesPage />,
       },
       {
