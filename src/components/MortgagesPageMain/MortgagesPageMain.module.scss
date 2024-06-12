@@ -1,0 +1,118 @@
+.mainContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Cabin", sans-serif;
+  max-width: 85rem;
+  margin-inline: auto;
+  margin-top: 2rem;
+  gap: 2rem;
+  text-wrap: pretty;
+}
+
+.mainHeader {
+  font-family: "AlegreyaSans", sans-serif;
+  font-size: clamp(1.5rem, 5vw, 2.7rem);
+}
+
+.innerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5vw;
+  margin-bottom: 7rem;
+}
+
+.textContainer,
+.contactDataContainer {
+  width: 50%;
+}
+
+.textContainer {
+  line-height: 30px;
+  letter-spacing: 1px;
+
+  p {
+    margin-top: 1rem;
+  }
+}
+
+.contactItemContainer {
+  width: 100%;
+  height: 9rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: clamp(1.3rem, 6vw, 2.2rem);
+  max-width: 33rem;
+  font-family: "Cabin", sans-serif;
+
+  &:hover {
+    .iconInnerContainer {
+      background-color: transparent;
+    }
+  }
+}
+
+.phoneContainer,
+.emailContainer {
+  min-height: 6rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 75%;
+}
+
+.phoneContainer {
+  background-color: var(--accent-color-teal);
+}
+
+.emailContainer {
+  color: var(--white);
+  background-color: var(--dark-grey);
+}
+
+.phoneIconContainer,
+.emailIconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 25%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.phoneIconContainer {
+  background-color: var(--accent-color-teal);
+
+  svg path {
+    fill: var(--white);
+  }
+}
+
+.emailIconContainer {
+  background-color: var(--dark-grey);
+
+  svg path {
+    fill: var(--accent-color-teal);
+  }
+}
+
+.iconInnerContainer {
+  min-height: 3.5rem;
+  height: 3.5vw;
+  min-width: 3.5rem;
+  width: 3.5vw;
+  border-radius: 50%;
+  background-color: var(--black);
+  padding: 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+.dataLabel {
+  font-size: clamp(1rem, 2vw, 1.2rem);
+}
