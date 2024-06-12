@@ -28,11 +28,10 @@ export default function ContactPageMain() {
         <div className={styles.contactItemContainer}>
           <div className={styles.emailIconContainer}>
             <div className={styles.iconInnerContainer}>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-                <path
-                  d="m31.63 12.22-15-12a1 1 0 0 0-1.25 0l-15 12A1 1 0 0 0 1 14h2v17a1 1 0 0 0 1 1h24a1 1 0 0 0 1-1V14h2a1 1 0 0 0 .63-1.78zM18 30h-4v-8h4zm10-18a1 1 0 0 0-1 1v17h-7v-9a1 1 0 0 0-1-1h-6a1 1 0 0 0-1 1v9H5V14h17v-2H3.85L16 2.28 28.15 12z"
-                  data-name="10-House"
-                />
+              <svg data-name="1-Mail" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                <path d="M28 28H4a4 4 0 0 1-4-4V8a4 4 0 0 1 4-4h24a4 4 0 0 1 4 4v16a4 4 0 0 1-4 4zM4 6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h24a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2z" />
+                <path d="M16 18a1 1 0 0 1-.618-.214l-14-11a1 1 0 1 1 1.236-1.572L16 15.728 29.382 5.214a1 1 0 1 1 1.236 1.572l-14 11A1 1 0 0 1 16 18z" />
+                <path d="M2 27a1 1 0 0 1-.707-1.707l11-11a1 1 0 0 1 1.414 1.414l-11 11A1 1 0 0 1 2 27zM30 27a1 1 0 0 1-.707-.293l-11-11a1 1 0 0 1 1.414-1.414l11 11A1 1 0 0 1 30 27z" />
               </svg>
             </div>
           </div>
