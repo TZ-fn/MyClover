@@ -32,7 +32,7 @@ export default function MortgagesPageMain() {
             </div>
           </div>
           <div className={styles.contactItemContainer}>
-            <div className={styles.phoneIconContainer}>
+            <div className={styles.emailIconContainer}>
               <div className={styles.iconInnerContainer}>
                 <svg data-name="1-Mail" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
                   <path d="M28 28H4a4 4 0 0 1-4-4V8a4 4 0 0 1 4-4h24a4 4 0 0 1 4 4v16a4 4 0 0 1-4 4zM4 6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h24a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2z" />
@@ -41,7 +41,7 @@ export default function MortgagesPageMain() {
                 </svg>
               </div>
             </div>
-            <div className={styles.phoneContainer}>
+            <div className={styles.emailContainer}>
               <p className={styles.dataLabel}>
                 <p>{mortgagesPageTranslation.contactEmail}</p>
               </p>
@@ -50,8 +50,9 @@ export default function MortgagesPageMain() {
           </div>
         </div>
       </section>
-      <div>
-        <ul>
+      <section className={styles.benefitsSection}>
+        <img className={styles.cloversImage} src="src/assets/clover.webp" alt="" />
+        <ul className={styles.benefitsList}>
           <li>
             <h4>{mortgagesPageTranslation.benefitsList[0]?.header}</h4>
             <p>{mortgagesPageTranslation.benefitsList[0]?.text}</p>
@@ -65,7 +66,7 @@ export default function MortgagesPageMain() {
             <p>{mortgagesPageTranslation.benefitsList[2]?.text}</p>
           </li>
         </ul>
-      </div>
+      </section>
     </main>
   );
 }

@@ -4,8 +4,6 @@
   justify-content: center;
   flex-direction: column;
   font-family: "Cabin", sans-serif;
-  max-width: 85rem;
-  margin-inline: auto;
   margin-top: 2rem;
   gap: 2rem;
   text-wrap: pretty;
@@ -14,6 +12,12 @@
 .mainHeader {
   font-family: "AlegreyaSans", sans-serif;
   font-size: clamp(1.5rem, 5vw, 2.7rem);
+  margin-left: 2rem;
+
+  @media (max-width: 1150px) {
+    align-self: center;
+    margin-left: 0;
+  }
 }
 
 .innerContainer {
@@ -22,15 +26,27 @@
   justify-content: center;
   gap: 5vw;
   margin-bottom: 7rem;
+  max-width: 85rem;
+  margin-inline: auto;
+  padding-inline: 2rem;
+
+  @media (max-width: 1150px) {
+    flex-direction: column;
+    gap: 5rem;
+  }
 }
 
 .textContainer,
 .contactDataContainer {
   width: 50%;
+
+  @media (max-width: 1150px) {
+    width: 100%;
+  }
 }
 
 .textContainer {
-  line-height: 30px;
+  line-height: 32px;
   letter-spacing: 1px;
 
   p {
@@ -38,9 +54,18 @@
   }
 }
 
+.contactDataContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .contactItemContainer {
   width: 100%;
-  height: 9rem;
+  min-height: 6rem;
+  height: 9vw;
+  max-height: 8rem;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -57,17 +82,17 @@
 
 .phoneContainer,
 .emailContainer {
-  min-height: 6rem;
   display: flex;
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
   height: 100%;
   width: 75%;
+  padding-inline: 1rem;
 }
 
 .phoneContainer {
-  background-color: var(--accent-color-teal);
+  background-color: var(--accent-color-blue);
 }
 
 .emailContainer {
@@ -87,7 +112,7 @@
 }
 
 .phoneIconContainer {
-  background-color: var(--accent-color-teal);
+  background-color: var(--accent-color-green);
 
   svg path {
     fill: var(--white);
@@ -115,4 +140,20 @@
 
 .dataLabel {
   font-size: clamp(1rem, 2vw, 1.2rem);
+}
+
+.benefitsSection {
+  display: grid;
+  max-height: 50rem;
+  overflow: hidden;
+  grid-template-columns: 1fr 1fr;
+}
+
+.benefitsList {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  list-style: none;
 }
