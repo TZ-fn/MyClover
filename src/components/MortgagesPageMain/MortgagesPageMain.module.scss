@@ -11,8 +11,8 @@
 
 .mainHeader {
   font-family: "AlegreyaSans", sans-serif;
-  font-size: clamp(1.5rem, 5vw, 2.7rem);
-  margin-left: 2rem;
+  font-size: clamp(1.5rem, 5vw, 3rem);
+  margin-bottom: 3rem;
 
   @media (max-width: 1150px) {
     align-self: center;
@@ -147,6 +147,7 @@
   max-height: 50rem;
   overflow: hidden;
   grid-template-columns: 1fr 1fr;
+  background-color: var(--white);
 }
 
 .benefitsList {
@@ -156,4 +157,47 @@
   flex-direction: column;
   height: 100%;
   list-style: none;
+}
+
+.benefitItem {
+  display: grid;
+  grid-template-columns: 20% 1fr;
+  grid-template-rows: 25% 1fr;
+  grid-template-areas:
+    "icon header"
+    "icon text";
+  place-content: center;
+  align-content: center;
+  margin-inline: 2rem;
+  line-height: 50px;
+  cursor: default;
+
+  &:hover {
+    .benefitItemHeader {
+      color: var(--accent-color-teal);
+    }
+  }
+}
+
+.benefitItem:not(:last-child) {
+  margin-bottom: 5rem;
+}
+
+.benefitIconContainer {
+  min-height: 3.5rem;
+  height: 3.5vw;
+  min-width: 3.5rem;
+  width: 3.5vw;
+}
+
+.benefitItemHeader {
+  font-family: "AlegreyaSans", sans-serif;
+  font-size: clamp(1.2rem, 2vw, 1.8rem);
+  transition: all 0.3s ease-in-out;
+  grid-area: header;
+}
+
+.benefitItemText {
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  grid-area: text;
 }
