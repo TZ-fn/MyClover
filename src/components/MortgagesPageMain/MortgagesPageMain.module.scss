@@ -157,47 +157,133 @@
   flex-direction: column;
   height: 100%;
   list-style: none;
+  overflow: hidden;
+}
+
+:root {
+  scroll-timeline: --page-scroll block;
 }
 
 .benefitItem {
+  position: relative;
   display: grid;
   grid-template-columns: 20% 1fr;
   grid-template-rows: 25% 1fr;
   grid-template-areas:
     "icon header"
     "icon text";
-  place-content: center;
-  align-content: center;
-  margin-inline: 2rem;
+  margin: 2rem;
   line-height: 50px;
-  cursor: default;
+  align-self: stretch;
+  transform: translateX(-15%);
+  opacity: 0;
+
+  &:nth-child(1) {
+    animation: fadeIn1 2s linear forwards;
+    animation-timeline: --page-scroll;
+  }
+  &:nth-child(2) {
+    animation: fadeIn2 2s linear forwards;
+    animation-timeline: --page-scroll;
+  }
+  &:nth-child(3) {
+    animation: fadeIn3 2s linear forwards;
+    animation-timeline: --page-scroll;
+  }
 
   &:hover {
     .benefitItemHeader {
       color: var(--accent-color-teal);
     }
+
+    .benefitIconContainer {
+      background-color: var(--accent-color-teal);
+      transform: scale(0.95);
+    }
   }
 }
 
-.benefitItem:not(:last-child) {
-  margin-bottom: 5rem;
+@keyframes fadeIn1 {
+  25% {
+    transform: translateX(-15%);
+    opacity: 0;
+  }
+  50% {
+    transform: translate(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn2 {
+  35% {
+    transform: translateX(-15%);
+    opacity: 0;
+  }
+  50% {
+    transform: translate(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn3 {
+  45% {
+    transform: translateX(-15%);
+    opacity: 0;
+  }
+  55% {
+    transform: translate(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
 }
 
 .benefitIconContainer {
-  min-height: 3.5rem;
-  height: 3.5vw;
-  min-width: 3.5rem;
-  width: 3.5vw;
+  min-height: 3rem;
+  height: 5vw;
+  min-width: 3rem;
+  width: 5vw;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: icon;
+  align-self: center;
+  justify-self: center;
+  background-color: var(--dark-grey);
+  transition: all 0.3s ease-in-out;
+  z-index: 1;
+
+  svg {
+    z-index: 1;
+    fill: var(--white);
+    height: 75%;
+  }
+
+  g,
+  svg {
+    stroke: var(--white);
+  }
 }
 
 .benefitItemHeader {
   font-family: "AlegreyaSans", sans-serif;
-  font-size: clamp(1.2rem, 2vw, 1.8rem);
-  transition: all 0.3s ease-in-out;
+  font-size: clamp(1.3rem, 2vw, 1.6rem);
   grid-area: header;
+  transition: all 0.3s ease-in-out;
 }
 
 .benefitItemText {
-  font-size: clamp(1rem, 2vw, 1.2rem);
+  font-size: clamp(1rem, 2vw, 1.1rem);
   grid-area: text;
 }
