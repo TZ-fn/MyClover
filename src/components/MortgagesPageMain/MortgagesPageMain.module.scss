@@ -199,25 +199,10 @@
     .benefitIconContainer {
       background-color: var(--accent-color-teal);
       transform: scale(0.95);
+      animation: boxShadowPulse 1s ease-in-out 75ms;
 
       &::before {
-        pointer-events: none;
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        border-radius: inherit;
-        content: "";
-        background-color: var(--accent-color-teal);
-        box-sizing: content-box;
-        top: 0;
-        left: 0;
-        padding: 0;
-        z-index: -1;
-        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1);
-        opacity: 0;
-        transform: scale(0.9);
-        display: inline-block;
-        animation: pulseEffect 1.3s ease-out 75ms;
+        animation: pulseEffect 1.5s ease-out 75ms;
       }
     }
   }
@@ -233,6 +218,18 @@
   100% {
     transform: scale(1.5);
     opacity: 0;
+  }
+}
+
+@keyframes boxShadowPulse {
+  0% {
+    box-shadow: 0 0 0 var(--accent-color-teal);
+  }
+  50% {
+    box-shadow: 0 0 75px var(--accent-color-teal);
+  }
+  100% {
+    box-shadow: 0 0 100px var(--white);
   }
 }
 
@@ -282,6 +279,7 @@
 }
 
 .benefitIconContainer {
+  position: relative;
   min-height: 3rem;
   height: 5vw;
   min-width: 3rem;
@@ -296,9 +294,9 @@
   background-color: var(--dark-grey);
   transition: all 0.3s ease-in-out;
   z-index: 1;
+  transform-style: preserve-3d;
 
   svg {
-    z-index: 1;
     fill: var(--white);
     height: 75%;
   }
@@ -306,6 +304,20 @@
   g,
   svg {
     stroke: var(--white);
+  }
+
+  &::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    content: "";
+    background-color: hsla(0, 0%, 100%, 0.66);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: -1;
+    transform: scale(0.95);
   }
 }
 
