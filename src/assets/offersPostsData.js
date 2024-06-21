@@ -5,7 +5,7 @@ import miniature3 from "./offersPosts/miniature3.webp";
 const offersPostsData = [
   { miniature: miniature1, link: "income-protection" },
   { miniature: miniature2, link: "mortgages" },
-  { miniature: miniature3, link: "career" },
+  { miniature: miniature3, link: "careers" },
 ];
 
 export default offersPostsData;
