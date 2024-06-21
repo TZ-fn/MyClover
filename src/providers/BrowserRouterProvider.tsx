@@ -9,6 +9,7 @@ import TermsConditionsPage from "pages/TermsConditionsPage/TermsConditionsPage";
 import PrivacyPolicyPage from "pages/PrivacyPolicyPage/PrivacyPolicyPage";
 import CookiesPage from "pages/CookiesPage/CookiesPage";
 import MortgagesPage from "pages/MortgagesPage/MortgagesPage";
+import CareersPage from "pages/CareersPage/CareersPage";
 import NoMatch from "pages/NoMatch/NoMatch";
 
 const router = createBrowserRouter([
@@ -50,6 +51,10 @@ const router = createBrowserRouter([
       {
         path: "/offer/mortgages",
         element: <MortgagesPage />,
+      },
+      {
+        path: "/offer/careers",
+        element: <CareersPage />,
       },
       {
         path: "*",

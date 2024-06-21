@@ -295,6 +295,9 @@ const polishTranslation = {
         },
       ],
     },
+    careers: {
+      mainHeader: "Kariera",
+    },
   },
 };
 

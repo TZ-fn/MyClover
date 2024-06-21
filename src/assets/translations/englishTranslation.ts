@@ -292,6 +292,9 @@ const englishTranslation = {
         },
       ],
     },
+    careers: {
+      mainHeader: "Careers",
+    },
   },
 };
 
