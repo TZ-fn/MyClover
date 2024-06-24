@@ -296,7 +296,11 @@ const polishTranslation = {
       ],
     },
     careers: {
-      mainHeader: "Kariera",
+      title: "Kariera",
+      mainHeader: "Współpracuj z nami",
+      text: "Oferujemy atrakcyjny program dla partnerów. Współpraca z naszą firmą to możliwość szybkiego rozwoju oraz atrakcyjne wynagrodzenie. Dołącz do nas już dziś.",
+      contactPhone: "Dowiedz się więcej",
+      contactEmail: "Email kontaktowy",
     },
   },
 };

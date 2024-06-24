@@ -293,7 +293,11 @@ const englishTranslation = {
       ],
     },
     careers: {
-      mainHeader: "Careers",
+      title: "Careers",
+      mainHeader: "Work with us",
+      text: "We offer fast-track career development for interested individuals, as well as competitive pay. If you are keen to start or develop your career in the financial industry, let us know! \nWe also have an unique partner programme. Get in touch to find out the details.",
+      contactPhone: "Get in touch",
+      contactEmail: "Email contact",
     },
   },
 };
