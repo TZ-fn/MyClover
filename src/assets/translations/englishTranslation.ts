@@ -29,6 +29,10 @@ const englishTranslation = {
       rights: "All rights reserved.",
     },
   },
+  contactData: {
+    phone: "Get in touch",
+    email: "Email contact",
+  },
   pages: {
     noMatch: {
       noMatchHeader: "404 - Wrong address",
@@ -275,8 +279,6 @@ const englishTranslation = {
         "By choosing Clover as your Mortgage Broker, you will be guided throughout the whole process, no matter if you are a First Time Buyer or an experienced investor. We offer advice, support and guidance every step of the way. ",
       text3:
         "We can help by working out your affordability, sourcing the top mortgage deal from up to 80 lenders, filling out a Help to Buy application, recommending solicitors and provide all types of relevant insurance. Clover will make sure that you are prepared for applying for a mortgage and will submit an application on your behalf, as well as be the main point of contact between you and the bank.",
-      contactPhone: "Get in touch",
-      contactEmail: "Email contact",
       benefitsList: [
         {
           header: "Professional advice",
@@ -296,8 +298,6 @@ const englishTranslation = {
       title: "Careers",
       mainHeader: "Work with us",
       text: "We offer fast-track career development for interested individuals, as well as competitive pay. If you are keen to start or develop your career in the financial industry, let us know! \nWe also have an unique partner programme. Get in touch to find out the details.",
-      contactPhone: "Get in touch",
-      contactEmail: "Email contact",
     },
   },
 };

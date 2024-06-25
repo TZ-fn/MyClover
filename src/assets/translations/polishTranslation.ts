@@ -29,7 +29,10 @@ const polishTranslation = {
       rights: "Wszystkie prawa zastrzeżone.",
     },
   },
-
+  contactData: {
+    phone: "Dowiedz się więcej",
+    email: "Email kontaktowy",
+  },
   pages: {
     noMatch: {
       noMatchHeader: "404 - Zły adres",

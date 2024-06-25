@@ -1,0 +1,90 @@
+.contactDataContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contactItemContainer {
+  width: 100%;
+  min-height: 6rem;
+  height: 9vw;
+  max-height: 8rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: clamp(1.3rem, 6vw, 2.2rem);
+  max-width: 33rem;
+  font-family: "Cabin", sans-serif;
+
+  &:hover {
+    .iconInnerContainer {
+      background-color: transparent;
+    }
+  }
+}
+
+.phoneContainer,
+.emailContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 75%;
+  padding-inline: 1rem;
+}
+
+.phoneContainer {
+  background-color: var(--accent-color-blue);
+  a {
+    font-family: "AlegreyaSans", sans-serif;
+  }
+}
+
+.emailContainer {
+  color: var(--white);
+  background-color: var(--dark-grey);
+}
+
+.phoneIconContainer,
+.emailIconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 25%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.phoneIconContainer {
+  background-color: var(--accent-color-green);
+
+  svg path {
+    fill: var(--white);
+  }
+}
+
+.emailIconContainer {
+  background-color: var(--dark-grey);
+
+  svg path {
+    fill: var(--accent-color-teal);
+  }
+}
+
+.iconInnerContainer {
+  min-height: 3.5rem;
+  height: 3.5vw;
+  min-width: 3.5rem;
+  width: 3.5vw;
+  border-radius: 50%;
+  background-color: var(--black);
+  padding: 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+.dataLabel {
+  font-size: clamp(1rem, 2vw, 1.2rem);
+}
