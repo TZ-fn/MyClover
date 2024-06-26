@@ -13,7 +13,7 @@ export default function CareersPageMain() {
           <h3 className={styles.mainHeader}>{careersPageTranslation.mainHeader}</h3>
           <p>{careersPageTranslation.text}</p>
         </div>
-        <ContactDataBox />
+        <ContactDataBox phoneNumber="785 82 82 317" />
       </section>
     </main>
   );

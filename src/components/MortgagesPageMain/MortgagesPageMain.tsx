@@ -15,7 +15,7 @@ export default function MortgagesPageMain() {
           <p>{mortgagesPageTranslation.text2}</p>
           <p>{mortgagesPageTranslation.text3}</p>
         </div>
-        <ContactDataBox />
+        <ContactDataBox phoneNumber="752 234 5476" />
       </section>
       <section className={styles.benefitsSection}>
         <img className={styles.cloversImage} src="src/assets/clover.webp" alt="" />

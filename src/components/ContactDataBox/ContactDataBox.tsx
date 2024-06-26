@@ -1,8 +1,13 @@
 import useTranslation from "hooks/useTranslation";
 import { Link } from "react-router-dom";
+import removeSpaces from "utils/removeSpaces";
 import styles from "./ContactDataBox.module.scss";
 
-function ContactDataBox() {
+interface ContactDataProps {
+  phoneNumber: string;
+}
+
+function ContactDataBox({ phoneNumber }: ContactDataProps) {
   const [translation] = useTranslation();
 
   return (
@@ -17,7 +22,7 @@ function ContactDataBox() {
         </div>
         <div className={styles.phoneContainer}>
           <p className={styles.dataLabel}>{translation.contactData.phone}</p>
-          <Link to="tel:+44 7522345476">+44 7522345476</Link>
+          <Link to={`tel:+44${removeSpaces(phoneNumber)}`}>{`+44 ${phoneNumber}`}</Link>
         </div>
       </div>
       <div className={styles.contactItemContainer}>
