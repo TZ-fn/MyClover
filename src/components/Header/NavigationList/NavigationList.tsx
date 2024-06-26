@@ -58,27 +58,27 @@ function NavigationList() {
                   ...transitionStyles[state],
                 }}
               >
-                <Link to="/">
+                <Link to="/" onClick={handleMenu}>
                   <NavigationItem isActive={location === "/" ? true : false}>
                     {translation.header.navigation.home}
                   </NavigationItem>
                 </Link>
-                <Link to="/about">
+                <Link to="/about" onClick={handleMenu}>
                   <NavigationItem isActive={location === "/about" ? true : false}>
                     {translation.header.navigation.about}
                   </NavigationItem>
                 </Link>
-                <Link to="/offer">
+                <Link to="/offer" onClick={handleMenu}>
                   <NavigationItem isActive={location === "/offer" ? true : false}>
                     {translation.header.navigation.offer}
                   </NavigationItem>
                 </Link>
-                <Link to="/blog">
+                <Link to="/blog" onClick={handleMenu}>
                   <NavigationItem isActive={location === "/blog" ? true : false}>
                     {translation.header.navigation.blog}
                   </NavigationItem>
                 </Link>
-                <Link to="/contact">
+                <Link to="/contact" onClick={handleMenu}>
                   <NavigationItem isHighlighted isActive={location === "/contact" ? true : false}>
                     {translation.header.navigation.contact}
                   </NavigationItem>
