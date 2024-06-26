@@ -7,7 +7,7 @@
 
 .contactItemContainer {
   width: 100%;
-  min-height: 6rem;
+  min-height: 8rem;
   height: 9vw;
   max-height: 8rem;
   display: flex;
@@ -33,10 +33,13 @@
   height: 100%;
   width: 75%;
   padding-inline: 1rem;
+  padding-inline-end: 4rem;
 }
 
 .phoneContainer {
+  font-size: clamp(1.3rem, 6vw, 2.7rem);
   background-color: var(--accent-color-blue);
+
   a {
     font-family: "AlegreyaSans", sans-serif;
   }
@@ -54,8 +57,7 @@
   justify-content: center;
   height: 100%;
   width: 25%;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-inline: 1rem;
 }
 
 .phoneIconContainer {
@@ -75,10 +77,10 @@
 }
 
 .iconInnerContainer {
-  min-height: 3.5rem;
-  height: 3.5vw;
-  min-width: 3.5rem;
-  width: 3.5vw;
+  min-height: 4rem;
+  height: 3vw;
+  min-width: 4rem;
+  width: 3vw;
   border-radius: 50%;
   background-color: var(--black);
   padding: 15px;
