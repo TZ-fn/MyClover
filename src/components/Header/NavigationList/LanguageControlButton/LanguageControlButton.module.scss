@@ -1,0 +1,28 @@
+.buttonContainer,
+.activeButtonContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1.5rem;
+  gap: 0.5rem;
+  width: 100%;
+  transition: background-color 0.2s ease-in-out;
+  cursor: pointer;
+  text-wrap: nowrap;
+  background-color: transparent;
+
+  &:hover {
+    color: var(--black);
+    background-color: var(--accent-color-green);
+  }
+}
+
+.activeButtonContainer {
+  color: var(--black);
+  background-color: var(--accent-color-green);
+
+  @media (max-width: 800px) {
+    margin-left: 0;
+  }
+}

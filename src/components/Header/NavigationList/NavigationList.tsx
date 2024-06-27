@@ -1,8 +1,7 @@
 import { useState } from "react";
-import { useLocation } from "react-router-dom";
 import { Transition } from "react-transition-group";
-import { Link } from "react-router-dom";
 import NavigationItem from "./NavigationItem/NavigationItem";
+import LanguageControlButton from "./LanguageControlButton/LanguageControlButton";
 import useWindowDimensions from "hooks/useWindowDimensions";
 import useTranslation from "hooks/useTranslation";
 import Language from "types/Language";
@@ -11,7 +10,6 @@ import styles from "./NavigationList.module.scss";
 
 function NavigationList() {
   const windowWidth = useWindowDimensions().width;
-  const location = useLocation().pathname;
   const menuVisibilityBreakpoint = 800;
   const [isMenuVisible, setIsMenuVisible] = useState(windowWidth > menuVisibilityBreakpoint);
   const [translation, setCurrentLanguage] = useTranslation();
@@ -20,7 +18,7 @@ function NavigationList() {
     setCurrentLanguage(language);
   }
 
-  function handleMenu() {
+  function handleMenuClick() {
     setIsMenuVisible((isMenuVisible) => !isMenuVisible);
   }
 
@@ -42,7 +40,7 @@ function NavigationList() {
   return (
     <nav className={styles.navigation}>
       {windowWidth < menuVisibilityBreakpoint && (
-        <button onClick={handleMenu} className={styles.handleMenuBtn}>
+        <button onClick={handleMenuClick} className={styles.handleMenuBtn}>
           Menu
           <div className={!isMenuVisible ? styles.hamburger : styles.hamburgerOpen}></div>
         </button>
@@ -58,31 +56,21 @@ function NavigationList() {
                   ...transitionStyles[state],
                 }}
               >
-                <Link to="/" onClick={handleMenu}>
-                  <NavigationItem isActive={location === "/" ? true : false}>
-                    {translation.header.navigation.home}
-                  </NavigationItem>
-                </Link>
-                <Link to="/about" onClick={handleMenu}>
-                  <NavigationItem isActive={location === "/about" ? true : false}>
-                    {translation.header.navigation.about}
-                  </NavigationItem>
-                </Link>
-                <Link to="/offer" onClick={handleMenu}>
-                  <NavigationItem isActive={location === "/offer" ? true : false}>
-                    {translation.header.navigation.offer}
-                  </NavigationItem>
-                </Link>
-                <Link to="/blog" onClick={handleMenu}>
-                  <NavigationItem isActive={location === "/blog" ? true : false}>
-                    {translation.header.navigation.blog}
-                  </NavigationItem>
-                </Link>
-                <Link to="/contact" onClick={handleMenu}>
-                  <NavigationItem isHighlighted isActive={location === "/contact" ? true : false}>
-                    {translation.header.navigation.contact}
-                  </NavigationItem>
-                </Link>
+                <NavigationItem handleMenuClick={handleMenuClick} address="/">
+                  {translation.header.navigation.home}
+                </NavigationItem>
+                <NavigationItem handleMenuClick={handleMenuClick} address="/about">
+                  {translation.header.navigation.about}
+                </NavigationItem>
+                <NavigationItem handleMenuClick={handleMenuClick} address="/offer">
+                  {translation.header.navigation.offer}
+                </NavigationItem>
+                <NavigationItem handleMenuClick={handleMenuClick} address="/blog">
+                  {translation.header.navigation.blog}
+                </NavigationItem>
+                <NavigationItem handleMenuClick={handleMenuClick} address="/contact" isHighlighted>
+                  {translation.header.navigation.contact}
+                </NavigationItem>
               </ul>
               <ul
                 className={styles.navList}
@@ -91,7 +79,7 @@ function NavigationList() {
                   ...transitionStyles[state],
                 }}
               >
-                <NavigationItem
+                <LanguageControlButton
                   isActive={translation.name === "English"}
                   onKeyDown={(e) => (wasEnterPressed(e) ? changeLanguage("English") : null)}
                   onClick={() => changeLanguage("English")}
@@ -101,8 +89,8 @@ function NavigationList() {
                     alt="Flag of United Kingdom"
                   />
                   English
-                </NavigationItem>
-                <NavigationItem
+                </LanguageControlButton>
+                <LanguageControlButton
                   isActive={translation.name === "Polish"}
                   onKeyDown={(e) => (wasEnterPressed(e) ? changeLanguage("Polish") : null)}
                   onClick={() => changeLanguage("Polish")}
@@ -112,7 +100,7 @@ function NavigationList() {
                     alt="Flag of Poland"
                   />
                   Polski
-                </NavigationItem>
+                </LanguageControlButton>
               </ul>
             </>
           )}

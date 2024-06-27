@@ -1,19 +1,25 @@
 import { ReactNode, KeyboardEvent } from "react";
+import { Link, useLocation } from "react-router-dom";
 import styles from "./NavigationItem.module.scss";
 
 function NavigationItem({
   children,
-  isActive,
   isHighlighted,
   onClick,
   onKeyDown,
+  address,
+  handleMenuClick,
 }: {
   children: ReactNode;
-  isActive?: boolean;
   isHighlighted?: boolean;
   onClick?: () => void;
   onKeyDown?: (e: KeyboardEvent<Element>) => void | null;
+  address: string;
+  handleMenuClick: () => void;
 }) {
+  const location = useLocation().pathname;
+  const isActive = location === address;
+
   return (
     <li
       onClick={onClick}
@@ -30,7 +36,9 @@ function NavigationItem({
           : styles.navListItem
       }
     >
-      {children}
+      <Link onClick={handleMenuClick} to={address}>
+        {children}
+      </Link>
     </li>
   );
 }

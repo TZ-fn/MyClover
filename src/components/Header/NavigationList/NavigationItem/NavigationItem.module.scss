@@ -6,7 +6,6 @@
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  padding: 0.5rem 1.5rem;
   transition: background-color 0.2s ease-in-out;
   cursor: pointer;
   text-wrap: nowrap;
@@ -15,11 +14,15 @@
     color: var(--black);
     background-color: var(--accent-color-green);
   }
+
+  a {
+    text-align: center;
+    padding: 0.5rem 1.5rem;
+  }
 }
 
 .navListItemHighlighted,
 .navListItemHighlightedActive {
-  padding: 0.7rem 1.7rem;
   font-size: 0.9rem;
   margin-left: 1.5rem;
   color: var(--white);
@@ -28,6 +31,10 @@
 
   &:hover {
     background-color: var(--accent-color-teal);
+  }
+
+  a {
+    padding: 0.7rem 1.7rem;
   }
 
   @media (max-width: 800px) {
