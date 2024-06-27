@@ -21,8 +21,4 @@
 .activeButtonContainer {
   color: var(--black);
   background-color: var(--accent-color-green);
-
-  @media (max-width: 800px) {
-    margin-left: 0;
-  }
 }
