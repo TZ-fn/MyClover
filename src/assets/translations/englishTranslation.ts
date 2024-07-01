@@ -316,7 +316,7 @@ const englishTranslation = {
           header: "Disabling Cookies",
           text: "You can prevent the setting of cookies by adjusting the settings on your browser (see your browser Help for how to do this). Be aware that disabling cookies will affect the functionality of this and many other websites that you visit. Disabling cookies will usually result in also disabling certain functionality and features of the this site. Therefore it is recommended that you do not disable cookies.",
         },
-        { header: "The Cookies We Set" },
+        { header: "The Cookies We Set", text: "" },
         {
           listDescription: "",
           listElements: [
@@ -326,6 +326,7 @@ const englishTranslation = {
         },
         {
           header: "Pliki cookie stron trzecich",
+          text: "",
         },
         {
           listDescription:

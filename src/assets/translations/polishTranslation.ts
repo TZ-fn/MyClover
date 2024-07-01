@@ -322,7 +322,7 @@ const polishTranslation = {
           header: "Wyłączanie plików cookie",
           text: "Można zapobiec ustawianiu plików cookie, dostosowując ustawienia w przeglądarce (jak to zrobić w pomocy przeglądarki). Pamiętaj, że wyłączenie plików cookie wpłynie na funkcjonalność tej i wielu innych witryn, które odwiedzasz. Wyłączenie plików cookie zwykle powoduje również wyłączenie niektórych funkcji i funkcji tej witryny. Dlatego zaleca się, aby nie wyłączać plików cookie.",
         },
-        { header: "Pliki cookies których używamy" },
+        { header: "Pliki cookies których używamy", text: "" },
         {
           listDescription: "",
           listElements: [
@@ -332,6 +332,7 @@ const polishTranslation = {
         },
         {
           header: "Third Party Cookies",
+          text: "",
         },
         {
           listDescription:
