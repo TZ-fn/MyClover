@@ -197,6 +197,34 @@ const englishTranslation = {
         email: "Email address",
       },
     },
+    mortgages: {
+      mainHeader: "Mortgages",
+      text1:
+        "Getting a mortgage is one of the most important decisions in your life. Therefore, you want to make sure it is the right one. Up to date industry knowledge and access to whole-of-market products, enable us to find the most suitable offer for you.",
+      text2:
+        "By choosing Clover as your Mortgage Broker, you will be guided throughout the whole process, no matter if you are a First Time Buyer or an experienced investor. We offer advice, support and guidance every step of the way. ",
+      text3:
+        "We can help by working out your affordability, sourcing the top mortgage deal from up to 80 lenders, filling out a Help to Buy application, recommending solicitors and provide all types of relevant insurance. Clover will make sure that you are prepared for applying for a mortgage and will submit an application on your behalf, as well as be the main point of contact between you and the bank.",
+      benefitsList: [
+        {
+          header: "Professional advice",
+          text: "From general information and preparation to completion of your house purchase.",
+        },
+        {
+          header: "Wide range of providers",
+          text: "Whole-of-market offers available, including access to over 80 banks and 40 insurance companies.",
+        },
+        {
+          header: "100% satisfaction",
+          text: "Many years of experience in the field of finance allows us to act quickly and effectively.",
+        },
+      ],
+    },
+    careers: {
+      title: "Careers",
+      mainHeader: "Work with us",
+      text: "We offer fast-track career development for interested individuals, as well as competitive pay. If you are keen to start or develop your career in the financial industry, let us know! \nWe also have an unique partner programme. Get in touch to find out the details.",
+    },
     privacyPolicy: {
       mainHeader: "Privacy Policy",
       subHeader: "Clover Family Cover Privacy notice",
@@ -271,33 +299,53 @@ const englishTranslation = {
         },
       ],
     },
-    mortgages: {
-      mainHeader: "Mortgages",
-      text1:
-        "Getting a mortgage is one of the most important decisions in your life. Therefore, you want to make sure it is the right one. Up to date industry knowledge and access to whole-of-market products, enable us to find the most suitable offer for you.",
-      text2:
-        "By choosing Clover as your Mortgage Broker, you will be guided throughout the whole process, no matter if you are a First Time Buyer or an experienced investor. We offer advice, support and guidance every step of the way. ",
-      text3:
-        "We can help by working out your affordability, sourcing the top mortgage deal from up to 80 lenders, filling out a Help to Buy application, recommending solicitors and provide all types of relevant insurance. Clover will make sure that you are prepared for applying for a mortgage and will submit an application on your behalf, as well as be the main point of contact between you and the bank.",
-      benefitsList: [
+    cookies: {
+      title: "Cookies",
+      mainHeader: "Cookie Policy for Clover Family Cover",
+      subHeader: "This is the Cookie Policy for Clover Family Cover, accessible from https://myclover.co.uk/",
+      items: [
         {
-          header: "Professional advice",
-          text: "From general information and preparation to completion of your house purchase.",
+          header: "What Are Cookies",
+          text: "As is common practice with almost all professional websites this site uses cookies, which are tiny files that are downloaded to your computer, to improve your experience. This page describes what information they gather, how we use it and why we sometimes need to store these cookies. We will also share how you can prevent these cookies from being stored however this may downgrade or ‘break’ certain elements of the sites functionality.",
         },
         {
-          header: "Wide range of providers",
-          text: "Whole-of-market offers available, including access to over 80 banks and 40 insurance companies.",
+          header: "How We Use Cookies",
+          text: "We use cookies for a variety of reasons detailed below. Unfortunately in most cases there are no industry standard options for disabling cookies without completely disabling the functionality and features they add to this site. It is recommended that you leave on all cookies if you are not sure whether you need them or not in case they are used to provide a service that you use.",
         },
         {
-          header: "100% satisfaction",
-          text: "Many years of experience in the field of finance allows us to act quickly and effectively.",
+          header: "Disabling Cookies",
+          text: "You can prevent the setting of cookies by adjusting the settings on your browser (see your browser Help for how to do this). Be aware that disabling cookies will affect the functionality of this and many other websites that you visit. Disabling cookies will usually result in also disabling certain functionality and features of the this site. Therefore it is recommended that you do not disable cookies.",
+        },
+        { header: "The Cookies We Set" },
+        {
+          listDescription: "",
+          listElements: [
+            "Formularze zwiaząne z plikami cookie \nGdy przesyłasz dane za pomocą formularza takiego jak te, które znajdują się na stronach kontaktowych lub formularzach komentarzy, pliki cookie mogą być ustawione tak, aby zapamiętywały dane użytkownika do przyszłej korespondencji.",
+            "Pliki cookies – preferencje strony \nAby zapewnić Ci doskonałą jakość korzystania z tej witryny, zapewniamy funkcję ustawiania preferencji dotyczących sposobu działania witryny podczas korzystania z niej. Aby zapamiętać twoje preferencje, musimy ustawić pliki cookie, aby informacje te mogły być wywoływane za każdym razem, gdy interakcja ze stroną jest pod wpływem twoich preferencji.",
+          ],
+        },
+        {
+          header: "Pliki cookie stron trzecich",
+        },
+        {
+          listDescription:
+            "W niektórych szczególnych przypadkach używamy również plików cookie dostarczanych przez zaufane strony trzecie. W poniższej sekcji wymieniono pliki cookie podmiotów zewnętrznych, które mogą wystąpić za pośrednictwem tej witryny.",
+          listElements: [
+            "Ta strona może korzystać z Google Analytics, które jest jednym z najbardziej rozpowszechnionych i zaufanych rozwiązań analitycznych w sieci, pomagając nam zrozumieć, w jaki sposób korzystasz z witryny i jak możemy poprawić Twoje wrażenia. Te pliki cookie mogą śledzić takie rzeczy, jak czas spędzony w witrynie i odwiedzane strony, abyśmy mogli nadal tworzyć angażujące treści. \nWięcej informacji na temat plików cookie Google Analytics można znaleźć na oficjalnej stronie Google Analytics.",
+            "Ponieważ sprzedajemy produkty, ważne jest, abyśmy rozumieli statystyki dotyczące tego, ilu odwiedzających naszą stronę faktycznie dokonuje zakupu, i jako takie są dane, które te pliki cookie będą śledzić. Jest to dla Ciebie ważne, ponieważ oznacza, że możemy dokładnie prognozować biznes, które pozwalają nam monitorować nasze koszty reklam i produktów w celu zapewnienia najlepszej możliwej ceny.",
+            "Na tej stronie używamy również przycisków i / lub wtyczek mediów społecznościowych, które umożliwiają łączenie się z siecią społecznościową na różne sposoby. Aby działały one w następujących witrynach społecznościowych, w tym na Facebooku i Twitterze, ustawiają pliki cookie za pośrednictwem naszej witryny, które mogą być wykorzystywane do ulepszania Twojego profilu na ich stronie lub przyczyniają się do przechowywania danych do różnych celów określonych w ich odpowiednich politykach prywatności.",
+          ],
+        },
+        {
+          header: "Więcej informacji",
+          text: "Mamy nadzieję, że wyjaśniło to dla ciebie i jak wspomniano wcześniej, jeśli jest coś, czego nie jesteś pewien, czy potrzebujesz, czy nie, zwykle bezpieczniej jest pozostawić włączoną obsługę plików cookie, na wypadek, gdyby działała ona z jedną z funkcji używanych w naszej witrynie. Niniejsza Polityka plików cookie została utworzona za pomocą Cookies Policy Template Generator i Privacy Policy Template Generator.",
+        },
+        {
+          listDescription:
+            "Jeśli jednak nadal szukasz więcej informacji, możesz skontaktować się z nami za pomocą jednej z naszych preferowanych metod kontaktu:",
+          listElements: ["Email: office@myclover.co.uk"],
         },
       ],
-    },
-    careers: {
-      title: "Careers",
-      mainHeader: "Work with us",
-      text: "We offer fast-track career development for interested individuals, as well as competitive pay. If you are keen to start or develop your career in the financial industry, let us know! \nWe also have an unique partner programme. Get in touch to find out the details.",
     },
   },
 };

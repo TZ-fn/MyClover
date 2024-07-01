@@ -199,6 +199,38 @@ const polishTranslation = {
         email: "Adres email",
       },
     },
+    mortgages: {
+      mainHeader: "Kredyty hipoteczne",
+      text1:
+        "Uzyskanie kredytu hipotecznego jest jedną z najważniejszych decyzji w twoim życiu, dlatego chcesz się upewnić, że jest odpowiednia.",
+      text2:
+        "Wybierając kredyt, warto zapoznać się z całą ofertą, jaka jest dostępna w UK. Dlatego z nami możesz tylko zyskać. Wieloletnie doświadczenie oraz ciągła znajomość rynku bankowego pozwala nam w krótkim czasie dobrać najlepszą ofertę, oraz wynegocjować najniższe oprocentowanie kredytu.",
+      text3:
+        "Wybierając Clover jako swojego brokera kredytów hipotecznych, będziesz prowadzony przez cały proces, bez względu na to, czy kupujesz swój pierwszy dom, czy jesteś doświadczonym inwestorem. Oferujemy doradztwo, wsparcie i wskazówki na każdym etapie całego procesu. Możemy pomóc, obliczając twoją zdolność kredytową, wybierając najlepszą ofertę kredytu hipotecznego od ponad 80 kredytodawców, składając aplikację bezpośrednio do banku, rekomendując radców prawnych i zapewniając wszystkie rodzaje odpowiednich ubezpieczeń. Firma Clover upewni się, że jesteś przygotowany do aplikacji o kredyt hipoteczny oraz złoży wniosek w Twoim imieniu, a także będzie głównym punktem kontaktowym między tobą, a bankiem.",
+      contactPhone: "Dowiedz się więcej",
+      contactEmail: "Email kontaktowy",
+      benefitsList: [
+        {
+          header: "Profesjonalne doradztwo",
+          text: "Począwszy od ogólnych informacji i przygotowania, aż po odbiór kluczy.",
+        },
+        {
+          header: "Negocjowanie warunków",
+          text: "Szeroki wybór banków i firm ubezpieczeniowych dostęp do całego rynku, w tym do ponad 80 banków i 40 firm ubezpieczeniowych.",
+        },
+        {
+          header: "100% Satysfakcji",
+          text: "Wieloletnie doświadczenie w dziedzinie finansów pozwala nam działać szybko i skutecznie.",
+        },
+      ],
+    },
+    careers: {
+      title: "Kariera",
+      mainHeader: "Współpracuj z nami",
+      text: "Oferujemy atrakcyjny program dla partnerów. Współpraca z naszą firmą to możliwość szybkiego rozwoju oraz atrakcyjne wynagrodzenie. Dołącz do nas już dziś.",
+      contactPhone: "Dowiedz się więcej",
+      contactEmail: "Email kontaktowy",
+    },
     privacyPolicy: {
       mainHeader: "Polityka Prywatności",
       subHeader: "Polityka prywatności Clover Family Cover",
@@ -273,37 +305,53 @@ const polishTranslation = {
         },
       ],
     },
-    mortgages: {
-      mainHeader: "Kredyty hipoteczne",
-      text1:
-        "Uzyskanie kredytu hipotecznego jest jedną z najważniejszych decyzji w twoim życiu, dlatego chcesz się upewnić, że jest odpowiednia.",
-      text2:
-        "Wybierając kredyt, warto zapoznać się z całą ofertą, jaka jest dostępna w UK. Dlatego z nami możesz tylko zyskać. Wieloletnie doświadczenie oraz ciągła znajomość rynku bankowego pozwala nam w krótkim czasie dobrać najlepszą ofertę, oraz wynegocjować najniższe oprocentowanie kredytu.",
-      text3:
-        "Wybierając Clover jako swojego brokera kredytów hipotecznych, będziesz prowadzony przez cały proces, bez względu na to, czy kupujesz swój pierwszy dom, czy jesteś doświadczonym inwestorem. Oferujemy doradztwo, wsparcie i wskazówki na każdym etapie całego procesu. Możemy pomóc, obliczając twoją zdolność kredytową, wybierając najlepszą ofertę kredytu hipotecznego od ponad 80 kredytodawców, składając aplikację bezpośrednio do banku, rekomendując radców prawnych i zapewniając wszystkie rodzaje odpowiednich ubezpieczeń. Firma Clover upewni się, że jesteś przygotowany do aplikacji o kredyt hipoteczny oraz złoży wniosek w Twoim imieniu, a także będzie głównym punktem kontaktowym między tobą, a bankiem.",
-      contactPhone: "Dowiedz się więcej",
-      contactEmail: "Email kontaktowy",
-      benefitsList: [
+    cookies: {
+      title: "Pliki cookies",
+      mainHeader: "Polityka plików cookies firmy Clover Family",
+      subHeader: "To jest polityka plików cookie dla Clover Family Cover, dostępna z https://myclover.co.uk/",
+      items: [
         {
-          header: "Profesjonalne doradztwo",
-          text: "Począwszy od ogólnych informacji i przygotowania, aż po odbiór kluczy.",
+          header: "Co to są pliki cookie?",
+          text: "Zgodnie z powszechną praktyką w prawie wszystkich profesjonalnych witrynach, ta strona używa plików cookie, które są małymi plikami, które są pobierane na Twój komputer, aby poprawić twoje wrażenia. Ta strona opisuje, jakie informacje gromadzą, w jaki sposób je wykorzystujemy i dlaczego czasami musimy przechowywać te pliki cookie. Udostępnimy również, w jaki sposób można zapobiec przechowywaniu tych plików cookie, jednak może to obniżyć jakość lub „zniszczyć” niektóre elementy funkcjonalności witryn.",
         },
         {
-          header: "Negocjowanie warunków",
-          text: "Szeroki wybór banków i firm ubezpieczeniowych dostęp do całego rynku, w tym do ponad 80 banków i 40 firm ubezpieczeniowych.",
+          header: "Jak korzystamy z plików cookie",
+          text: "Używamy plików cookie z różnych powodów wyszczególnionych poniżej. Niestety w większości przypadków nie ma standardowych branżowych opcji wyłączania plików cookie bez całkowitego wyłączenia funkcji i funkcji dodawanych do tej witryny. Zaleca się pozostawienie wszystkich plików cookie, jeśli nie masz pewności, czy ich potrzebujesz, czy nie, w przypadku gdy są one wykorzystywane do świadczenia usługi, z której korzystasz.",
         },
         {
-          header: "100% Satysfakcji",
-          text: "Wieloletnie doświadczenie w dziedzinie finansów pozwala nam działać szybko i skutecznie.",
+          header: "Wyłączanie plików cookie",
+          text: "Można zapobiec ustawianiu plików cookie, dostosowując ustawienia w przeglądarce (jak to zrobić w pomocy przeglądarki). Pamiętaj, że wyłączenie plików cookie wpłynie na funkcjonalność tej i wielu innych witryn, które odwiedzasz. Wyłączenie plików cookie zwykle powoduje również wyłączenie niektórych funkcji i funkcji tej witryny. Dlatego zaleca się, aby nie wyłączać plików cookie.",
+        },
+        { header: "Pliki cookies których używamy" },
+        {
+          listDescription: "",
+          listElements: [
+            "Forms related cookies \nWhen you submit data to through a form such as those found on contact pages or comment forms cookies may be set to remember your user details for future correspondence.",
+            "Site preferences cookies \nIn order to provide you with a great experience on this site we provide the functionality to set your preferences for how this site runs when you use it. In order to remember your preferences we need to set cookies so that this information can be called whenever you interact with a page is affected by your preferences.",
+          ],
+        },
+        {
+          header: "Third Party Cookies",
+        },
+        {
+          listDescription:
+            "In some special cases we also use cookies provided by trusted third parties. The following section details which third party cookies you might encounter through this site.",
+          listElements: [
+            "This site may uses Google Analytics which is one of the most widespread and trusted analytics solution on the web for helping us to understand how you use the site and ways that we can improve your experience. These cookies may track things such as how long you spend on the site and the pages that you visit so we can continue to produce engaging content. \nFor more information on Google Analytics cookies, see the official Google Analytics page.",
+            "As we sell products it’s important for us to understand statistics about how many of the visitors to our site actually make a purchase and as such this is the kind of data that these cookies will track. This is important to you as it means that we can accurately make business predictions that allow us to monitor our advertising and product costs to ensure the best possible price.",
+            "We also use social media buttons and/or plugins on this site that allow you to connect with your social network in various ways. For these to work the following social media sites including Facebook and Twitter, , will set cookies through our site which may be used to enhance your profile on their site or contribute to the data they hold for various purposes outlined in their respective privacy policies.",
+          ],
+        },
+        {
+          header: "More Information",
+          text: "Hopefully that has clarified things for you and as was previously mentioned if there is something that you aren’t sure whether you need or not it’s usually safer to leave cookies enabled in case it does interact with one of the features you use on our site. This Cookies Policy was created with the help of the Cookies Policy Template Generator and the Privacy Policy Template Generator.",
+        },
+        {
+          listDescription:
+            "However if you are still looking for more information then you can contact us through one of our preferred contact methods:",
+          listElements: ["Email: office@myclover.co.uk"],
         },
       ],
-    },
-    careers: {
-      title: "Kariera",
-      mainHeader: "Współpracuj z nami",
-      text: "Oferujemy atrakcyjny program dla partnerów. Współpraca z naszą firmą to możliwość szybkiego rozwoju oraz atrakcyjne wynagrodzenie. Dołącz do nas już dziś.",
-      contactPhone: "Dowiedz się więcej",
-      contactEmail: "Email kontaktowy",
     },
   },
 };
