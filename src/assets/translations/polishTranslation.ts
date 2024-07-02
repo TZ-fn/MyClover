@@ -326,30 +326,30 @@ const polishTranslation = {
         {
           listDescription: "",
           listElements: [
-            "Forms related cookies \nWhen you submit data to through a form such as those found on contact pages or comment forms cookies may be set to remember your user details for future correspondence.",
-            "Site preferences cookies \nIn order to provide you with a great experience on this site we provide the functionality to set your preferences for how this site runs when you use it. In order to remember your preferences we need to set cookies so that this information can be called whenever you interact with a page is affected by your preferences.",
+            "Formularze zwiaząne z plikami cookie \nGdy przesyłasz dane za pomocą formularza takiego jak te, które znajdują się na stronach kontaktowych lub formularzach komentarzy, pliki cookie mogą być ustawione tak, aby zapamiętywały dane użytkownika do przyszłej korespondencji.",
+            "Pliki cookies – preferencje strony \nAby zapewnić Ci doskonałą jakość korzystania z tej witryny, zapewniamy funkcję ustawiania preferencji dotyczących sposobu działania witryny podczas korzystania z niej. Aby zapamiętać twoje preferencje, musimy ustawić pliki cookie, aby informacje te mogły być wywoływane za każdym razem, gdy interakcja ze stroną jest pod wpływem twoich preferencji.",
           ],
         },
         {
-          header: "Third Party Cookies",
+          header: "Pliki cookie stron trzecich",
           text: "",
         },
         {
           listDescription:
-            "In some special cases we also use cookies provided by trusted third parties. The following section details which third party cookies you might encounter through this site.",
+            "W niektórych szczególnych przypadkach używamy również plików cookie dostarczanych przez zaufane strony trzecie. W poniższej sekcji wymieniono pliki cookie podmiotów zewnętrznych, które mogą wystąpić za pośrednictwem tej witryny.",
           listElements: [
-            "This site may uses Google Analytics which is one of the most widespread and trusted analytics solution on the web for helping us to understand how you use the site and ways that we can improve your experience. These cookies may track things such as how long you spend on the site and the pages that you visit so we can continue to produce engaging content. \nFor more information on Google Analytics cookies, see the official Google Analytics page.",
-            "As we sell products it’s important for us to understand statistics about how many of the visitors to our site actually make a purchase and as such this is the kind of data that these cookies will track. This is important to you as it means that we can accurately make business predictions that allow us to monitor our advertising and product costs to ensure the best possible price.",
-            "We also use social media buttons and/or plugins on this site that allow you to connect with your social network in various ways. For these to work the following social media sites including Facebook and Twitter, , will set cookies through our site which may be used to enhance your profile on their site or contribute to the data they hold for various purposes outlined in their respective privacy policies.",
+            "Ta strona może korzystać z Google Analytics, które jest jednym z najbardziej rozpowszechnionych i zaufanych rozwiązań analitycznych w sieci, pomagając nam zrozumieć, w jaki sposób korzystasz z witryny i jak możemy poprawić Twoje wrażenia. Te pliki cookie mogą śledzić takie rzeczy, jak czas spędzony w witrynie i odwiedzane strony, abyśmy mogli nadal tworzyć angażujące treści. \nWięcej informacji na temat plików cookie Google Analytics można znaleźć na oficjalnej stronie Google Analytics.",
+            "Ponieważ sprzedajemy produkty, ważne jest, abyśmy rozumieli statystyki dotyczące tego, ilu odwiedzających naszą stronę faktycznie dokonuje zakupu, i jako takie są dane, które te pliki cookie będą śledzić. Jest to dla Ciebie ważne, ponieważ oznacza, że możemy dokładnie prognozować biznes, które pozwalają nam monitorować nasze koszty reklam i produktów w celu zapewnienia najlepszej możliwej ceny.",
+            "Na tej stronie używamy również przycisków i / lub wtyczek mediów społecznościowych, które umożliwiają łączenie się z siecią społecznościową na różne sposoby. Aby działały one w następujących witrynach społecznościowych, w tym na Facebooku i Twitterze, ustawiają pliki cookie za pośrednictwem naszej witryny, które mogą być wykorzystywane do ulepszania Twojego profilu na ich stronie lub przyczyniają się do przechowywania danych do różnych celów określonych w ich odpowiednich politykach prywatności.",
           ],
         },
         {
-          header: "More Information",
-          text: "Hopefully that has clarified things for you and as was previously mentioned if there is something that you aren’t sure whether you need or not it’s usually safer to leave cookies enabled in case it does interact with one of the features you use on our site. This Cookies Policy was created with the help of the Cookies Policy Template Generator and the Privacy Policy Template Generator.",
+          header: "Więcej informacji",
+          text: "Mamy nadzieję, że wyjaśniło to dla ciebie i jak wspomniano wcześniej, jeśli jest coś, czego nie jesteś pewien, czy potrzebujesz, czy nie, zwykle bezpieczniej jest pozostawić włączoną obsługę plików cookie, na wypadek, gdyby działała ona z jedną z funkcji używanych w naszej witrynie. Niniejsza Polityka plików cookie została utworzona za pomocą Cookies Policy Template Generator i Privacy Policy Template Generator.",
         },
         {
           listDescription:
-            "However if you are still looking for more information then you can contact us through one of our preferred contact methods:",
+            "Jeśli jednak nadal szukasz więcej informacji, możesz skontaktować się z nami za pomocą jednej z naszych preferowanych metod kontaktu:",
           listElements: ["Email: office@myclover.co.uk"],
         },
       ],
