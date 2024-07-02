@@ -1,11 +1,11 @@
-import styles from "./PrivacyPolicyItem.module.scss";
+import styles from "./TextItem.module.scss";
 
-interface PrivacyPolicyItemProps {
+interface TextItemProps {
   header: string;
   text: string;
 }
 
-function PrivacyPolicyItem({ header, text }: PrivacyPolicyItemProps) {
+function TextItem({ header, text }: TextItemProps) {
   return (
     <div className={styles.itemContainer}>
       <h5 className={styles.itemHeader}>{header}</h5>
@@ -14,4 +14,4 @@ function PrivacyPolicyItem({ header, text }: PrivacyPolicyItemProps) {
   );
 }
 
-export default PrivacyPolicyItem;
+export default TextItem;

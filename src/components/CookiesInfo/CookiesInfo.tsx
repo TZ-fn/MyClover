@@ -1,7 +1,7 @@
 import useTranslation from "hooks/useTranslation";
 import styles from "./CookiesInfo.module.scss";
-import PrivacyPolicyItem from "components/PrivacyPolicy/PrivacyPolicyItem/PrivacyPolicyItem";
-import PrivacyPolicyList from "components/PrivacyPolicy/PrivacyPolicyList/PrivacyPolicyList";
+import TextItem from "components/shared/TextItem/TextItem";
+import TextList from "components/shared/TextList/TextList";
 
 export default function CookiesInfo() {
   const [translation] = useTranslation();
@@ -13,11 +13,11 @@ export default function CookiesInfo() {
       <h4 className={styles.subHeader}>{cookiesInfoTranslation.subHeader}</h4>
       {cookiesInfoTranslation.items.map((item) => {
         if (item.header) {
-          return <PrivacyPolicyItem key={item.header} header={item.header} text={item.text} />;
+          return <TextItem key={item.header} header={item.header} text={item.text} />;
         }
-        if (item.listDescription) {
+        if (item.listDescription || item.listElements) {
           return (
-            <PrivacyPolicyList
+            <TextList
               key={item.listDescription}
               listDescription={item.listDescription}
               listElements={item.listElements}
