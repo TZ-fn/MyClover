@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Transition } from "react-transition-group";
-import useTranslation from "hooks/useTranslation";
 import PostsGalleryItem from "./PostsGalleryItem/PostsGalleryItem";
 import styles from "./PostsGallery.module.scss";
 
@@ -22,7 +21,6 @@ interface PostsGalleryProps {
 export default function PostsGallery({ postsTranslation, postsData }: PostsGalleryProps) {
   const [galleryIndexes, setGalleryIndexes] = useState([0, 1, 2]);
   const [activeGalleryButton, setActiveGalleryButton] = useState(1);
-  const [translation] = useTranslation();
 
   function handleGalleryControls(e: React.MouseEvent<HTMLButtonElement, MouseEvent>) {
     setActiveGalleryButton(Number((e.target as HTMLButtonElement).id));
