@@ -1,6 +1,6 @@
 import ImageDivider from "components/ImageDivider/ImageDivider";
 import ImageHeader from "components/ImageHeader/ImageHeader";
-// import IncomeProtectionMain from "components/MortgagesPageMain/MortgagesPageMain";
+import IncomeProtectionMain from "components/IncomeProtectionMain/IncomeProtectionMain";
 import useTranslation from "hooks/useTranslation";
 
 function IncomeProtectionPage() {
@@ -13,7 +13,7 @@ function IncomeProtectionPage() {
         backgroundImage="src/assets/incomeProtection.webp"
       />
       <ImageDivider isUpwards={false} />
-      {/* <IncomeProtectionMain /> */}
+      <IncomeProtectionMain />
     </>
   );
 }
