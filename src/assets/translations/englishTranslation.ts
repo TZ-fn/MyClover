@@ -225,6 +225,25 @@ const englishTranslation = {
       mainHeader: "Work with us",
       text: "We offer fast-track career development for interested individuals, as well as competitive pay. If you are keen to start or develop your career in the financial industry, let us know! \nWe also have an unique partner programme. Get in touch to find out the details.",
     },
+    incomeProtection: {
+      mainHeader: "Income protection",
+      subHeader: "Income protection",
+      text: "Inability to work is not the end of the world, given you have appropriate protection. Receive up to 70% of your salary, when unable to work due to health reasons. Make sure you can get essential income when you need it the most. \nYou can apply if you are employed, self-employed or have your own limited company.",
+      benefitsList: [
+        {
+          header: "We analyze",
+          text: "So that you have a personalised insurance option, best suited to you.",
+        },
+        {
+          header: "We build a package",
+          text: "Of the best, carefully selected products, which fulfil your needs.",
+        },
+        {
+          header: "We have a unique offer",
+          text: "As a broker, we have access to products which are not available to clients directly.",
+        },
+      ],
+    },
     privacyPolicy: {
       mainHeader: "Privacy Policy",
       subHeader: "Clover Family Cover Privacy notice",
