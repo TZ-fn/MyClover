@@ -6,7 +6,7 @@ interface PostsGalleryItemProps {
   descriptionHeader: string;
   description: string;
   link: string;
-  style: React.CSSProperties | undefined;
+  style?: React.CSSProperties | undefined;
 }
 
 export default function PostsGalleryItem({
