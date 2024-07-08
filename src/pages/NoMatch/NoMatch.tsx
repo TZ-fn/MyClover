@@ -3,11 +3,13 @@ import useTranslation from "hooks/useTranslation";
 import styles from "./NoMatch.module.scss";
 
 function NoMatch() {
-  const translation = useTranslation()[0].pages.noMatch;
+  const [translation] = useTranslation();
+  const noMatchTranslation = translation.pages.noMatch;
+
   return (
     <div className={styles.noMatchContainer}>
-      <h2 className={styles.noMatchHeader}>{translation.noMatchHeader}</h2>
-      <p className={styles.noMatchText}>{translation.noMatchText}</p>
+      <h2 className={styles.noMatchHeader}>{noMatchTranslation.noMatchHeader}</h2>
+      <p className={styles.noMatchText}>{noMatchTranslation.noMatchText}</p>
       <Link className={styles.returnToHome} to="/">
         <svg className={styles.returnToHomeIcon} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
           <path
@@ -15,7 +17,7 @@ function NoMatch() {
             data-name="10-House"
           />
         </svg>
-        {translation.returnToHome}
+        {noMatchTranslation.returnToHome}
       </Link>
     </div>
   );
