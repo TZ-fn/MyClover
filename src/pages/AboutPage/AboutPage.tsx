@@ -5,13 +5,14 @@ import OffersList from "components/AboutSection/OffersList/OffersList";
 import FAQ from "components/FAQ/FAQ";
 import ImageDivider from "components/ImageDivider/ImageDivider";
 import CooperationBanner from "components/CooperationBanner/CooperationBanner";
+import aboutUsBg from "assets/aboutUsBg.webp";
 
 function AboutPage() {
   const [translation] = useTranslation();
 
   return (
     <>
-      <ImageHeader pageName={translation.header.navigation.about} backgroundImage="src/assets/aboutUsBg.webp" />
+      <ImageHeader pageName={translation.header.navigation.about} backgroundImage={aboutUsBg} />
       <ImageDivider isUpwards={false} />
       <TextBanner
         header={translation.pages.aboutUs.sectionOne.header}
