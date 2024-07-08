@@ -1,6 +1,7 @@
 import useTranslation from "hooks/useTranslation";
-import styles from "./IncomeProtectionMain.module.scss";
 import ContactDataBox from "components/ContactDataBox/ContactDataBox";
+import clover from "assets/clover.webp";
+import styles from "./IncomeProtectionMain.module.scss";
 
 export default function IncomeProtectionMain() {
   const [translation] = useTranslation();
@@ -65,7 +66,7 @@ export default function IncomeProtectionMain() {
             <p className={styles.benefitItemText}>{incomeProtectionTranslation.benefitsList[2]?.text}</p>
           </li>
         </ul>
-        <img className={styles.cloversImage} src="src/assets/clover.webp" alt="" />
+        <img className={styles.cloversImage} src={clover} alt="" />
       </section>
     </main>
   );

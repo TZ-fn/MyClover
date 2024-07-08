@@ -1,6 +1,7 @@
 import useTranslation from "hooks/useTranslation";
-import styles from "./MortgagesPageMain.module.scss";
 import ContactDataBox from "components/ContactDataBox/ContactDataBox";
+import clover from "assets/clover.webp";
+import styles from "./MortgagesPageMain.module.scss";
 
 export default function MortgagesPageMain() {
   const [translation] = useTranslation();
@@ -18,7 +19,7 @@ export default function MortgagesPageMain() {
         <ContactDataBox phoneNumber="752 234 5476" />
       </section>
       <section className={styles.benefitsSection}>
-        <img className={styles.cloversImage} src="src/assets/clover.webp" alt="" />
+        <img className={styles.cloversImage} src={clover} alt="" />
         <ul className={styles.benefitsList}>
           <li className={styles.benefitItem}>
             <div className={styles.benefitIconContainer}>
