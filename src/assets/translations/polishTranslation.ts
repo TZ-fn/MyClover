@@ -16,7 +16,7 @@ const polishTranslation = {
   footer: {
     cloverSocials: "Clover - Media społecznościowe",
     socialsFacebookLink: "Odwiedź nas na Facebooku.",
-    socialsTwitterLink: "",
+    socialsTwitterLink: "Twitter",
     socialsEmail: "Wyslij nam email.",
     contactInformation: "Informacje kontaktowe",
     country: "Wielka Brytania",

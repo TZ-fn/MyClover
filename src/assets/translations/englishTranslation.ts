@@ -16,7 +16,7 @@ const englishTranslation = {
   footer: {
     cloverSocials: "Clover - Social Media",
     socialsFacebookLink: "Visit us on Facebook.",
-    socialsTwitterLink: "",
+    socialsTwitterLink: "Twitter",
     socialsEmail: "Send us an e-mail.",
     contactInformation: "Contact information",
     country: "United Kingdom",
