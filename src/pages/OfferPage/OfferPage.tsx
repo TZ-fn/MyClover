@@ -3,12 +3,13 @@ import ImageHeader from "components/ImageHeader/ImageHeader";
 import OfferInfo from "components/OfferInfo/OfferInfo";
 import OffersPosts from "components/OfferPosts/OffersPosts";
 import useTranslation from "hooks/useTranslation";
+import offerBg from "assets/offer.webp";
 
 function OfferPage() {
   const [translation] = useTranslation();
   return (
     <>
-      <ImageHeader pageName={translation.header.navigation.offer} backgroundImage="src/assets/offer.webp" />
+      <ImageHeader pageName={translation.header.navigation.offer} backgroundImage={offerBg} />
       <ImageDivider isUpwards={false} />
       <OfferInfo />
       <OffersPosts />
