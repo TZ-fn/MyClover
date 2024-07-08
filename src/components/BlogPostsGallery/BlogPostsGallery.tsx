@@ -11,6 +11,7 @@ export default function BlogPostsGallery() {
       {translation.pages.posts.map((post, index) => {
         return (
           <PostsGalleryItem
+            key={index}
             miniature={mainPostsData[index]?.miniature}
             descriptionHeader={post.descriptionHeader}
             description={post.description}
