@@ -17,14 +17,14 @@ export default function PostsGalleryItem({
   style,
 }: PostsGalleryItemProps) {
   return (
-    <Link to={link}>
-      <li className={styles.itemContainer} style={style}>
+    <li className={styles.itemContainer} style={style}>
+      <Link to={link}>
         <img className={styles.itemPhoto} src={miniature} alt="" />
         <div className={styles.itemDescription}>
           <h3 className={styles.descriptionHeader}>{descriptionHeader}</h3>
           <p className={styles.description}>{description}</p>
         </div>
-      </li>
-    </Link>
+      </Link>
+    </li>
   );
 }
