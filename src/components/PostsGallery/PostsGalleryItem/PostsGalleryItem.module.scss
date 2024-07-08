@@ -4,13 +4,20 @@
   border-bottom: 3px solid var(--grey);
   cursor: pointer;
   transition: all 0.1s ease-in-out;
+  min-width: 30%;
   max-width: 45rem;
   min-height: 26vw;
   flex-grow: 1;
   flex-basis: 0;
+  align-self: stretch;
 
   &:hover {
     transform: translateY(-1px);
+  }
+
+  &:last-child,
+  &:only-child {
+    flex-grow: 0;
   }
 
   @media (max-width: 1000px) {
