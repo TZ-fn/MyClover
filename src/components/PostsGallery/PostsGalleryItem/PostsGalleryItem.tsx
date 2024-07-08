@@ -19,7 +19,7 @@ export default function PostsGalleryItem({
   return (
     <li className={styles.itemContainer} style={style}>
       <Link to={link}>
-        <img className={styles.itemPhoto} src={miniature} alt="" />
+        <img className={styles.itemPhoto} loading="lazy" src={miniature} alt="" />
         <div className={styles.itemDescription}>
           <h3 className={styles.descriptionHeader}>{descriptionHeader}</h3>
           <p className={styles.description}>{description}</p>

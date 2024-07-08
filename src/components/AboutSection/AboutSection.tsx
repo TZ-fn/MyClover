@@ -24,22 +24,22 @@ export default function AboutSection() {
       <div className={styles.iconsContainer}>
         <div>
           <div className={styles.iconContainer}>
-            <img className={styles.icon} src={IconChecked} alt="" />
-            <img className={styles.iconHovered} src={IconChecked} alt="" />
+            <img className={styles.icon} src={IconChecked} alt="" loading="lazy" />
+            <img className={styles.iconHovered} src={IconChecked} alt="" loading="lazy" />
           </div>
           <p className={styles.iconLabel}>{aboutSectionTranslation.iconInsurances}</p>
         </div>
         <div>
           <div className={styles.iconContainer}>
-            <img className={styles.icon} src={IconMortgage} alt="" />
-            <img className={styles.iconHovered} src={IconMortgage} alt="" />
+            <img className={styles.icon} src={IconMortgage} alt="" loading="lazy" />
+            <img className={styles.iconHovered} src={IconMortgage} alt="" loading="lazy" />
           </div>
           <p className={styles.iconLabel}>{aboutSectionTranslation.iconMortgages}</p>
         </div>
         <div>
           <div className={styles.iconContainer}>
-            <img className={styles.icon} src={IconGrowth} alt="" />
-            <img className={styles.iconHovered} src={IconGrowth} alt="" />
+            <img className={styles.icon} src={IconGrowth} alt="" loading="lazy" />
+            <img className={styles.iconHovered} src={IconGrowth} alt="" loading="lazy" />
           </div>
           <p className={styles.iconLabel}>{aboutSectionTranslation.iconCareer}</p>
         </div>
