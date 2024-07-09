@@ -372,8 +372,8 @@ const polishTranslation = {
       ],
     },
     termsConditions: {
-      title: "Terms & Conditions",
-      mainHeader: "Terms & Conditions",
+      title: "Regulamin",
+      mainHeader: "Regulamin",
       subHeader: "Terms of business",
       items: [
         {
