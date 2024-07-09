@@ -5,6 +5,7 @@ import OffersList from "components/AboutSection/OffersList/OffersList";
 import FAQ from "components/FAQ/FAQ";
 import ImageDivider from "components/ImageDivider/ImageDivider";
 import CooperationBanner from "components/CooperationBanner/CooperationBanner";
+import PageTitle from "components/PageTitle/PageTitle";
 import aboutUsBg from "assets/aboutUsBg.webp";
 
 function AboutPage() {
@@ -12,6 +13,7 @@ function AboutPage() {
 
   return (
     <>
+      <PageTitle title={translation.header.navigation.about} />
       <ImageHeader pageName={translation.header.navigation.about} backgroundImage={aboutUsBg} />
       <ImageDivider isUpwards={false} />
       <TextBanner
