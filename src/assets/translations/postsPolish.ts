@@ -30,6 +30,11 @@ const postsPolish = [
     description:
       "Dobre pytanie, cena zawsze jest zależna od wielu czynników dlatego, tylko po dokładnej analizie sytuacji konkretnej osoby możemy ustalić składkę.",
   },
+  {
+    descriptionHeader: "Regulamin Loterii",
+    description:
+      "Terms and conditions of lottery When entering the Clover Prize Draw, players agree to be bound by the terms and conditions below. A hard copy can be obtained by contacting the office on 07858282317.",
+  },
 ];
 
 export default postsPolish;

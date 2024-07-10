@@ -5,6 +5,7 @@ import miniature4 from "./posts/miniature_4.webp";
 import miniature5 from "./posts/miniature_5.webp";
 import miniature6 from "./posts/miniature_6.webp";
 import miniature7 from "./posts/miniature_7.webp";
+import miniature8 from "./posts/miniature_8.webp";
 
 const postsData = [
   { miniature: miniature1, link: "before-going-on-holiday" },
@@ -14,6 +15,7 @@ const postsData = [
   { miniature: miniature5, link: "property-protection" },
   { miniature: miniature6, link: "business-insurance" },
   { miniature: miniature7, link: "insurance-costs" },
+  { miniature: miniature8, link: "lottery" },
 ];
 
 export default postsData;
