@@ -1,9 +1,14 @@
 .blogPostsGalleryContainer {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
+  margin: 0 auto;
   padding: 0 4vw 4vw 4vw;
   gap: 3rem;
-  margin: auto;
+
+  @media (max-width: 1100px) {
+    margin-top: 2rem;
+    flex-direction: column;
+  }
 }
