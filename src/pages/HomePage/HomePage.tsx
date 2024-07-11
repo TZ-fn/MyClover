@@ -4,7 +4,6 @@ import HeroBanner from "components/HeroBanner/HeroBanner";
 import AboutSection from "components/AboutSection/AboutSection";
 import CloverTextBanner from "components/CloverTextBanner/CloverTextBanner";
 import PostsGallery from "components/PostsGallery/PostsGallery";
-import mainPostsData from "../../assets/mainPostsData";
 import PageTitle from "components/PageTitle/PageTitle";
 import ImageBanner from "components/ImageBanner/ImageBanner";
 
@@ -17,7 +16,7 @@ function HomePage() {
       <HeroBanner />
       <AboutSection />
       <CloverTextBanner />
-      <PostsGallery postsTranslation={translation.pages.posts} postsData={mainPostsData} />
+      <PostsGallery postsData={translation.pages.posts} />
       <ImageBanner />
       <ScrollRestoration />
     </>

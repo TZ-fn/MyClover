@@ -1,6 +1,5 @@
 import useTranslation from "hooks/useTranslation";
 import styles from "./BlogPostsGallery.module.scss";
-import mainPostsData from "assets/mainPostsData";
 import PostsGalleryItem from "components/PostsGallery/PostsGalleryItem/PostsGalleryItem";
 
 export default function BlogPostsGallery() {
@@ -12,10 +11,10 @@ export default function BlogPostsGallery() {
         return (
           <PostsGalleryItem
             key={index}
-            miniature={mainPostsData[index]?.miniature}
+            miniature={post.miniature}
             descriptionHeader={post.descriptionHeader}
             description={post.description}
-            link={mainPostsData[index]!.link}
+            link={post.link}
           />
         );
       })}

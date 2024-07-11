@@ -6,19 +6,15 @@ import styles from "./PostsGallery.module.scss";
 interface post {
   descriptionHeader: string;
   description: string;
-}
-
-interface postData {
   miniature: string;
   link: string;
 }
 
 interface PostsGalleryProps {
-  postsTranslation: post[];
-  postsData: postData[];
+  postsData: post[];
 }
 
-export default function PostsGallery({ postsTranslation, postsData }: PostsGalleryProps) {
+export default function PostsGallery({ postsData }: PostsGalleryProps) {
   const [galleryIndexes, setGalleryIndexes] = useState([0, 1, 2]);
   const [activeGalleryButton, setActiveGalleryButton] = useState(1);
 
@@ -43,7 +39,7 @@ export default function PostsGallery({ postsTranslation, postsData }: PostsGalle
   return (
     <div className={styles.postsGalleryContainer}>
       <ul className={styles.postsGallery}>
-        {postsTranslation.map((post, index) => {
+        {postsData.map((post, index) => {
           if (galleryIndexes.includes(index)) {
             return (
               <Transition key={index} in={galleryIndexes.includes(index)} timeout={500}>
@@ -65,7 +61,7 @@ export default function PostsGallery({ postsTranslation, postsData }: PostsGalle
         })}
       </ul>
       <div className={styles.postsGalleryPagination}>
-        {postsTranslation.length > 3 && (
+        {postsData.length > 3 && (
           <button
             onClick={(e) => {
               handleGalleryControls(e);
@@ -77,7 +73,7 @@ export default function PostsGallery({ postsTranslation, postsData }: PostsGalle
             1
           </button>
         )}
-        {postsTranslation.length > 3 && (
+        {postsData.length > 3 && (
           <button
             onClick={(e) => {
               handleGalleryControls(e);
@@ -89,7 +85,7 @@ export default function PostsGallery({ postsTranslation, postsData }: PostsGalle
             2
           </button>
         )}
-        {postsTranslation.length > 6 && (
+        {postsData.length > 6 && (
           <button
             onClick={(e) => {
               handleGalleryControls(e);
