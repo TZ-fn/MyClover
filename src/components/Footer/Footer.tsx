@@ -40,12 +40,6 @@ function Footer() {
                 </Link>
               </li>
               <li className={styles.sectionListItem}>
-                <Link to="">
-                  <FaSquareTwitter />
-                  <span className="visually-hidden">{translation.footer.socialsTwitterLink}</span>
-                </Link>
-              </li>
-              <li className={styles.sectionListItem}>
                 <Link to="mailto:office@myclover.co.uk">
                   <FaSquareEnvelope />
                   <span className="visually-hidden">{translation.footer.socialsEmail}</span>
