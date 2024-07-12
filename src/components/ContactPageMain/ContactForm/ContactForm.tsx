@@ -22,14 +22,16 @@ export default function ContactForm() {
       />
       <textarea className={styles.textArea} placeholder={contactPageTranslation.contactForm.form4Placeholder} />
       <p className={styles.formDisclaimer}>
-        <input type="checkbox" className={styles.disclaimerCheckbox} />
-        {contactPageTranslation.contactForm.formDisclaimer1}
-        <Link to="/privacy-policy">
-          <span className={styles.formLink}>{contactPageTranslation.contactForm.formDisclaimer2}</span>
-        </Link>
+        <input id="disclaimerCheckbox" type="checkbox" className={styles.disclaimerCheckbox} />
+        <label htmlFor="disclaimerCheckbox">
+          {contactPageTranslation.contactForm.formDisclaimer1}
+          <Link to="/privacy-policy">
+            <span className={styles.formLink}>{contactPageTranslation.contactForm.formDisclaimer2}</span>
+          </Link>
+          <p className={styles.formDisclaimer}>{contactPageTranslation.contactForm.formDisclaimer3}</p>
+          <p className={styles.formDisclaimerBold}>{contactPageTranslation.contactForm.formDisclaimer4}</p>
+        </label>
       </p>
-      <p className={styles.formDisclaimer}>{contactPageTranslation.contactForm.formDisclaimer3}</p>
-      <p className={styles.formDisclaimerBold}>{contactPageTranslation.contactForm.formDisclaimer4}</p>
       <button className={styles.sendButton}>{contactPageTranslation.contactForm.send}</button>
     </form>
   );
