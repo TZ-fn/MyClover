@@ -1,4 +1,4 @@
-import { FaSquareFacebook, FaSquareTwitter, FaSquareEnvelope, FaPhone, FaRegEnvelope, FaHouse } from "react-icons/fa6";
+import { FaSquareFacebook, FaSquareEnvelope, FaPhone, FaRegEnvelope, FaHouse } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import useTranslation from "hooks/useTranslation";
 import styles from "./Footer.module.scss";
