@@ -1,4 +1,5 @@
 import postsPolish from "./postsPolish";
+import offersPostsPolish from "./offersPostsPolish";
 
 const polishTranslation = {
   name: "Polish",
@@ -154,23 +155,7 @@ const polishTranslation = {
       },
       offersList: {
         mainHeader: "Nasze usługi",
-        offers: [
-          {
-            descriptionHeader: "Utrata dochodu",
-            description:
-              "Utrata pracy to nie koniec świata, pod warunkiem że posiadasz dobrze dobrane ubezpieczenie na taką okoliczność. Zyskaj aż 70% swojej pensji, podczas niezdolności do pracy. Niezależnie czy pracujesz dla kogoś, czy prowadzisz własną działalność.",
-          },
-          {
-            descriptionHeader: "Kredyty hipoteczne",
-            description:
-              "Wybierając kredyt, warto zapoznać się z całą ofertą, jaka jest dostępna w UK. Dlatego z nami możesz tylko zyskać. Wieloletnie doświadczenie oraz ciągła znajomość rynku bankowego pozwala nam w krótkim czasie dobrać najlepszą ofertę, oraz wynegocjować najniższe oprocentowanie kredytu.",
-          },
-          {
-            descriptionHeader: "Kariera",
-            description:
-              "Oferujemy atrakcyjny program dla partnerów. Współpraca z naszą firmą to możliwość szybkiego rozwoju oraz atrakcyjne wynagrodzenie. ",
-          },
-        ],
+        offers: offersPostsPolish,
       },
     },
     contact: {
