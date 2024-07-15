@@ -1,4 +1,4 @@
-import postsPolish from "./postsPolish";
+import postsMiniaturesPolish from "./postsMiniaturesPolish";
 import offersPostsPolish from "./offersPostsPolish";
 
 const polishTranslation = {
@@ -60,7 +60,17 @@ const polishTranslation = {
       aboutBannerTextSpecial: "Zapraszamy również do współpracy.",
       bgImageText: "Zaopiekujemy się Twoją przyszłością.",
     },
-    posts: postsPolish,
+    postsMiniatures: postsMiniaturesPolish,
+    postsData: {
+      holiday: {},
+      trust: {},
+      lifeCover: {},
+      familyEvent: {},
+      propertyProtection: {},
+      businessInsurance: {},
+      insuranceCosts: {},
+      lottery: {},
+    },
     aboutUs: {
       sectionOne: {
         header: "Clover to firma inna niż wszystkie.",

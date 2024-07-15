@@ -7,7 +7,7 @@ export default function BlogPostsGallery() {
 
   return (
     <div className={styles.blogPostsGalleryContainer}>
-      {translation.pages.posts.map((post, index) => {
+      {translation.pages.postsMiniatures.map((post, index) => {
         return (
           <PostsGalleryItem
             key={index}

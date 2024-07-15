@@ -1,4 +1,4 @@
-import postsEnglish from "./postsEnglish";
+import postsMiniaturesEnglish from "./postsMiniaturesEnglish";
 import offersPostsEnglish from "./offersPostsEnglish";
 
 const englishTranslation = {
@@ -60,7 +60,17 @@ const englishTranslation = {
       aboutBannerTextSpecial: "We also invite you to cooperate with us.",
       bgImageText: "We cover your future.",
     },
-    posts: postsEnglish,
+    postsMiniatures: postsMiniaturesEnglish,
+    postsData: {
+      holiday: {},
+      trust: {},
+      lifeCover: {},
+      familyEvent: {},
+      propertyProtection: {},
+      businessInsurance: {},
+      insuranceCosts: {},
+      lottery: {},
+    },
     aboutUs: {
       sectionOne: {
         header: "Clover is not just a typical broker.",

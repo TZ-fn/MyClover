@@ -16,7 +16,7 @@ function HomePage() {
       <HeroBanner />
       <AboutSection />
       <CloverTextBanner />
-      <PostsGallery postsData={translation.pages.posts} />
+      <PostsGallery postsData={translation.pages.postsMiniatures} />
       <ImageBanner />
       <ScrollRestoration />
     </>
