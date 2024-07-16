@@ -62,7 +62,9 @@ const polishTranslation = {
     },
     postsMiniatures: postsMiniaturesPolish,
     postsData: {
-      holiday: {},
+      holiday: {
+        mainHeader: "O czym warto pamiętać przed wyjazdem na wakacje?",
+      },
       trust: {},
       lifeCover: {},
       familyEvent: {},

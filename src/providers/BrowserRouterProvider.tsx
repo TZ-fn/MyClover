@@ -12,6 +12,7 @@ import MortgagesPage from "pages/MortgagesPage/MortgagesPage";
 import CareersPage from "pages/CareersPage/CareersPage";
 import IncomeProtectionPage from "pages/IncomeProtectionPage/IncomeProtectionPage";
 import NoMatch from "pages/NoMatch/NoMatch";
+import HolidayPage from "pages/Posts/HolidayPage/HolidayPage";
 
 const router = createBrowserRouter([
   {
@@ -60,6 +61,10 @@ const router = createBrowserRouter([
       {
         path: "/offer/income-protection",
         element: <IncomeProtectionPage />,
+      },
+      {
+        path: "/blog/before-going-on-holiday",
+        element: <HolidayPage />,
       },
       {
         path: "*",
