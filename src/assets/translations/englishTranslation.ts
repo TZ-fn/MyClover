@@ -62,7 +62,29 @@ const englishTranslation = {
     },
     postsMiniatures: postsMiniaturesEnglish,
     postsData: {
-      holiday: {},
+      holiday: {
+        mainHeader: "What to remember before going on holiday?",
+        items: [
+          {
+            header: "",
+            text: "The holiday season is approaching fast, which is why we want to remind you about one of the most overlooked aspects in preparation for your trip – Travel Insurance. While choosing sun cream and packing suitcases, only a few people remember to take out travel insurance. Why not contact us? We will explain why Travel Insurance should become an essential part of your preparations.",
+          },
+          {
+            listDescription: "Travel Insurance is a protection against many events during your trip. It may cover:",
+            listElements: [
+              "Healthcare costs abroad",
+              "Compensation for lost luggage or documents, as well as cancellation or delay of flights",
+              "Additional emergency accommodation",
+              "Legal costs",
+              "There is also additional protection for those planning to engage in winter sports during their holiday",
+            ],
+          },
+          {
+            header: "",
+            text: "For regular travellers, we usually recommend buying an annual policy. However, if you are going on an exotic trip once in a while (up to 30 days), we suggest taking out the single trip option. \n\nWhen you are planning a trip to one of the countries in Europe, you are covered by the European Health Insurance Programme. By having a European Health Insurance Card (EHIC), you are entitled to receive basic emergency care in the country you are in. However, most tourist organisations and offices advise to take out additional insurance to cover non-medical emergencies, such as cancellation of flights or loss of luggage. Moreover, the EHIC card only covers countries within the European Union, which is why Travel Insurance is necessary when planning a trip outside of Europe. \n\nThe costs of such insurance are quite low (around £30). The costs vary depending on the number of people traveling, destination and length of stay. Usually, you can purchase travel insurance over the phone, which will take around 10 minutes. \n\nFeel free to contact us at 07522345476 to find out more.",
+          },
+        ],
+      },
       trust: {},
       lifeCover: {},
       familyEvent: {},
