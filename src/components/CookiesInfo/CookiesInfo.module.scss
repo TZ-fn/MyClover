@@ -12,15 +12,17 @@
 }
 
 .mainHeader {
-  font-size: clamp(2rem, 4vw, 4rem);
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  line-height: 1.5;
   align-self: center;
   font-family: "AlegreyaSans", sans-serif;
 }
 
 .subHeader {
-  font-size: clamp(1.5rem, 2.2vw, 2rem);
+  font-size: clamp(1.5rem, 2.2vw, 1.7rem);
   margin-top: clamp(1.5rem, 3vw, 4rem);
   margin-bottom: clamp(1.5rem, 3vw, 5rem);
+  line-height: 1.5;
   align-self: center;
   font-family: "AlegreyaSans", sans-serif;
 }
