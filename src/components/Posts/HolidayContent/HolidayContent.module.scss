@@ -1,0 +1,20 @@
+.mainContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+  max-width: 65rem;
+  margin: auto;
+  text-wrap: pretty;
+  line-height: 32px;
+  font-size: 1.1rem;
+}
+
+.mainHeader {
+  font-size: clamp(2rem, 4vw, 3rem);
+  align-self: center;
+  font-family: "AlegreyaSans", sans-serif;
+  margin-bottom: 3rem;
+  line-height: 1.5;
+}
