@@ -64,6 +64,27 @@ const polishTranslation = {
     postsData: {
       holiday: {
         mainHeader: "O czym warto pamiętać przed wyjazdem na wakacje?",
+        items: [
+          {
+            header: "",
+            text: "Sezon urlopowy w pełni, dlatego chcemy Wam przypomnieć o jednym z najczęściej pomijanych aspektów w trakcje przygotowań do wyjazdu. Między wybieraniem kremów z filtrem, a pakowaniem walizek, niestety niewiele osób pamięta o wykupieniu ubezpieczenia podróżnego. Opowiemy Wam dlaczego Travel Insurance powinien stać się nierozłączną częścią waszych przygotowań.",
+          },
+          {
+            listDescription:
+              "Ubezpieczenie podróżne czyli tzw. Travel Insurance to zabezpieczenie przed wieloma zdarzeniami w trakcje wyjazdu, m. in.:",
+            listElements: [
+              "pokryje koszty za opiekę zdrowotną za granicą",
+              "wypłaci odszkodowanie w razie zgubionego bagażu bądź dokumentów oraz odwołania lub opóźnienia lotów",
+              "zapewnieni dodatkowe zakwaterowanie w nagłych przypadkach",
+              "pokryje koszty sądowe",
+              "istnieje również dodatkowa ochrona dla osób planujących uprawianie sportów zimowych",
+            ],
+          },
+          {
+            header: "",
+            text: "Dla osób podróżujących regularnie, proponujemy wykupienie rocznej polisy. Jeżeli jednak wybieramy się w egzotyczną podróż jednorazowo (do 30 dni), zalecamy wykupienie opcji single trip. \n\nGdy planujemy wyjazd do jednego z krajów Unii Europejskiej, jesteśmy objęci Europejskim programem ubezpieczenia zdrowotnego. Poprzez posiadanie karty European Health Insurance Card (EHIC), jesteśmy upoważnieni do otrzymania podstawowej, nagłej opieki medycznej. Pomimo tego, większość organizacji oraz biur turystycznych radzi wykupienie dodatkowego ubezpieczenia, które pokryje niemedyczne ewentualności, takie jak wyżej wspomniane odwołanie lotów lub zgubienie bagażu. Niemniej jednak karta EHIC obejmuje tylko kraje Unii Europejskiej, dlatego Travel insurance jest niezbędny, gdy planujemy wyjazd poza Europę. \n\nKoszty takiego ubezpieczenia są znikome – około £30, w zależności od liczy podróżujących osób oraz kraju i długości pobytu. Zazwyczaj wykupienie takiego ubezpieczenia odbywa się przez telefon i zajmuje 10 minut. \n\nZapraszamy do kontaktu pod 07858282317.",
+          },
+        ],
       },
       trust: {},
       lifeCover: {},
@@ -315,7 +336,7 @@ const polishTranslation = {
         {
           header: "Contact Details",
           text: `Clover Family Cover Ltd, 56 Cardinal Place, Southampton, SO16 4HN. Tel: 07522345476 e-mail: office@myclover.co.uk
-          You can contact the Information Commissioners Office on 0303 123 1113 or via email https://ico.org.uk/global/contact-us/email/ or at the Information Commissioner’s Office, Wycliffe House, Water Lane, Wilmslow, Cheshire, SK9 5AF.`,
+          \nYou can contact the Information Commissioners Office on 0303 123 1113 or via email https://ico.org.uk/global/contact-us/email/ or at the Information Commissioner’s Office, Wycliffe House, Water Lane, Wilmslow, Cheshire, SK9 5AF.`,
         },
       ],
     },

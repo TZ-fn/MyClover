@@ -309,7 +309,7 @@ const englishTranslation = {
         {
           header: "Contact Details",
           text: `Clover Family Cover Ltd, 56 Cardinal Place, Southampton, SO16 4HN. Tel: 07522345476 e-mail: office@myclover.co.uk
-          You can contact the Information Commissioners Office on 0303 123 1113 or via email https://ico.org.uk/global/contact-us/email/ or at the Information Commissioner’s Office, Wycliffe House, Water Lane, Wilmslow, Cheshire, SK9 5AF.`,
+          \nYou can contact the Information Commissioners Office on 0303 123 1113 or via email https://ico.org.uk/global/contact-us/email/ or at the Information Commissioner’s Office, Wycliffe House, Water Lane, Wilmslow, Cheshire, SK9 5AF.`,
         },
       ],
     },
