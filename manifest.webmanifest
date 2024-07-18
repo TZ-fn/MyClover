@@ -1,5 +1,5 @@
 {
   "name": "My Clover Website",
   "start_url": "https://myclover.onrender.com/",
-  "icons": [{ "src": "./favicon/android-chrome-192x192.png", "type": "image/png", "sizes": "192x192" }]
+  "icons": [{ "src": "favicon/android-chrome-192x192.png", "type": "image/png", "sizes": "192x192" }]
 }
