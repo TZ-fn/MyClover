@@ -9,18 +9,12 @@ export default function HolidayContent() {
   return (
     <main className={styles.mainContainer}>
       <h3 className={styles.mainHeader}>{translation.pages.postsData.holiday.mainHeader}</h3>
-      {translation.pages.postsData.holiday.items.map((item) => {
+      {translation.pages.postsData.holiday.items.map((item, i) => {
         if (item.header || item.text) {
-          return <TextItem key={item.header} header={item.header} text={item.text} />;
+          return <TextItem key={i} header={item.header} text={item.text} />;
         }
         if (item.listDescription) {
-          return (
-            <TextList
-              key={item.listDescription}
-              listDescription={item.listDescription}
-              listElements={item.listElements}
-            />
-          );
+          return <TextList key={i} listDescription={item.listDescription} listElements={item.listElements} />;
         }
       })}
     </main>
