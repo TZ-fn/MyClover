@@ -9,7 +9,6 @@ export default function ContactPageMain() {
 
   return (
     <main className={styles.mainContainer}>
-      <ContactForm />
       <div className={styles.contactDataContainer}>
         <h3 className={styles.contactDataHeader}>{contactPageTranslation.contactData.header}</h3>
         <div className={styles.contactItemContainer}>
@@ -54,6 +53,7 @@ export default function ContactPageMain() {
           </div>
         </div>
       </div>
+      <ContactForm />
     </main>
   );
 }
