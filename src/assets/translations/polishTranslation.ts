@@ -86,7 +86,13 @@ const polishTranslation = {
           },
         ],
       },
-      trust: {},
+      trust: {
+        mainHeader: "Trust – wszystko co musisz wiedzieć",
+        subHeader:
+          "Trust to tak zwany dokument powierniczy. Potocznie, aby zrozumieć jego istotę mówimy, że to taki „testament” do polisy na życie. Sporządzenie go, daje nam pewność, że pieniądze z naszej polisy trafią we właściwe ręce. Dzięki niemu możemy również uniknąć płacenia niepotrzebnych podatków.",
+        mainText:
+          "Zacznijmy od początku. Ubezpieczamy się na życie. Polisa jest prawidłowo zawarta i firma ubezpieczeniowa wypłaca sumę ubezpieczenia. Jeśli do polisy nie ma dołączonego Trust’u, wówczas kwota z wypłaty jest doliczona do majątku zmarłego. By uzyskać dostęp do majątku osoby zmarłej, potrzebny jest tzw. probate, a to może zająć nawet do kilku miesięcy. Gdy majątek przekroczy kwotę £325.000, nasi bliscy będą musieli zapłacić podatek spadkowy w wysokości 40%. Brak dokumentu powierniczego, również oznacza, iż obowiązuje standardowe prawo dziedziczenia, jeżeli chodzi o podział majątku. W związku z czym, małżonek lub małżonka otrzymuje pierwsze £250.000, oraz połowę pozostałej kwoty. Dzieci natomiast otrzymują drugą połowę kwoty, po odliczeniu pierwszych £250.000. \n\nAby przyspieszyć wypłatę z polisy, każdy z nas powinien mieć sporządzony Trust. Sprawi to, iż polisa będzie wykluczona z majątku zmarłego, a dostęp do pieniędzy będzie przyznany dużo szybciej. Osoby które w szczególności powinny upewnić się, że dysponują takim dokumentem to między innymi: pary żyjące w związkach niesformalizowanych, osoby mające znaczny majątek, osoby samotne, osoby których partnerzy żyją poza UK, oraz osoby, które chcą wykluczyć z dziedziczenia majątku konkretne osoby. Tyczy się to również samotnych matek lub ojców, a także rodziców, którzy chcą zaznaczyć, ze spadkobiercami mają być wyłącznie małoletnie dzieci. \n\nPrzy wypełnianiu Trust’u, będziemy proszeni o wskazanie powiernika (ang. trustee) oraz beneficjenta (ang. beneficiary). Zadaniem powiernika jest upewnienie się, że pieniądze z polisy trafią do odpowiedniej osoby, a beneficjent to osoba która może wykorzystać te pieniądze w dowolny sposób. \n\n\nJeżeli nie jesteś pewien czy przy zawarciu Twojej polisy został sporządzony Trust, skontaktuj się z nami pod numerem 07858282317.",
+      },
       lifeCover: {},
       familyEvent: {},
       propertyProtection: {},

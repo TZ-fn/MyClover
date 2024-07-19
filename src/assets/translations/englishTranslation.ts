@@ -85,7 +85,13 @@ const englishTranslation = {
           },
         ],
       },
-      trust: {},
+      trust: {
+        mainHeader: "Trust – everything you need to know about",
+        subHeader:
+          'A trust is a so-called trust document. Colloquially, to understand its essence, we say that it is a "will" for a life insurance policy. Preparing it gives us the certainty that the money from our policy will go to the right hands. Thanks to it, we can also avoid paying unnecessary taxes.',
+        mainText:
+          "Let's start from the beginning. We take out life insurance. The policy is concluded correctly and the insurance company pays the insured amount. If there is no Trust attached to the policy, then the amount from the payout is added to the deceased's estate. To gain access to the estate of a deceased person, you need the so-called probate, and this may take up to several months. When the estate exceeds £325,000, our loved ones will have to pay inheritance tax at the rate of 40%. The lack of a trust document also means that standard inheritance law applies when it comes to the division of property. Therefore, the spouse receives the first £250,000 and half of the remaining amount. Children, however, receive the second half of the amount, after deducting the first £250,000. \n\nTo speed up the payment from the policy, each of us should have a Trust established. This will mean that the policy will be excluded from the deceased's estate and access to the money will be granted much faster. People who should especially make sure that they have such a document include: couples living in informal relationships, people with significant assets, single people, people whose partners live outside the UK, and people who want to exclude specific people from inheriting their property. This also applies to single mothers or fathers, as well as parents who want to specify that only minor children are to be heirs. \n\nWhen completing the Trust, we will be asked to indicate the trustee and the beneficiary. The trustee's job is to make sure the policy money goes to the right person, and the beneficiary is the person who can use the money in any way they want. \n\n\nIf you are not sure whether a Trust was established when your policy was concluded, please contact us on 07858282317.",
+      },
       lifeCover: {},
       familyEvent: {},
       propertyProtection: {},
