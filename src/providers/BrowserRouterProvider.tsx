@@ -14,6 +14,7 @@ import IncomeProtectionPage from "pages/IncomeProtectionPage/IncomeProtectionPag
 import NoMatch from "pages/NoMatch/NoMatch";
 import HolidayPage from "pages/Posts/HolidayPage/HolidayPage";
 import TrustPage from "pages/Posts/Trust/TrustPage";
+import LifeCoverPage from "pages/LifeCoverPage/LifeCoverPage";
 
 const router = createBrowserRouter([
   {
@@ -70,6 +71,10 @@ const router = createBrowserRouter([
       {
         path: "/blog/about-trust",
         element: <TrustPage />,
+      },
+      {
+        path: "/blog/life-cover",
+        element: <LifeCoverPage />,
       },
       {
         path: "*",
