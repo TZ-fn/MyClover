@@ -93,7 +93,44 @@ const polishTranslation = {
         mainText:
           "Zacznijmy od początku. Ubezpieczamy się na życie. Polisa jest prawidłowo zawarta i firma ubezpieczeniowa wypłaca sumę ubezpieczenia. Jeśli do polisy nie ma dołączonego Trust’u, wówczas kwota z wypłaty jest doliczona do majątku zmarłego. By uzyskać dostęp do majątku osoby zmarłej, potrzebny jest tzw. probate, a to może zająć nawet do kilku miesięcy. Gdy majątek przekroczy kwotę £325.000, nasi bliscy będą musieli zapłacić podatek spadkowy w wysokości 40%. Brak dokumentu powierniczego, również oznacza, iż obowiązuje standardowe prawo dziedziczenia, jeżeli chodzi o podział majątku. W związku z czym, małżonek lub małżonka otrzymuje pierwsze £250.000, oraz połowę pozostałej kwoty. Dzieci natomiast otrzymują drugą połowę kwoty, po odliczeniu pierwszych £250.000. \n\nAby przyspieszyć wypłatę z polisy, każdy z nas powinien mieć sporządzony Trust. Sprawi to, iż polisa będzie wykluczona z majątku zmarłego, a dostęp do pieniędzy będzie przyznany dużo szybciej. Osoby które w szczególności powinny upewnić się, że dysponują takim dokumentem to między innymi: pary żyjące w związkach niesformalizowanych, osoby mające znaczny majątek, osoby samotne, osoby których partnerzy żyją poza UK, oraz osoby, które chcą wykluczyć z dziedziczenia majątku konkretne osoby. Tyczy się to również samotnych matek lub ojców, a także rodziców, którzy chcą zaznaczyć, ze spadkobiercami mają być wyłącznie małoletnie dzieci. \n\nPrzy wypełnianiu Trust’u, będziemy proszeni o wskazanie powiernika (ang. trustee) oraz beneficjenta (ang. beneficiary). Zadaniem powiernika jest upewnienie się, że pieniądze z polisy trafią do odpowiedniej osoby, a beneficjent to osoba która może wykorzystać te pieniądze w dowolny sposób. \n\n\nJeżeli nie jesteś pewien czy przy zawarciu Twojej polisy został sporządzony Trust, skontaktuj się z nami pod numerem 07858282317.",
       },
-      lifeCover: {},
+      lifeCover: {
+        mainHeader: "Life Cover, czyli ubezpieczenie na życie",
+        header: "Dla kogo jest to odpowiednie rozwiązanie?",
+        items: [
+          {
+            listDescription:
+              "Ubezpieczenie na życie zapewnia wypłatę w przypadku śmierci osoby ubezpieczonej. Jest to jedyny produkt finansowy, który nie jest skierowany z korzyścią dla nas samych. Osoby które powinny mieć ten rodzaj ubezpieczenia to:",
+            listElements: [
+              "rodzice",
+              "posiadacze kredytu hipotecznego lub biznesowego",
+              "osoby żyjące w związkach małżeńskich lub partnerskich",
+              "osoby odpowiedzialne finansowo za innych członków rodziny, dzieci, bądź bliskich",
+              "właściciele majątku przekraczającego kwotę wolną od podatku Inheritance Tax",
+            ],
+          },
+          {
+            header: "",
+            text: "Ubezpieczenie na życie zabezpiecza naszych bliskich po naszej śmierci. Jest to jeden z najtańszych produktów w naszej ofercie, ponieważ składka zaczyna się już od £5 miesięcznie. Najbardziej popularną opcją jest ubezpieczenie terminowe czyli tzw. Term Assurance. Oznacza to, że jesteśmy chronieni na dany okres, np. do 80 roku życia lub na 30 lat. Zwykle jest to zabezpieczenie na okres trwania kredytu hipotecznego, bądź do czasu osiągniecia pełnoletności naszych dzieci. Mamy również w naszej ofercie polisy bezterminowe, gdzie długość naszego życia nie ma znaczenia i wypłata świadczenia wystąpi w każdym przypadku. \n\nWarto jednak pomyśleć o ubezpieczeniu się w młodym wieku, ponieważ przy wykupywaniu polisy jesteśmy pytani o naszą historię medyczną. Pewne przebyte choroby mogą podwyższyć naszą składkę. Wiek jest również jednym z ważniejszych czynników determinujących cenę tego produktu.",
+          },
+          {
+            listDescription: "Pieniądze z wypłaty mogą być wykorzystane do:",
+            listElements: [
+              "spłaty kredytu hipotecznego",
+              "wpłacenia na lokatę dla dzieci, aby sfinansować ich edukację lub zapewnić dobry start w dorosłość",
+              "zapewnienie opieki osobom starszym, takim jak nasi rodzice lub dziadkowie",
+              "pomoc w utrzymaniu się samodzielnie, gdy odejdzie nasz partner lub małżonek",
+            ],
+          },
+        ],
+        midHeader: "Wyjątek od reguły",
+        items2: [
+          {
+            header: "",
+            text: "Tak jak w każdej regule, istnieją wyjątki. Jedyną możliwością otrzymania wypłaty z Life Cover za życia, jest diagnoza Terminal Illness, czyli choroby terminalnej. Oznacza to, że lekarz prowadzący nie daje nam więcej niż 12 miesięcy życia. Dzieję się tak w przypadku osób cierpiących na nieuleczalne choroby.\n\nZakładając jednak, że nie będziemy tym wyjątkiem i nie otrzymamy tych pieniędzy za życia. Kto w takim wypadku jest upoważniony do odziedziczenia pieniędzy z polisy? Jeżeli polisa jest częścią naszego majątku, a przed odejściem nie sporządziliśmy testamentu, obowiązuje standardowe prawo dziedziczenia. Aby wykluczyć polisę z naszego majątku i wskazać osobę, która przejmie wypłatę z polisy, trzeba sporządzić tzw. Trust. Więcej na temat korzyści podatkowych (i nie tylko) płynących z sporządzenia dokumentów typu Trust w następnym wpisie na naszym blogu oraz fanpage’u na Facebooku. \n\nW celu uzyskania szczegółowych informacji oraz spersonalizowanej porady zapraszamy do kontaktu.",
+          },
+        ],
+        contactBtn: "Zkontaktuj się z nami",
+      },
       familyEvent: {},
       propertyProtection: {},
       businessInsurance: {},

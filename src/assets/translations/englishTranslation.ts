@@ -92,7 +92,44 @@ const englishTranslation = {
         mainText:
           "Let's start from the beginning. We take out life insurance. The policy is concluded correctly and the insurance company pays the insured amount. If there is no Trust attached to the policy, then the amount from the payout is added to the deceased's estate. To gain access to the estate of a deceased person, you need the so-called probate, and this may take up to several months. When the estate exceeds £325,000, our loved ones will have to pay inheritance tax at the rate of 40%. The lack of a trust document also means that standard inheritance law applies when it comes to the division of property. Therefore, the spouse receives the first £250,000 and half of the remaining amount. Children, however, receive the second half of the amount, after deducting the first £250,000. \n\nTo speed up the payment from the policy, each of us should have a Trust established. This will mean that the policy will be excluded from the deceased's estate and access to the money will be granted much faster. People who should especially make sure that they have such a document include: couples living in informal relationships, people with significant assets, single people, people whose partners live outside the UK, and people who want to exclude specific people from inheriting their property. This also applies to single mothers or fathers, as well as parents who want to specify that only minor children are to be heirs. \n\nWhen completing the Trust, we will be asked to indicate the trustee and the beneficiary. The trustee's job is to make sure the policy money goes to the right person, and the beneficiary is the person who can use the money in any way they want. \n\n\nIf you are not sure whether a Trust was established when your policy was concluded, please contact us on 07858282317.",
       },
-      lifeCover: {},
+      lifeCover: {
+        mainHeader: "Life Cover – life insurance",
+        header: "What do you need to know about Life Cover?",
+        items: [
+          {
+            listDescription:
+              "Life cover provides a pay out when the insured person passes away. It is the only financial product which we do not benefit from personally, in turn, it is aimed at providing security for our loved ones. People who should think about this type of cover are:",
+            listElements: [
+              "parents",
+              "mortgage or business loan holders",
+              "people living in marital or partner relationships",
+              "those who are financially responsible for other family members, children or relatives",
+              "owners of assets exceeding the amount exempt from IHT",
+            ],
+          },
+          {
+            header: "",
+            text: "Monthly premium may start as low as £5 which can make life cover one of the cheapest product we offer. The most popular type is Term Assurance. It means that you are covered for a specific period of time, for example, until the age of 80 or for 30 years. This is usually protection for the term of your mortgage, or up until your children reach adulthood. We also have whole-of-life policies in our offer, which means that the policy will pay out no matter how long we live for. \n\nA good idea is to think about getting insurance at a young age, because you are asked about your medical history at the time of talking out a policy. If you have suffered from certain diseases, these can have an impact on your premium. Age is also one of the most important factors which determine the price of this product.",
+          },
+          {
+            listDescription: "The proceeds from a policy pay-out can be used for:",
+            listElements: [
+              "paying off your mortgage",
+              "your child trust fund, to finance their education or provide them with a stable start into adulthood",
+              "provide care for the elderly, like your parents or grandparents",
+              "help with daily living costs when your spouse or partner passes away",
+            ],
+          },
+        ],
+        midHeader: "Exception to the rule",
+        items2: [
+          {
+            header: "",
+            text: "There is an exception to every rule. The only possibility of receiving a pay-out from a life cover policy during your life is a terminal illness diagnosis. This means that your doctor gives you less than 12 months to live. The diagnosis is often given to people suffering from incurable diseases. \n\nWhat if you are not going to be this exception and you will not receive this money during your life? What happens then? Who in this case in eligible to receive the policy proceeds? If the policy is part of our estate and you have not made a Will, the standard inheritance rules apply. In order to exclude the policy from your estate and select a person who will receive the money, you have to place the policy into a Trust. You can find more about the advantages of having your policy in a Trust (including tax planning) on our next blog post and our Facebook page. \n\nGet in touch for more information and personalised advice.",
+          },
+        ],
+        contactBtn: "Contact us",
+      },
       familyEvent: {},
       propertyProtection: {},
       businessInsurance: {},
