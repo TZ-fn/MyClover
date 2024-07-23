@@ -13,7 +13,7 @@ function LifeCoverPage() {
       <PageTitle title={translation.pages.postsData.lifeCover.mainHeader} />
       <ImageHeader pageName={translation.pages.postsData.lifeCover.mainHeader} backgroundImage={mortgagesBg} />
       <ImageDivider isUpwards={false} />
-      {/* <LifeCoverMain /> */}
+      <LifeCoverMain />
     </>
   );
 }
