@@ -132,7 +132,12 @@ const englishTranslation = {
       },
       familyEvent: {},
       propertyProtection: {},
-      businessInsurance: {},
+      businessInsurance: {
+        mainHeader: "Why is it worth insuring the company?",
+        subHeader: "There are many reasons for that.",
+        mainText:
+          "Firstly, there are many professions in the UK, which require professional insurance and it is illegal to trade without it. Hence, it is important to check with your accountant, if you need the essential cover for your business. If you do, Clover can help to find the most competitive offer for you! \n\nSecondly, insuring your company means you can rest assured and focus on building your business, instead of worrying about potential consequences of unfortunate events. There are many different options of insuring what you do, from protecting you in case of a theft, through accidents on site, to protecting your income when unable to work. Every business owner knows that establishing your own company requires endless amounts of work, including thinking about ways to grow your business every minute of your day. Insurance takes a lot of burden off your shoulders, which means you can focus on the important stuff. Accidents, theft and many other unexpected events happen and will keep happening, because people are a big part of each business. People are not perfect and will most likely make mistakes. Taking a pragmatic approach to business, means protecting yourself, as well as your employees. \n\nBy losing all your capital due to poor business protection, you also lose many years of hard work. Of course, you can start over after a setback, but it can be difficult. This is why Clover offers less painful solutions. If you are running a business, get in touch to obtain a quote, as business protection is generally inexpensive. It is always better to be safe than sorry.",
+      },
       insuranceCosts: {},
       lottery: {},
     },

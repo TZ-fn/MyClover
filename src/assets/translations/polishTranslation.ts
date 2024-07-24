@@ -133,7 +133,12 @@ const polishTranslation = {
       },
       familyEvent: {},
       propertyProtection: {},
-      businessInsurance: {},
+      businessInsurance: {
+        mainHeader: "Dlaczego warto ubezpieczyć firmę ?",
+        subHeader: "Powodów jest naprawdę sporo.",
+        mainText:
+          "Po pierwsze istnieje wiele zawodów w UK, gdzie ubezpieczenie firmy jest obowiązkowe, bez tego tak naprawdę nie możemy zacząć legalnie działać. Dlatego tu warto dowiedzieć się u swojego księgowego czy potrzebujemy obowiązkowego ubezpieczenia dla naszej firmy – jeżeli tak, Clover na pewno przygotuje doskonałą ofertę ! \n\nPo drugie – ubezpieczenie firmy, to spokojny sen. Opcji ubezpieczenia jest kilka, od ubezpieczenia chroniącego przed włamaniem, przez ubezpieczenia, które zabezpieczą nas podczas wypadków na placu boju, aż po ubezpieczenia od utrady dochodów. Każdy przedsiębiorca wie, iż otwieranie własnej firmy to nieustanna praca, o rozwoju myślimy jedząc, biegając, jeżdżąc a nawet śpiąc. Znacznie lepiej jest myśleć o pozytywach, niż martwić się o to co może się wydarzyć. Ubezpieczenie – zdejmuje nam wiele problemów z głowy, możemy skupić się na prowadzeniu firmy, a nie rozmyślaniu o negatywnych konsekwencjach. Wypadki, kradzieże, oraz wiele innych rzeczy – zdarzało się i będzie się zdarzać, w firmach pracują ludzie, którzy nie są doskonali, którzy popełniają błędy. Myśląc realnie o firmie, warto zabezpieczyć zarówno siebie, jak też pracowników. \n\nTracąc cały majątek poprzez słabe zabezpieczenie firmy, stracimy też wiele lat naszej ciężkiej pracy. Podnieść się po porażce można, ale jest to trudne, dlatego Clover proponuje rozwiązania mniej bolesne. Jeżeli więc prowadzisz firmę – odezwij się do nas, przygotujemy wyliczenie, słowem pocieszenia – ubezpieczenie firmy nie jest drogie. Dlatego warto spać spokojnie.",
+      },
       insuranceCosts: {},
       lottery: {},
     },
