@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import styles from "./PostsGalleryItem.module.scss";
+import useTranslation from "hooks/useTranslation";
 
 interface PostsGalleryItemProps {
   miniature: string | undefined;
@@ -16,6 +17,7 @@ export default function PostsGalleryItem({
   link,
   style,
 }: PostsGalleryItemProps) {
+  const [translation] = useTranslation();
   return (
     <li className={styles.itemContainer} style={style}>
       <Link to={link}>
@@ -24,6 +26,10 @@ export default function PostsGalleryItem({
           <h3 className={styles.descriptionHeader}>{descriptionHeader}</h3>
           <p className={styles.description}>{description}</p>
         </div>
+
+        <p className={styles.seeMore}>
+          {translation.seeMore} <span className={styles.seeMoreArrow}>{" >"}</span>
+        </p>
       </Link>
     </li>
   );

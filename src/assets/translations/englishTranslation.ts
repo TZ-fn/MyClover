@@ -34,6 +34,7 @@ const englishTranslation = {
     phone: "Get in touch",
     email: "Email contact",
   },
+  seeMore: "Read more",
   pages: {
     noMatch: {
       noMatchHeader: "404 - Wrong address",

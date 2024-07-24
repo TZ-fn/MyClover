@@ -34,6 +34,7 @@ const polishTranslation = {
     phone: "Dowiedz się więcej",
     email: "Email kontaktowy",
   },
+  seeMore: "Zobacz więcej",
   pages: {
     noMatch: {
       noMatchHeader: "404 - Zły adres",
