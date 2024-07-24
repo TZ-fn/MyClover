@@ -2,7 +2,7 @@ import ImageDivider from "components/ImageDivider/ImageDivider";
 import ImageHeader from "components/ImageHeader/ImageHeader";
 import useTranslation from "hooks/useTranslation";
 import PageTitle from "components/PageTitle/PageTitle";
-import holiday from "assets/holiday.webp";
+import holiday from "assets/postsBackgrounds/holiday.webp";
 import HolidayContent from "components/Posts/HolidayContent/HolidayContent";
 
 function HolidayPage() {

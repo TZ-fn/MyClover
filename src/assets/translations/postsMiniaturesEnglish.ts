@@ -1,7 +1,7 @@
-import miniature1 from "../posts/miniature_1.webp";
-import miniature3 from "../posts/miniature_3.webp";
-import miniature6 from "../posts/miniature_6.webp";
-import miniature8 from "../posts/miniature_8.webp";
+import miniature1 from "../postsMiniatures/miniature_1.webp";
+import miniature3 from "../postsMiniatures/miniature_3.webp";
+import miniature6 from "../postsMiniatures/miniature_6.webp";
+import miniature8 from "../postsMiniatures/miniature_8.webp";
 
 const postsEnglish = [
   {

@@ -3,7 +3,7 @@ import ImageHeader from "components/ImageHeader/ImageHeader";
 import LifeCoverMain from "components/LifeCoverMain/LifeCoverMain";
 import useTranslation from "hooks/useTranslation";
 import PageTitle from "components/PageTitle/PageTitle";
-import lifeCover from "assets/lifeCover.webp";
+import lifeCover from "assets/postsBackgrounds/lifeCover.webp";
 
 function LifeCoverPage() {
   const [translation] = useTranslation();
