@@ -129,7 +129,7 @@ const polishTranslation = {
             text: "Tak jak w każdej regule, istnieją wyjątki. Jedyną możliwością otrzymania wypłaty z Life Cover za życia, jest diagnoza Terminal Illness, czyli choroby terminalnej. Oznacza to, że lekarz prowadzący nie daje nam więcej niż 12 miesięcy życia. Dzieję się tak w przypadku osób cierpiących na nieuleczalne choroby.\n\nZakładając jednak, że nie będziemy tym wyjątkiem i nie otrzymamy tych pieniędzy za życia. Kto w takim wypadku jest upoważniony do odziedziczenia pieniędzy z polisy? Jeżeli polisa jest częścią naszego majątku, a przed odejściem nie sporządziliśmy testamentu, obowiązuje standardowe prawo dziedziczenia. Aby wykluczyć polisę z naszego majątku i wskazać osobę, która przejmie wypłatę z polisy, trzeba sporządzić tzw. Trust. Więcej na temat korzyści podatkowych (i nie tylko) płynących z sporządzenia dokumentów typu Trust w następnym wpisie na naszym blogu oraz fanpage’u na Facebooku. \n\nW celu uzyskania szczegółowych informacji oraz spersonalizowanej porady zapraszamy do kontaktu.",
           },
         ],
-        contactBtn: "Zkontaktuj się z nami",
+        contactBtn: "Skontaktuj się z nami",
       },
       familyEvent: {},
       propertyProtection: {},
