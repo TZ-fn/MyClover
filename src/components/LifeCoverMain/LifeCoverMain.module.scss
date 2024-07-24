@@ -13,8 +13,30 @@
 
 .mainHeader {
   font-size: clamp(2rem, 4vw, 3rem);
-  align-self: center;
   font-family: "AlegreyaSans", sans-serif;
   margin-bottom: 3rem;
   line-height: 1.5;
+}
+
+.midHeader {
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  font-family: "AlegreyaSans", sans-serif;
+  margin: 1rem 0;
+  line-height: 1.5;
+}
+
+.contactLink {
+  margin-top: 2rem;
+  padding: 0.7rem 1.7rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: var(--black);
+  text-transform: uppercase;
+  background-color: var(--grey);
+  font-family: "Cabin", sans-serif;
+
+  &:hover {
+    background-color: var(--accent-color-teal);
+  }
 }
