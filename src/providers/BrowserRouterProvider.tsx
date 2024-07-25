@@ -14,8 +14,8 @@ import IncomeProtectionPage from "pages/IncomeProtectionPage/IncomeProtectionPag
 import NoMatch from "pages/NoMatch/NoMatch";
 import HolidayPage from "pages/Posts/HolidayPage/HolidayPage";
 import TrustPage from "pages/Posts/Trust/TrustPage";
-import LifeCoverPage from "pages/LifeCoverPage/LifeCoverPage";
-import BusinessInsurancePage from "pages/BusinessInsurancePage/BusinessInsurancePage";
+import LifeCoverPage from "pages/Posts/LifeCoverPage/LifeCoverPage";
+import BusinessInsurancePage from "pages/Posts/BusinessInsurancePage/BusinessInsurancePage";
 
 const router = createBrowserRouter([
   {
