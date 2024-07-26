@@ -1,3 +1,4 @@
+import { useId } from "react";
 import { Link } from "react-router-dom";
 import useTranslation from "hooks/useTranslation";
 import styles from "./ContactForm.module.scss";
@@ -5,6 +6,7 @@ import styles from "./ContactForm.module.scss";
 export default function ContactForm() {
   const [translation] = useTranslation();
   const contactPageTranslation = translation.pages.contact;
+  const checkboxID = useId();
 
   return (
     <form className={styles.mainContainer}>
@@ -22,8 +24,8 @@ export default function ContactForm() {
       />
       <textarea className={styles.textArea} placeholder={contactPageTranslation.contactForm.form4Placeholder} />
       <p className={styles.formDisclaimer}>
-        <input id="disclaimerCheckbox" type="checkbox" className={styles.disclaimerCheckbox} />
-        <label htmlFor="disclaimerCheckbox">
+        <input id={checkboxID} type="checkbox" className={styles.disclaimerCheckbox} />
+        <label htmlFor={checkboxID}>
           {contactPageTranslation.contactForm.formDisclaimer1}
           <Link to="/privacy-policy">
             <span className={styles.formLink}>{contactPageTranslation.contactForm.formDisclaimer2}</span>
