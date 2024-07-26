@@ -16,6 +16,7 @@ import HolidayPage from "pages/Posts/HolidayPage/HolidayPage";
 import TrustPage from "pages/Posts/Trust/TrustPage";
 import LifeCoverPage from "pages/Posts/LifeCoverPage/LifeCoverPage";
 import BusinessInsurancePage from "pages/Posts/BusinessInsurancePage/BusinessInsurancePage";
+import LotteryPage from "pages/Posts/LotteryPage/LotteryPage";
 
 const router = createBrowserRouter([
   {
@@ -80,6 +81,10 @@ const router = createBrowserRouter([
       {
         path: "/blog/business-insurance",
         element: <BusinessInsurancePage />,
+      },
+      {
+        path: "/blog/lottery",
+        element: <LotteryPage />,
       },
       {
         path: "*",

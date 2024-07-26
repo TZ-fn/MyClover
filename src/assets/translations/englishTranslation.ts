@@ -140,7 +140,40 @@ const englishTranslation = {
           "Firstly, there are many professions in the UK, which require professional insurance and it is illegal to trade without it. Hence, it is important to check with your accountant, if you need the essential cover for your business. If you do, Clover can help to find the most competitive offer for you! \n\nSecondly, insuring your company means you can rest assured and focus on building your business, instead of worrying about potential consequences of unfortunate events. There are many different options of insuring what you do, from protecting you in case of a theft, through accidents on site, to protecting your income when unable to work. Every business owner knows that establishing your own company requires endless amounts of work, including thinking about ways to grow your business every minute of your day. Insurance takes a lot of burden off your shoulders, which means you can focus on the important stuff. Accidents, theft and many other unexpected events happen and will keep happening, because people are a big part of each business. People are not perfect and will most likely make mistakes. Taking a pragmatic approach to business, means protecting yourself, as well as your employees. \n\nBy losing all your capital due to poor business protection, you also lose many years of hard work. Of course, you can start over after a setback, but it can be difficult. This is why Clover offers less painful solutions. If you are running a business, get in touch to obtain a quote, as business protection is generally inexpensive. It is always better to be safe than sorry.",
       },
       insuranceCosts: {},
-      lottery: {},
+      lottery: {
+        mainHeader: "Lottery – Ts&Cs",
+        subHeader: "Terms and conditions of lottery",
+        items: [
+          {
+            header: "",
+            text: "When entering the Clover Prize Draw, players agree to be bound by the terms and conditions below. A hard copy can be obtained by contacting the office on 07858282317. \n\nClover reserves the right to amend these Terms and Conditions from time to time without prior notice. \n\nPromoter – Clover – Family Cover.\n\nResponsible Person – Renata Orczyk, CEO and founder of Clover.",
+          },
+          {
+            header: "The Prize Draw",
+            text: "The Clover Prize Draw is run on the basis that each person who has filled out a short questionnaire and provides their contact details will be entering the prize draw. Five questionnaires will be selected at random and the winners will win a set of promoting products, for example mugs with company logo, handmade soap, sweets, jewellery, etc. \n\nThe Draw will be made on the 30th June 2018 at Szkolny Festyn Rodzinny, Southampton. \n\nAll winners will be announced during the event or contacted by telephone.",
+          },
+          {
+            header: "Data Protection",
+            text: "Data held by Clover, is held in accordance with the General Data Protection Regulation 2018 and will not be passed to or sold to any other organisation.",
+          },
+          {
+            header: "Self Exclusion",
+            text: "We are aware that members, for personal reasons, may wish to exclude themselves from playing in the Clover Prize Draw. Requests for self exclusion from the Prize Draw should be made by phone, contacting the Responsible Person on 07858282317.",
+          },
+          {
+            header: "Age Restrictions",
+            text: "Under the Gambling Act 2005, players in the Clover Prize Draw must be aged 16 or over, it is an offence for any person under the age of 16 to play or to win a prize. By subscribing to the Lottery any player is agreeing to allow the promoter to undertake any appropriate action to establish age verification.",
+          },
+          {
+            header: "Exclusions",
+            text: "Clover staff and their families are excluded from entering the Prize Draw.",
+          },
+          {
+            header: "Complaints Procedure",
+            text: "Any complaints received by Clover will be handled under the Complaints Procedure, a copy of which is available upon request, by contacting the Clover Office on office@myclover.co.uk.",
+          },
+        ],
+      },
     },
     aboutUs: {
       sectionOne: {
