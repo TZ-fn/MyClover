@@ -131,7 +131,15 @@ const englishTranslation = {
         ],
         contactBtn: "Contact us",
       },
-      familyEvent: {},
+      cloverEvent: {
+        mainHeader: "Event with Clover",
+        text1:
+          "The temperatures outside in recent weeks have been encouraging us to go out, so we decided to visit one of the events, which, as usual, was full of attractions. Of course, you can find us at similar events not only during the summer, as we love these kinds of places where whole families come, creating that special atmosphere. For us, events are not just business but, above all, an opportunity to meet new and interesting people and establish new collaborations.",
+        text2:
+          "We love events organized outdoors the most because they are closest to nature; they uplift our spirits and encourage us to be active and participate in various forms of entertainment, which we support. Everyone should enjoy life exactly as they like, and leave the rest to us — we will secure everything properly. This time, we had fun by the sea, so after the all-day event, there was also a moment to dip our feet in the pleasantly cool seawater.",
+        text3:
+          "Now we are resting peacefully after the event, and there will be more events soon, so we need to regain our strength. As usual, there were prizes from Clover. The draw is tomorrow — so if you're curious to see if you've won a prize, check out our fan page on Facebook. Thank you for a wonderful event and for being there. See you soon.",
+      },
       propertyProtection: {},
       businessInsurance: {
         mainHeader: "Why is it worth insuring the company?",

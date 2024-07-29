@@ -17,6 +17,7 @@ import TrustPage from "pages/Posts/Trust/TrustPage";
 import LifeCoverPage from "pages/Posts/LifeCoverPage/LifeCoverPage";
 import BusinessInsurancePage from "pages/Posts/BusinessInsurancePage/BusinessInsurancePage";
 import LotteryPage from "pages/Posts/LotteryPage/LotteryPage";
+import CloverEventPage from "pages/Posts/CloverEventPage/CloverEventPage";
 
 const router = createBrowserRouter([
   {
@@ -85,6 +86,10 @@ const router = createBrowserRouter([
       {
         path: "/blog/lottery",
         element: <LotteryPage />,
+      },
+      {
+        path: "/blog/clover-event",
+        element: <CloverEventPage />,
       },
       {
         path: "*",

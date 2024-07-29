@@ -132,7 +132,15 @@ const polishTranslation = {
         ],
         contactBtn: "Skontaktuj się z nami",
       },
-      familyEvent: {},
+      cloverEvent: {
+        mainHeader: "Event z Clover",
+        text1:
+          "Temperatury na zewnątrz w ostatnich tygodniach wręcz zachęcają do wyjścia z domu, tak więc i my postanowiliśmy odwiedzić jeden z eventów, na których jak zwykle nie zabrakło atrakcji. Oczywiście, na podobnych eventach można nas spotkać nie tylko w okresie letnim, gdyż uwielbiamy tego typu miejsca, do których przychodzą całe rodziny, tworząc tą wyjątkową atmosferę. Eventy to dla nas nie tylko biznes, ale przede wszystkim możliwość poznania nowych ciekawych osób, oraz nawiązania współpracy.",
+        text2:
+          "Eventy organizowane na świeżym powietrzu kochamy najbardziej, bo to właśnie one są najbliżej natury, to właśnie one nastrajają do życia i zachęcają do aktywności oraz różnych form rozrywki, które my popieramy. Każdy z nas powinien z życia korzystać, dokładnie tak jak lubi, a resztę – zostawcie nam, zabezpieczymy wszystko tak jak należy. Tym razem bawiliśmy się nad morzem, więc po całodziennym evencie, była też chwila by zamoczyć stopy w przyjemnie chłodnej morskiej wodzie.",
+        text3:
+          "Teraz już spokojnie wypoczywamy po evencie, wkrótce będą kolejne, a my musimy zregenerować siły. Jak zwykle nie obyło się bez nagród od firmy Clover. Losowanie już jutro – więc jeśli jesteście ciekawi czy to dla Was udało się wygrać nagrodę – zapraszamy na nasz fanpage w portalu facebook. Dziękujemy wam za wspaniały event i obecność na evencie. Do zobaczenia wkrótce.",
+      },
       propertyProtection: {},
       businessInsurance: {
         mainHeader: "Dlaczego warto ubezpieczyć firmę ?",
