@@ -17,3 +17,28 @@
   margin-bottom: 3rem;
   line-height: 1.5;
 }
+
+.smallGallery,
+.mainImage {
+  width: 1400px;
+  max-width: 90vw;
+  align-self: center;
+  margin: 2rem 0;
+}
+
+.smallGallery {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+
+  .smallGalleryItem {
+    align-self: center;
+    transform: scale(0.95);
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      transform: scale(1);
+      box-shadow: 0 5px 10px hsla(0, 0%, 0%, 0.4);
+    }
+  }
+}
