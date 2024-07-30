@@ -2,7 +2,6 @@ import miniature1 from "../postsMiniatures/miniature_1.webp";
 import miniature2 from "../postsMiniatures/miniature_2.webp";
 import miniature3 from "../postsMiniatures/miniature_3.webp";
 import miniature4 from "../postsMiniatures/miniature_4.webp";
-import miniature5 from "../postsMiniatures/miniature_5.webp";
 import miniature6 from "../postsMiniatures/miniature_6.webp";
 import miniature7 from "../postsMiniatures/miniature_7.webp";
 import miniature8 from "../postsMiniatures/miniature_8.webp";
@@ -32,12 +31,6 @@ const postsPolish = [
     description: "Eventy organizowane na świeżym powietrzu kochamy najbardziej.",
     miniature: miniature4,
     link: "clover-event",
-  },
-  {
-    descriptionHeader: "Co warto wiedzieć o ochronie mienia?",
-    description: "Dlaczego nie zabezpieczyć swojego domu, samochodu, roweru, sprzętu i wielu cennych dla nas rzeczy?",
-    miniature: miniature5,
-    link: "property-protection",
   },
   {
     descriptionHeader: "Dlaczego warto ubezpieczyć firmę?",
