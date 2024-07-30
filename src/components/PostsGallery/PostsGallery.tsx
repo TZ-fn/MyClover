@@ -1,7 +1,8 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Transition } from "react-transition-group";
 import PostsGalleryItem from "./PostsGalleryItem/PostsGalleryItem";
 import styles from "./PostsGallery.module.scss";
+import useTranslation from "hooks/useTranslation";
 
 interface post {
   descriptionHeader: string;
@@ -15,6 +16,7 @@ interface PostsGalleryProps {
 }
 
 export default function PostsGallery({ postsData }: PostsGalleryProps) {
+  const [translation] = useTranslation();
   const [galleryIndexes, setGalleryIndexes] = useState([0, 1, 2]);
   const [activeGalleryButton, setActiveGalleryButton] = useState(1);
 
@@ -35,6 +37,11 @@ export default function PostsGallery({ postsData }: PostsGalleryProps) {
     exited: { transform: "scale(0)" },
     unmounted: { transform: "scale(0)" },
   };
+
+  useEffect(() => {
+    setGalleryIndexes([0, 1, 2]);
+    setActiveGalleryButton(1);
+  }, [translation]);
 
   return (
     <div className={styles.postsGalleryContainer}>
