@@ -18,6 +18,7 @@ import LifeCoverPage from "pages/Posts/LifeCoverPage/LifeCoverPage";
 import BusinessInsurancePage from "pages/Posts/BusinessInsurancePage/BusinessInsurancePage";
 import LotteryPage from "pages/Posts/LotteryPage/LotteryPage";
 import CloverEventPage from "pages/Posts/CloverEventPage/CloverEventPage";
+import InsuranceCostPage from "pages/Posts/InsuranceCostPage/InsuranceCostPage";
 
 const router = createBrowserRouter([
   {
@@ -90,6 +91,10 @@ const router = createBrowserRouter([
       {
         path: "/blog/clover-event",
         element: <CloverEventPage />,
+      },
+      {
+        path: "/blog/insurance-costs",
+        element: <InsuranceCostPage />,
       },
       {
         path: "*",
