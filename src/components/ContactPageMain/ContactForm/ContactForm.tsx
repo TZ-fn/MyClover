@@ -30,8 +30,8 @@ export default function ContactForm() {
           <Link to="/privacy-policy">
             <span className={styles.formLink}>{contactPageTranslation.contactForm.formDisclaimer2}</span>
           </Link>
-          <p className={styles.formDisclaimer}>{contactPageTranslation.contactForm.formDisclaimer3}</p>
-          <p className={styles.formDisclaimerBold}>{contactPageTranslation.contactForm.formDisclaimer4}</p>
+          <span className={styles.formDisclaimer}>{contactPageTranslation.contactForm.formDisclaimer3}</span>
+          <span className={styles.formDisclaimerBold}>{contactPageTranslation.contactForm.formDisclaimer4}</span>
         </label>
       </p>
       <button className={styles.sendButton}>{contactPageTranslation.contactForm.send}</button>
