@@ -1,0 +1,13 @@
+{
+  "forms": {
+    "contactForm": {
+      "name": "Contact Form",
+      "actions": [{ "type": "email", "to": "tomekz@vp.pl" }],
+      "fields": {
+        "name": { "required": "true", "type": "text" },
+        "email": { "required": "true", "type": "email" },
+        "body": { "required": "true", "type": "text" }
+      }
+    }
+  }
+}

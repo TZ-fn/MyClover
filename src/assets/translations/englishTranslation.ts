@@ -301,6 +301,7 @@ const englishTranslation = {
           "This notice sets out how we will process your personal data in line with the General Data Protection Regulations. Once you have read the customer privacy notice, please tick to confirm that you have read it and that you agree to Clover Family Cover Ltd processing your personal information for the purpose of contacting you.",
         formDisclaimer4: "We will not use the details you provide us in the contact page to market to you.",
         send: "Send",
+        submitted: "Thank you, will get back to you promptly!",
       },
       contactData: {
         header: "Contact information",

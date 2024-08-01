@@ -304,6 +304,7 @@ const polishTranslation = {
         formDisclaimer4:
           "Nie będziemy wykorzystywać danych, które nam podasz na stronie kontaktowej, do celów marketingowych.",
         send: "Wyślij",
+        submitted: "Dziękujemy za kontakt, wkrótce się odezwiemy!",
       },
       contactData: {
         header: "Dane kontaktowe",
