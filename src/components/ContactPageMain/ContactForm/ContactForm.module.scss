@@ -88,3 +88,9 @@
   font-size: clamp(1.5rem, 4vw, 2.2rem);
   margin-bottom: 2rem;
 }
+
+.errorMessage {
+  color: red;
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  margin-bottom: 1rem;
+}

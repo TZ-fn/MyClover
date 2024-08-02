@@ -1,6 +1,6 @@
 import { useId } from "react";
 import { Link } from "react-router-dom";
-import { useForm } from "@formspree/react";
+import { useForm, ValidationError } from "@formspree/react";
 import useTranslation from "hooks/useTranslation";
 import styles from "./ContactForm.module.scss";
 
@@ -25,6 +25,7 @@ export default function ContactForm() {
         className={styles.emailInput}
         placeholder={contactPageTranslation.contactForm.form1Placeholder}
       />
+      <ValidationError className={styles.errorMessage} field="email" prefix="Email" errors={state.errors} />
       <input
         type="email"
         required
