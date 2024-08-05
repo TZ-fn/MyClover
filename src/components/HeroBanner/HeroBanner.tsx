@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Transition } from "react-transition-group";
 import heroImageOne from "assets/heroImageOne.webp";
+import heroImageOneSmall from "assets/heroImageOneSmall.webp";
 import heroImageTwo from "assets/heroImageTwo.webp";
 import useTranslation from "hooks/useTranslation";
 import styles from "./HeroBanner.module.scss";
@@ -42,7 +43,14 @@ function HeroBanner() {
             className={styles.heroOne}
           >
             <h2 className={styles.heroTextOne}>{translation.pages.home.heroOneText}</h2>
-            <img src={heroImageOne} alt="" className={styles.heroImageOne} />
+            <img
+              src={heroImageOne}
+              srcSet={`${heroImageOneSmall} 480w, ${heroImageOne} 800w`}
+              sizes="(max-width: 600px) 480px,
+         800px"
+              alt=""
+              className={styles.heroImageOne}
+            />
           </div>
         )}
       </Transition>
